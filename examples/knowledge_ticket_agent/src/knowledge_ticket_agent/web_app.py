@@ -87,6 +87,13 @@ class ApprovalView(BaseModel):
     idempotency_id: str
 
 
+class ApprovalObservation(BaseModel):
+    call_id: str
+    binding: Digest
+    request_sha256: Digest
+    approved: bool
+
+
 @dataclass(frozen=True)
 class CitationView(Citation):
     title: str
@@ -103,6 +110,7 @@ class RunView(BaseModel):
     retrieval_profile: str
     snapshot: str
     pending_approval: ApprovalView | None
+    approval_observation: ApprovalObservation | None
     stages: list[str]
     operations: list[dict[str, str]]
     agent_calls: list[dict[str, str | bool | None]]
@@ -209,6 +217,15 @@ class WebRun:
         proposal = preparation.proposal if preparation else None
         commit = store.replay(proposal.idempotency_id, proposal.binding) if proposal else None
         titles = {d.metadata.ref: d.metadata.title for d in c.data.documents} if c else {}
+        approval = None
+        if c and c.request and c.approvals:
+            ask, approved = c.approvals[0]
+            approval = {
+                "call_id": ask.call_id,
+                "binding": ask.arguments["binding"],
+                "request_sha256": c.request.input_sha256,
+                "approved": approved,
+            }
         return {
             "run_id": self.run_id,
             "status": (
@@ -226,6 +243,7 @@ class WebRun:
             "retrieval_profile": "A1",
             "snapshot": self.submission.snapshot,
             "pending_approval": self.pending(now),
+            "approval_observation": approval,
             "stages": list(c.stages) if c else [],
             "operations": list(c.operations) if c else [],
             "agent_calls": [

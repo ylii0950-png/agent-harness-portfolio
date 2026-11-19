@@ -1,0 +1,93 @@
+{
+  "version": "public-relevance-challenge-1.0.0",
+  "role": "independent_public_engineering_challenge_author",
+  "baseline_declared": "9a886bdd7734698a42eea553fb9b2827926f239e",
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "fork_mode": "none",
+  "fork_mode_basis": "Parent assignment specifies fork none; author did not inspect orchestration metadata.",
+  "context_received": [
+    "Author assignment including schema, counts, prohibited historical topic names, and public safety boundaries",
+    "Project engineering instructions supplied with the task",
+    "Automatically supplied developer instructions included a high-level project memory summary. No memory file was opened or searched. This automatic context exposure is disclosed separately from tool/file access."
+  ],
+  "access_history": {
+    "formal_data_accessed": false,
+    "formal_gold_accessed": false,
+    "formal_item_receipts_accessed": false,
+    "claims_or_approvals_accessed": false,
+    "private_roots_accessed": false,
+    "historical_challenges_accessed": false,
+    "historical_scores_accessed": false,
+    "candidate_source_accessed": false,
+    "other_account_memory_accessed": false,
+    "candidate_design_participation": false,
+    "candidate_parameter_selection_participation": false,
+    "candidate_selection_participation": false,
+    "model_requests_made": false,
+    "retrieval_or_scoring_run": false,
+    "git_commit_or_push": false
+  },
+  "authoring_method": "New fictional policy prose, new question wording, explicit manually assigned documentary units and supplied-source evidence cases. No reference corpus or prior challenge was read.",
+  "selfcheck_scope": [
+    "JSON schemas and inventory",
+    "language and kind denominators",
+    "topic and unit reference validity",
+    "positive minimal evidence <= 3 chunks",
+    "section English-token budget",
+    "evidence-kind counts",
+    "no section identifiers in queries"
+  ],
+  "limitations": [
+    "PUBLIC ENGINEERING material, not independent formal acceptance, not a formal blind test and not production evidence.",
+    "Author is a separate task role, not a separate human organization or security-isolated identity.",
+    "Oracle expresses authored documentary coverage and explicit supplied-source conflicts, not a general semantic-entailment guarantee.",
+    "Negative oracle labels rely on the supplied fictional corpus; they are not claims about real-world truth.",
+    "The marker conflicts are intentional current-source contradictions with no precedence; their unrelated existence does not invalidate specific non-marker answers.",
+    "The task-provided list of prohibited historical subject names was known only to avoid overlap; no historical challenge text or score was inspected.",
+    "No candidate algorithm or test performance was observed; no algorithm execution was used to tune these items.",
+    "The global developer context contained high-level historical project summaries. The author did not consult memory files or use those outcomes, but complete informational blindness cannot be claimed."
+  ],
+  "denominators": {
+    "retrieval_positive": 48,
+    "retrieval_negative": 24,
+    "retrieval_total": 72,
+    "positive_per_language": 16,
+    "negative_per_language": 8,
+    "positive_single": 24,
+    "positive_multi": 24,
+    "evidence_total": 15,
+    "evidence_each_kind": 3
+  },
+  "positive_condition_exception_correction_case_ids": [
+    "RCE-C-P01-03",
+    "RCE-C-P01-06",
+    "RCE-C-P02-03",
+    "RCE-C-P02-06",
+    "RCE-C-P03-03",
+    "RCE-C-P03-06",
+    "RCE-C-P04-03",
+    "RCE-C-P04-06",
+    "RCE-C-P05-03",
+    "RCE-C-P05-06",
+    "RCE-C-P06-03",
+    "RCE-C-P06-06",
+    "RCE-C-P07-03",
+    "RCE-C-P07-06",
+    "RCE-C-P08-03",
+    "RCE-C-P08-06"
+  ],
+  "files_authored": [
+    "corpus.json",
+    "requests.json",
+    "oracle.json",
+    "author-provenance.json",
+    "selfcheck.py"
+  ],
+  "automatic_context_exposure": {
+    "present": true,
+    "scope": "High-level historical project summaries in developer instructions, including historical aggregate outcomes; no historic Challenge item text, oracle mappings, candidate source, or current candidate selection was exposed.",
+    "used_for_question_authoring": false,
+    "independence_limit": "Fork-none authoring does not remove globally supplied developer context. No claim of complete informational blindness is made."
+  }
+}

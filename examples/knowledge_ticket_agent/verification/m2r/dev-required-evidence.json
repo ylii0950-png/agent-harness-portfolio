@@ -1,0 +1,2003 @@
+{
+  "methods": {
+    "A1": {
+      "denominator": 12,
+      "full_coverage_cases": 2,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03"
+            ],
+            "first_relevant_rank": 3,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.3333333333333333,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-01",
+              "BILL-EX1",
+              "BILL-03"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.75,
+            "recall": 0.75,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "CASE-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "CONFLICT-B",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "EXPORT-01",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+              "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    },
+    "A2": {
+      "denominator": 12,
+      "full_coverage_cases": 2,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-01",
+              "BILL-EX1",
+              "BILL-03"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.75,
+            "recall": 0.75,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01",
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.25,
+            "recall": 0.25,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CONFLICT-B",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    },
+    "A3": {
+      "denominator": 12,
+      "full_coverage_cases": 2,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03"
+            ],
+            "first_relevant_rank": 3,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.3333333333333333,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-01",
+              "BILL-EX1",
+              "BILL-03"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.75,
+            "recall": 0.75,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "CASE-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "CONFLICT-B",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "EXPORT-01",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+              "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    },
+    "A4": {
+      "denominator": 12,
+      "full_coverage_cases": 2,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-EX1",
+              "BILL-03",
+              "CASE-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.75,
+            "recall": 0.75,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01",
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.25,
+            "recall": 0.25,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CONFLICT-B",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    },
+    "A5": {
+      "denominator": 12,
+      "full_coverage_cases": 1,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-EX1",
+              "BILL-03",
+              "CASE-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.75,
+            "recall": 0.75,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01",
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.25,
+            "recall": 0.25,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02",
+              "CASE-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02"
+            ],
+            "raw_chunk_recall": 0.75,
+            "recall": 0.75,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CONFLICT-B",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    },
+    "bm25": {
+      "denominator": 12,
+      "full_coverage_cases": 1,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01",
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.25,
+            "recall": 0.25,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:FAQ-BILL-01@1.0:answer:part01:fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:FAQ-BILL-01@1.0:answer:part01:fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-EX1",
+              "BILL-03"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:FAQ-BILL-02@1.0:answer:part01:8486c5b3db0533a00d0b10305dff208bc1024c024f134046bd13b613f54de050",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:FAQ-BILL-01@1.0:answer:part01:fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:FAQ-ACCESS-01@1.0:answer:part01:505ab4091636861c253ad6b9a5bedda70a4fa5b3aa2d8d3bf283254be1b39683",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "EXPORT-01",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.25,
+            "recall": 0.25,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+              "lqd-section-1.0.0:FAQ-EXPORT-02@1.0:answer:part01:c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "CONFLICT-B"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "EXPORT-01",
+              "EXPORT-02",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:FAQ-EXPORT-02@1.0:answer:part01:c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449",
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+              "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    },
+    "keyword": {
+      "denominator": 12,
+      "full_coverage_cases": 2,
+      "outcomes": [
+        {
+          "case_id": "KT-D01",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D02",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D03",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D04",
+          "metrics": {
+            "covered_units": [
+              "BILL-03",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [],
+            "raw_chunk_recall": 1.0,
+            "recall": 1.0,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D05",
+          "metrics": {
+            "covered_units": [
+              "BILL-EX1",
+              "BILL-03"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-01",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+              "lqd-section-1.0.0:FAQ-BILL-02@1.0:answer:part01:8486c5b3db0533a00d0b10305dff208bc1024c024f134046bd13b613f54de050"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D06",
+          "metrics": {
+            "covered_units": [
+              "BILL-02",
+              "BILL-01"
+            ],
+            "first_relevant_rank": 2,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 0.5,
+            "top3": [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D07",
+          "metrics": {
+            "covered_units": [
+              "BILL-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "BILL-03"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          },
+          "required_unit_count": 2
+        },
+        {
+          "case_id": "KT-D08",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:FAQ-ACCESS-01@1.0:answer:part01:505ab4091636861c253ad6b9a5bedda70a4fa5b3aa2d8d3bf283254be1b39683",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D09",
+          "metrics": {
+            "covered_units": [
+              "ACCESS-01",
+              "ACCESS-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          },
+          "required_unit_count": 3
+        },
+        {
+          "case_id": "KT-D10",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-01",
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.5,
+            "recall": 0.5,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+              "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D11",
+          "metrics": {
+            "covered_units": [
+              "EXPORT-02"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "EXPORT-01",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.25,
+            "recall": 0.25,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+              "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+              "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1"
+            ]
+          },
+          "required_unit_count": 4
+        },
+        {
+          "case_id": "KT-D12",
+          "metrics": {
+            "covered_units": [
+              "CONFLICT-A",
+              "CONFLICT-B"
+            ],
+            "first_relevant_rank": 1,
+            "hit": 1.0,
+            "missing_units": [
+              "EXPORT-01",
+              "EXPORT-02",
+              "ACCESS-02",
+              "CASE-01"
+            ],
+            "raw_chunk_recall": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "reciprocal_rank": 1.0,
+            "top3": [
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+              "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f",
+              "lqd-section-1.0.0:FAQ-EXPORT-02@1.0:answer:part01:c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449"
+            ]
+          },
+          "required_unit_count": 6
+        }
+      ]
+    }
+  },
+  "scope": "dev_retrieved_required_anchors_only_not_Agent_REC",
+  "selection_unchanged": true
+}

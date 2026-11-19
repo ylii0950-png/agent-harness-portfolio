@@ -1,0 +1,825 @@
+{
+  "version": "public-domain-evidence-dev-2.0.0",
+  "cases": [
+    {
+      "id": "DE2-0-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-0-zh",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-0-mixed",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-1-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-1-zh",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-1-mixed",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-2-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-2-zh",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-2-mixed",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-3-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-3-zh",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-3-mixed",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-4-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-4-zh",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-4-mixed",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-5-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-5-zh",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-5-mixed",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-6-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-6-zh",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-6-mixed",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-7-en",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-7-zh",
+      "units": [
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "DE2-7-mixed",
+      "units": [
+        {
+          "id": "fact_0",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_0"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_1"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "fact_2",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "fact_2"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "DE2-N0-en",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N0-zh",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N0-mixed",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N1-en",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N1-zh",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N1-mixed",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N2-en",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N2-zh",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N2-mixed",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N3-en",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N3-zh",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "DE2-N3-mixed",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "DE2-E-complete-0",
+      "expected": "SUPPORTED",
+      "reason": "complete"
+    },
+    {
+      "id": "DE2-E-partial-0",
+      "expected": "INSUFFICIENT",
+      "reason": "partial"
+    },
+    {
+      "id": "DE2-E-missing-0",
+      "expected": "INSUFFICIENT",
+      "reason": "missing"
+    },
+    {
+      "id": "DE2-E-conflict-0",
+      "expected": "NOT_ASSESSABLE",
+      "reason": "conflict"
+    },
+    {
+      "id": "DE2-E-disjoint-0",
+      "expected": "SUPPORTED",
+      "reason": "disjoint"
+    },
+    {
+      "id": "DE2-E-complete-1",
+      "expected": "SUPPORTED",
+      "reason": "complete"
+    },
+    {
+      "id": "DE2-E-partial-1",
+      "expected": "INSUFFICIENT",
+      "reason": "partial"
+    },
+    {
+      "id": "DE2-E-missing-1",
+      "expected": "INSUFFICIENT",
+      "reason": "missing"
+    },
+    {
+      "id": "DE2-E-conflict-1",
+      "expected": "NOT_ASSESSABLE",
+      "reason": "conflict"
+    },
+    {
+      "id": "DE2-E-disjoint-1",
+      "expected": "SUPPORTED",
+      "reason": "disjoint"
+    }
+  ]
+}

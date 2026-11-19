@@ -1,0 +1,45 @@
+{
+  "version": "lqd-local-bge-pair-1.0.0",
+  "repository": "Xenova/bge-reranker-base",
+  "revision": "280bcc27a84e0b898c251e06fddb25171bd9b101",
+  "upstream": "BAAI/bge-reranker-base",
+  "upstream_revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+  "license": "MIT; upstream license and converter attribution retained",
+  "runtime": {
+    "onnxruntime": "1.31.1",
+    "tokenizers": "0.23.3"
+  },
+  "output": "single raw relevance logit; not probability or entailment",
+  "files": {
+    "model.onnx": {
+      "url": "https://huggingface.co/Xenova/bge-reranker-base/resolve/280bcc27a84e0b898c251e06fddb25171bd9b101/onnx/model_quantized.onnx",
+      "bytes": 279301077,
+      "sha256": "dd98f3e67837d23210a6b7550c08cced4f61845b940ac45be3565840a10f3244"
+    },
+    "tokenizer.json": {
+      "url": "https://huggingface.co/Xenova/bge-reranker-base/resolve/280bcc27a84e0b898c251e06fddb25171bd9b101/tokenizer.json",
+      "bytes": 17098079,
+      "sha256": "48564c5c7d3fa64d85d95e65414a542385f88b0f128fd8d4163fd7a57f2be05c"
+    },
+    "config.json": {
+      "url": "https://huggingface.co/Xenova/bge-reranker-base/resolve/280bcc27a84e0b898c251e06fddb25171bd9b101/config.json",
+      "bytes": 782,
+      "sha256": "b6575b9d5be20d6747417c8e20c5a0db1636356e0b6d422d7244c628423c4d4c"
+    },
+    "converter-README.md": {
+      "url": "https://huggingface.co/Xenova/bge-reranker-base/resolve/280bcc27a84e0b898c251e06fddb25171bd9b101/README.md",
+      "bytes": 1135,
+      "sha256": "2ccb3f72b5eb6205316c0b9dde944d6f944ec4a87b85706ce07ef9d9d02b4690"
+    },
+    "upstream-README.md": {
+      "url": "https://huggingface.co/BAAI/bge-reranker-base/resolve/2cfc18c9415c912f9d8155881c133215df768a70/README.md",
+      "bytes": 34111,
+      "sha256": "b4223c8c1e95538f8c79168afc501f8b2da06c63221f013b79b28af78b59366d"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/897baa67c0ffddbfccf4e6776ff55310d67809d4/LICENSE",
+      "bytes": 1065,
+      "sha256": "587a673933425dbc36ec61268d3b954051b2d3ef3c9b322ede357976055ffdd5"
+    }
+  }
+}

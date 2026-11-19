@@ -1,0 +1,656 @@
+{
+  "scope": "PUBLIC_ENGINEERING_AUTHORED_FICTION_NOT_INDEPENDENT_ACCEPTANCE",
+  "version": "lqd-structural-challenge-1.0.0",
+  "topics": [
+    {
+      "title": "Audio booth rehearsal booking",
+      "rule": "Audio booth rehearsal booking concerns community audio booth sessions. This ordinary service requires approval from a studio coordinator. The permitted duration is 90 minutes. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Audio booth rehearsal booking, the applicant must attach a session code and equipment checklist. Keep that record in the SoundRoom register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Commercial Recording Booking",
+      "rule": "Commercial Recording Booking concerns community audio booth sessions. This restricted service requires approval from a licensing coordinator. The permitted duration is 6 hours. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Commercial Recording Booking, the applicant must attach a session code and equipment checklist. Keep that record in the SoundRoom register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Fabric workshop tool borrowing",
+      "rule": "Fabric workshop tool borrowing concerns fictional textile workshop tools. This ordinary service requires approval from a workshop custodian. The permitted duration is 3 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Fabric workshop tool borrowing, the applicant must attach a tool serial and return inspection. Keep that record in the WeaveDesk register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Industrial Cutting Equipment Borrowing",
+      "rule": "Industrial Cutting Equipment Borrowing concerns fictional textile workshop tools. This restricted service requires approval from a machinery supervisor. The permitted duration is 12 hours. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Industrial Cutting Equipment Borrowing, the applicant must attach a tool serial and return inspection. Keep that record in the WeaveDesk register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Wetland survey ordinary access",
+      "rule": "Wetland survey ordinary access concerns fictional wetland survey visits. This ordinary service requires approval from a habitat steward. The permitted duration is 5 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Wetland survey ordinary access, the applicant must attach a team roster and visit log. Keep that record in the MarshGate register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Protected Nesting Area Access",
+      "rule": "Protected Nesting Area Access concerns fictional wetland survey visits. This restricted service requires approval from a wildlife coordinator. The permitted duration is 20 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Protected Nesting Area Access, the applicant must attach a team roster and visit log. Keep that record in the MarshGate register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Satellite classroom lesson archive",
+      "rule": "Satellite classroom lesson archive concerns fictional classroom lesson archives. This ordinary service requires approval from a course librarian. The permitted duration is 60 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Satellite classroom lesson archive, the applicant must attach a lesson identifier and consent reference. Keep that record in the LessonVault register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Public Lesson Distribution",
+      "rule": "Public Lesson Distribution concerns fictional classroom lesson archives. This restricted service requires approval from a copyright reviewer. The permitted duration is 180 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Public Lesson Distribution, the applicant must attach a lesson identifier and consent reference. Keep that record in the LessonVault register before service starts. Missing attachments mean the request cannot proceed."
+    }
+  ],
+  "cases": [
+    {
+      "id": "ST-challenge-00-en",
+      "query": "Who must authorize audio booth rehearsal booking, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-00-paraphrase",
+      "query": "For audio booth rehearsal booking, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-00-zh",
+      "query": "关于录音间排练预约，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-00-mixed",
+      "query": "Please explain Audio booth rehearsal booking 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-00-multi",
+      "query": "For audio booth rehearsal booking, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-00-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For audio booth rehearsal booking, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-01-en",
+      "query": "Who must authorize commercial recording booking, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-01-paraphrase",
+      "query": "For commercial recording booking, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-01-zh",
+      "query": "关于商业录音预约，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-01-mixed",
+      "query": "Please explain Commercial Recording Booking 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-01-multi",
+      "query": "For commercial recording booking, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-01-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For commercial recording booking, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-02-en",
+      "query": "Who must authorize fabric workshop tool borrowing, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-02-paraphrase",
+      "query": "For fabric workshop tool borrowing, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-02-zh",
+      "query": "关于纺织工坊工具借用，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-02-mixed",
+      "query": "Please explain Fabric workshop tool borrowing 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-02-multi",
+      "query": "For fabric workshop tool borrowing, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-02-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For fabric workshop tool borrowing, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-03-en",
+      "query": "Who must authorize industrial cutting equipment borrowing, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-03-paraphrase",
+      "query": "For industrial cutting equipment borrowing, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-03-zh",
+      "query": "关于工业裁剪设备借用，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-03-mixed",
+      "query": "Please explain Industrial Cutting Equipment Borrowing 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-03-multi",
+      "query": "For industrial cutting equipment borrowing, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-03-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For industrial cutting equipment borrowing, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-04-en",
+      "query": "Who must authorize wetland survey ordinary access, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-04-paraphrase",
+      "query": "For wetland survey ordinary access, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-04-zh",
+      "query": "关于湿地常规调查准入，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-04-mixed",
+      "query": "Please explain Wetland survey ordinary access 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-04-multi",
+      "query": "For wetland survey ordinary access, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-04-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For wetland survey ordinary access, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-05-en",
+      "query": "Who must authorize protected nesting area access, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-05-paraphrase",
+      "query": "For protected nesting area access, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-05-zh",
+      "query": "关于保护鸟巢区域准入，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-05-mixed",
+      "query": "Please explain Protected Nesting Area Access 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-05-multi",
+      "query": "For protected nesting area access, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-05-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For protected nesting area access, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-06-en",
+      "query": "Who must authorize satellite classroom lesson archive, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-06-paraphrase",
+      "query": "For satellite classroom lesson archive, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-06-zh",
+      "query": "关于课堂课程归档，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-06-mixed",
+      "query": "Please explain Satellite classroom lesson archive 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-06-multi",
+      "query": "For satellite classroom lesson archive, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-06-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For satellite classroom lesson archive, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-07-en",
+      "query": "Who must authorize public lesson distribution, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-07-paraphrase",
+      "query": "For public lesson distribution, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-07-zh",
+      "query": "关于课程公开传播，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-challenge-07-mixed",
+      "query": "Please explain Public Lesson Distribution 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-07-multi",
+      "query": "For public lesson distribution, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-07-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For public lesson distribution, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-challenge-NEG-oov",
+      "query": "kxrrptzv fzzzzrx",
+      "language": "oov",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-unrelated",
+      "query": "How can I replace a broken kitchen oven thermostat?",
+      "language": "unrelated",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-unrelated-zh",
+      "query": "如何教家里的小狗翻跟头？",
+      "language": "unrelated-zh",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-unrelated-mix",
+      "query": "Please predict 下个月篮球决赛的赢家。",
+      "language": "unrelated-mix",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-missing",
+      "query": "What are the confidential medical histories of the approving staff?",
+      "language": "missing",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-missing-zh",
+      "query": "我想知道审批人的家庭住址和电话号码。",
+      "language": "missing-zh",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-ambiguous",
+      "query": "Which process applies?",
+      "language": "ambiguous",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-ambiguous-zh",
+      "query": "那件事需要哪些材料？",
+      "language": "ambiguous-zh",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-empty",
+      "query": "",
+      "language": "empty",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-long-unrelated",
+      "query": "My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. My family has collected many recipes. How deep is the Pacific Ocean?",
+      "language": "long-unrelated",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-condition-absent",
+      "query": "Who can approve the undocumented CloudHarbor service and what forms does it need?",
+      "language": "condition-absent",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-challenge-NEG-unanswerable",
+      "query": "How many customer complaints arrived on Tuesday last year?",
+      "language": "unanswerable",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    }
+  ],
+  "denominators": {
+    "positive": 48,
+    "negative": 12,
+    "English": 32,
+    "zh": 8,
+    "mixed": 8,
+    "multi_evidence": 24
+  }
+}

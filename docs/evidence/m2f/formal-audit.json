@@ -1,0 +1,15 @@
+{
+  "encrypted_records": 74,
+  "finished_utc": "2026-10-25T03:34:10.863330+00:00",
+  "immutable_started_event": "STARTED",
+  "original_vault_unchanged": true,
+  "owner_only_files": 79,
+  "record_and_report_recovery": "PASS_NO_RERANK",
+  "recovery_rank_calls": 0,
+  "report_sha256": "7608afdcc7d7ab3c975d5ce750ff14ac5de71e975a6b93e301591d5d2405263d",
+  "run_id": "6bec8a95-790b-4be0-8adb-d785aeac0069",
+  "same_uid_tamper_resistance": false,
+  "source_head": "9b9411bafa0330c96dd2bcd54c0a20578c7e58b7",
+  "started_utc": "2026-10-25T03:34:10.128642+00:00",
+  "status": "COMPLETED"
+}

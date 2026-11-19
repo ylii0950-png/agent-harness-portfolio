@@ -1,0 +1,68 @@
+{
+  "actual_cost": null,
+  "api_usage": null,
+  "base_commit": "958a124111551a60779d6d8853f97dd49c8f264f",
+  "builds": "Core+Demo sdist/wheel passed on Python3.11/3.12",
+  "changed_protected_files": [],
+  "checks": [
+    {
+      "core_passed": 788,
+      "demo_passed": 343,
+      "failed": 0,
+      "python": "3.11.17",
+      "ruff_lint_format": "PASS",
+      "skipped": 0,
+      "strict_mypy_core_files": 81,
+      "strict_mypy_demo_files": 37
+    },
+    {
+      "core_passed": 788,
+      "demo_passed": 343,
+      "failed": 0,
+      "python": "3.12.15",
+      "ruff_lint_format": "PASS",
+      "skipped": 0,
+      "strict_mypy_core_files": 81,
+      "strict_mypy_demo_files": 37
+    }
+  ],
+  "clean_installs": "both local wheels --no-index --no-deps on Python3.11/3.12; lqd-validate and public maintenance CLI passed with cryptography absent",
+  "dataset_qa_sha256": "60ad977a5dd57804e90dde3b7b265f2d6afc6297a57f726b40be510b24faece7",
+  "date": "2026-10-24",
+  "formal_scoring": "NOT_RUN",
+  "freeze_manifest_sha256": "f5b0192aecfd0c46a46b8a4e7cce4a5fe2442a6e768432e0b575d71c6bcc9082",
+  "independent_access_isolation": "NOT_ESTABLISHED",
+  "log_sha256": {
+    "m2e-concurrency-diagnostic.log": "86de85ad23a69178d02ee341f6eeb5c5ba2a32fd8087e9310e531f2290abc731",
+    "m2e-concurrency-lockfix.log": "42724d066fdf512a556c389e24afaf6a8910dd5606a6bb9a9809522ec6c64881",
+    "python311-core.txt": "a820d200fc6138d15996e79422192fe2f636607c59ed5b46b1de050210091107",
+    "python311-demo.txt": "bd679c84341f5edd06e2dcab907045cdbac54cc335d82e2da64dec8b1bed8200",
+    "python312-core.txt": "4e7c29f6c0c9f7f3cb062513864efefa641244c420491062ff18ee2241e5f477",
+    "python312-demo.txt": "6417c3664eb957712b27c728ffb83ec45ec98ae2e53b85068217d71d2db0bb61"
+  },
+  "mode": "LOCAL_FIRST_NO_REMOTE_RUN",
+  "model_requests": 0,
+  "new_actions_runs_triggered": 0,
+  "new_m2e_tests": 69,
+  "platform": "Darwin arm64",
+  "precreation_contract_commit": "8dccc68d86207b010acb78e5fba8642d5125a0e1",
+  "protected_existing_files_byte_identical": 239,
+  "remote_ci": {
+    "macos_python311": "DEFERRED_QUOTA_NOT_RUN",
+    "macos_python312": "DEFERRED_QUOTA_NOT_RUN",
+    "ubuntu_python311": "DEFERRED_QUOTA_NOT_RUN",
+    "ubuntu_python312": "DEFERRED_QUOTA_NOT_RUN"
+  },
+  "remote_prs_created": 0,
+  "remote_pushes": 0,
+  "source_freeze_binding": "192 precreation hashes and retriever-lock digest verified in automated tests",
+  "tool_versions": {
+    "cryptography_maintenance_only": "50.0.2",
+    "mypy": "2.4.0",
+    "pytest": "9.1.1",
+    "ruff": "0.17.1",
+    "setuptools": "84.2.1",
+    "uv": "0.13.5"
+  },
+  "total_unique_tests": 1131
+}

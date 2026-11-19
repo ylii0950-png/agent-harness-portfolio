@@ -1,0 +1,826 @@
+{
+  "version": "public-relevance-dev-1.0.0",
+  "cases": [
+    {
+      "id": "RCE-D-00-0",
+      "query": "For observatory roof dry inspection, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-00-1",
+      "query": "I need to arrange observatory roof dry inspection. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-00-2",
+      "query": "想办理天文台屋顶干式检查，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-00-3",
+      "query": "关于天文台屋顶干式检查，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-00-4",
+      "query": "Observatory roof dry inspection: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-00-5",
+      "query": "办理天文台屋顶干式检查 (observatory roof dry inspection)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-01-0",
+      "query": "For observatory roof rain inspection, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-01-1",
+      "query": "I need to arrange observatory roof rain inspection. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-01-2",
+      "query": "想办理天文台屋顶雨中检查，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-01-3",
+      "query": "关于天文台屋顶雨中检查，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-01-4",
+      "query": "Observatory roof rain inspection: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-01-5",
+      "query": "办理天文台屋顶雨中检查 (observatory roof rain inspection)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-02-0",
+      "query": "For seed cabinet ordinary access, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-02-1",
+      "query": "I need to arrange seed cabinet ordinary access. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-02-2",
+      "query": "想办理种子柜常规访问，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-02-3",
+      "query": "关于种子柜常规访问，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-02-4",
+      "query": "Seed cabinet ordinary access: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-02-5",
+      "query": "办理种子柜常规访问 (seed cabinet ordinary access)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-03-0",
+      "query": "For seed cabinet quarantine access, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-03-1",
+      "query": "I need to arrange seed cabinet quarantine access. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-03-2",
+      "query": "想办理种子柜隔离访问，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-03-3",
+      "query": "关于种子柜隔离访问，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-03-4",
+      "query": "Seed cabinet quarantine access: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-03-5",
+      "query": "办理种子柜隔离访问 (seed cabinet quarantine access)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-04-0",
+      "query": "For pottery kiln cold servicing, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-04-1",
+      "query": "I need to arrange pottery kiln cold servicing. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-04-2",
+      "query": "想办理陶窑冷态维护，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-04-3",
+      "query": "关于陶窑冷态维护，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-04-4",
+      "query": "Pottery kiln cold servicing: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-04-5",
+      "query": "办理陶窑冷态维护 (pottery kiln cold servicing)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-05-0",
+      "query": "For pottery kiln warm servicing, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-05-1",
+      "query": "I need to arrange pottery kiln warm servicing. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-05-2",
+      "query": "想办理陶窑温态维护，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-05-3",
+      "query": "关于陶窑温态维护，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-05-4",
+      "query": "Pottery kiln warm servicing: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-05-5",
+      "query": "办理陶窑温态维护 (pottery kiln warm servicing)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-06-0",
+      "query": "For canal sensor daylight calibration, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-06-1",
+      "query": "I need to arrange canal sensor daylight calibration. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-06-2",
+      "query": "想办理运河传感器日间校准，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-06-3",
+      "query": "关于运河传感器日间校准，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-06-4",
+      "query": "Canal sensor daylight calibration: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-06-5",
+      "query": "办理运河传感器日间校准 (canal sensor daylight calibration)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-07-0",
+      "query": "For canal sensor night calibration, which officer has authority to authorize the work, and what is its permitted time window?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-07-1",
+      "query": "I need to arrange canal sensor night calibration. Who can sign off and which supporting documents must I supply?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-07-2",
+      "query": "想办理运河传感器夜间校准，谁有权批准？允许持续多久？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-07-3",
+      "query": "关于运河传感器夜间校准，请说明批准人以及必须提交的附件。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-07-4",
+      "query": "Canal sensor night calibration: 请确认 approving role 和允许的时间。",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-07-5",
+      "query": "办理运河传感器夜间校准 (canal sensor night calibration)，who approves and what paperwork is required?",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-0-en",
+      "query": "How much does an interplanetary taxi cost?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-0-zh",
+      "query": "我的私人保险密码是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-0-mixed",
+      "query": "Can you预报明天火星的天气？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-1-en",
+      "query": "How much does an interplanetary taxi cost?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-1-zh",
+      "query": "我的私人保险密码是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-1-mixed",
+      "query": "Can you预报明天火星的天气？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-2-en",
+      "query": "For seed cabinet ordinary access, what is the private access password and the reimbursement amount?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-2-zh",
+      "query": "种子柜常规访问的保险赔款和私人密码分别是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-2-mixed",
+      "query": "Seed cabinet ordinary access: 私人密码 and insurance payout amount?",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-3-en",
+      "query": "For seed cabinet quarantine access, what is the private access password and the reimbursement amount?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-3-zh",
+      "query": "种子柜隔离访问的保险赔款和私人密码分别是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-3-mixed",
+      "query": "Seed cabinet quarantine access: 私人密码 and insurance payout amount?",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-4-en",
+      "query": "For pottery kiln cold servicing, what is the private access password and the reimbursement amount?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-4-zh",
+      "query": "陶窑冷态维护的保险赔款和私人密码分别是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-4-mixed",
+      "query": "Pottery kiln cold servicing: 私人密码 and insurance payout amount?",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-5-en",
+      "query": "For pottery kiln warm servicing, what is the private access password and the reimbursement amount?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-5-zh",
+      "query": "陶窑温态维护的保险赔款和私人密码分别是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-5-mixed",
+      "query": "Pottery kiln warm servicing: 私人密码 and insurance payout amount?",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-6-en",
+      "query": "For canal sensor daylight calibration, what is the private access password and the reimbursement amount?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-6-zh",
+      "query": "运河传感器日间校准的保险赔款和私人密码分别是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-6-mixed",
+      "query": "Canal sensor daylight calibration: 私人密码 and insurance payout amount?",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-7-en",
+      "query": "For canal sensor night calibration, what is the private access password and the reimbursement amount?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-7-zh",
+      "query": "运河传感器夜间校准的保险赔款和私人密码分别是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-D-N-7-mixed",
+      "query": "Canal sensor night calibration: 私人密码 and insurance payout amount?",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "RCE-D-E-complete-0",
+      "query": "For observatory roof dry inspection, who authorizes it and which attachments must I supply?",
+      "available": [
+        {
+          "topic": 0,
+          "section": "conditions"
+        },
+        {
+          "topic": 0,
+          "section": "records"
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-partial-0",
+      "query": "For observatory roof dry inspection, who authorizes it and which attachments must I supply?",
+      "available": [
+        {
+          "topic": 0,
+          "section": "conditions"
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-missing-0",
+      "query": "For observatory roof dry inspection, who authorizes it and which attachments must I supply?",
+      "available": []
+    },
+    {
+      "id": "RCE-D-E-contradiction-0",
+      "query": "Must the operator retain the inspection slip during work?",
+      "available": [
+        {
+          "topic": 0,
+          "section": "conditions"
+        },
+        {
+          "topic": 0,
+          "section": "records"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 0,
+          "section": "conditions",
+          "body": "The operator must retain the inspection slip during work."
+        },
+        {
+          "topic": 0,
+          "section": "records",
+          "body": "The operator must not retain the inspection slip during work."
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-conditional_nonconflict-0",
+      "query": "Must the operator retain the inspection slip during work?",
+      "available": [
+        {
+          "topic": 0,
+          "section": "conditions"
+        },
+        {
+          "topic": 0,
+          "section": "records"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 0,
+          "section": "conditions",
+          "body": "The operator must retain the inspection slip during work."
+        },
+        {
+          "topic": 0,
+          "section": "records",
+          "body": "The operator must not retain the inspection slip after work."
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-complete-1",
+      "query": "For observatory roof rain inspection, who authorizes it and which attachments must I supply?",
+      "available": [
+        {
+          "topic": 1,
+          "section": "conditions"
+        },
+        {
+          "topic": 1,
+          "section": "records"
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-partial-1",
+      "query": "For observatory roof rain inspection, who authorizes it and which attachments must I supply?",
+      "available": [
+        {
+          "topic": 1,
+          "section": "conditions"
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-missing-1",
+      "query": "For observatory roof rain inspection, who authorizes it and which attachments must I supply?",
+      "available": []
+    },
+    {
+      "id": "RCE-D-E-contradiction-1",
+      "query": "Must the operator retain the inspection slip during work?",
+      "available": [
+        {
+          "topic": 1,
+          "section": "conditions"
+        },
+        {
+          "topic": 1,
+          "section": "records"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 1,
+          "section": "conditions",
+          "body": "The operator must retain the inspection slip during work."
+        },
+        {
+          "topic": 1,
+          "section": "records",
+          "body": "The operator must not retain the inspection slip during work."
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-conditional_nonconflict-1",
+      "query": "Must the operator retain the inspection slip during work?",
+      "available": [
+        {
+          "topic": 1,
+          "section": "conditions"
+        },
+        {
+          "topic": 1,
+          "section": "records"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 1,
+          "section": "conditions",
+          "body": "The operator must retain the inspection slip during work."
+        },
+        {
+          "topic": 1,
+          "section": "records",
+          "body": "The operator must not retain the inspection slip after work."
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-complete-2",
+      "query": "For seed cabinet ordinary access, who authorizes it and which attachments must I supply?",
+      "available": [
+        {
+          "topic": 2,
+          "section": "conditions"
+        },
+        {
+          "topic": 2,
+          "section": "records"
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-partial-2",
+      "query": "For seed cabinet ordinary access, who authorizes it and which attachments must I supply?",
+      "available": [
+        {
+          "topic": 2,
+          "section": "conditions"
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-missing-2",
+      "query": "For seed cabinet ordinary access, who authorizes it and which attachments must I supply?",
+      "available": []
+    },
+    {
+      "id": "RCE-D-E-contradiction-2",
+      "query": "Must the operator retain the inspection slip during work?",
+      "available": [
+        {
+          "topic": 2,
+          "section": "conditions"
+        },
+        {
+          "topic": 2,
+          "section": "records"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 2,
+          "section": "conditions",
+          "body": "The operator must retain the inspection slip during work."
+        },
+        {
+          "topic": 2,
+          "section": "records",
+          "body": "The operator must not retain the inspection slip during work."
+        }
+      ]
+    },
+    {
+      "id": "RCE-D-E-conditional_nonconflict-2",
+      "query": "Must the operator retain the inspection slip during work?",
+      "available": [
+        {
+          "topic": 2,
+          "section": "conditions"
+        },
+        {
+          "topic": 2,
+          "section": "records"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 2,
+          "section": "conditions",
+          "body": "The operator must retain the inspection slip during work."
+        },
+        {
+          "topic": 2,
+          "section": "records",
+          "body": "The operator must not retain the inspection slip after work."
+        }
+      ]
+    }
+  ]
+}

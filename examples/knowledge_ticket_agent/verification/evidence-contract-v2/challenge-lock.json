@@ -1,0 +1,97 @@
+{
+  "version": "public-domain-evidence-challenge-lock-2.0.0",
+  "scope": "PUBLIC_ENGINEERING_ONLY",
+  "author": {
+    "role": "independent public Challenge author",
+    "identity": "Codex delegated author /root/new_public_proof_challenge",
+    "candidate_debugging_participation": false,
+    "candidate_locked_commit_supplied_by_coordinator": "1621d7e",
+    "candidate_lock_independently_verified": false
+  },
+  "provenance": {
+    "data_origin": "authored_fiction",
+    "original_creation": true,
+    "domains": [
+      "fictional archive services",
+      "fictional equipment lending",
+      "fictional logistics"
+    ],
+    "source_material": "No external policy or prior test case was used; all fictional names, policy roles, values and requests were created for this package.",
+    "source_assertions_are_query_independent": true,
+    "schema_answer_values": false
+  },
+  "contact_history": {
+    "provided_context": [
+      "Task framing, required JSON structures, public gates, supplied locked commit identifier, repository authority instructions and high-level historical aggregate memory summary inherited in system context."
+    ],
+    "files_read": [
+      "docs/evidence-contract.md",
+      "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evidence_contract.py (enum/dataclass format ranges and immediately adjacent lines only)",
+      "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/policy_assertions.py (declaration dataclass format range and leading imports only)"
+    ],
+    "not_accessed": [
+      "DEV files",
+      "prior Challenges",
+      "historical per-case results",
+      "independent or private Gold",
+      "candidate planner or selector algorithms",
+      ".git",
+      "formal directories",
+      "claim directories",
+      "approval directories",
+      "ledger directories"
+    ],
+    "candidate_results_received": false,
+    "network_or_external_model_calls": false,
+    "candidate_execution_or_scoring": false,
+    "implementation_modifications": false
+  },
+  "counts": {
+    "positive": 24,
+    "negative": 12,
+    "evidence_controls": 10,
+    "languages_positive": {
+      "en": 8,
+      "zh": 8,
+      "mixed": 8
+    },
+    "languages_negative": {
+      "en": 4,
+      "zh": 4,
+      "mixed": 4
+    },
+    "single": 12,
+    "multi": 12
+  },
+  "gates": {
+    "selection_lock_path_reference_only": "examples/knowledge_ticket_agent/verification/evidence-contract-v2/selection-lock.json",
+    "selection_lock_read": false,
+    "macro_recall_at_3": 0.9,
+    "macro_mrr_at_3": 0.8,
+    "each_language_recall_at_3": 0.9,
+    "each_language_mrr_at_3": 0.8,
+    "single_complete": 0.95,
+    "multi_complete": 0.9,
+    "false_accept_max": 0,
+    "positive_false_reject_max": 1,
+    "evidence_controls_required": 10,
+    "evidence_controls_total": 10
+  },
+  "static_validation": {
+    "json_syntax": "PASS",
+    "cross_references": "PASS",
+    "counts": "PASS",
+    "source_declaration_shape": "PASS",
+    "oracle_metadata_exclusion": "PASS",
+    "runtime_parser_validation": "NOT_RUN",
+    "retrieval": "NOT_RUN",
+    "candidate_scoring": "NOT_RUN",
+    "semantic_independence": "Author attestation only; no independent blind claim.",
+    "long_finite_request_present": "PASS"
+  },
+  "files": {
+    "challenge-corpus.json": "8aa026d148551893e3b6bd2e6321dc11e1d7d72db005014bf84acb22579d5835",
+    "challenge-requests.json": "8a92d7935b92e0d750bebd1bbee3ac11e262857b8c4eec6cb1d44c527d491659",
+    "challenge-oracle.json": "6daaa5fa7a351ba05903f4874db01ce1f63413f6e159b09e3026ebd02b140f2a"
+  }
+}

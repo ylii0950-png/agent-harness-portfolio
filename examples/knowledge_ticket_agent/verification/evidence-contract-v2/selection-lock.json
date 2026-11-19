@@ -1,0 +1,35 @@
+{
+  "scope": "FROZEN_DOMAIN_EVIDENCE_DEV_2.0.0",
+  "candidate_commit": "45c247353b58328a82585e5cb307365cec824e8e",
+  "source_sha256": "d73bf1c8a7582fd1d167e4710de91f5b96a56632c42aa238a25e21f599b010ef",
+  "helper_sha256": "1d2f09ecf06118ccad8e759e732eb967b08d7df596db88af3e1167c4ad190c29",
+  "files": {
+    "examples/knowledge_ticket_agent/verification/evidence-contract-v2/dev-lock.json": "e5fa4fdb82a74d82e993b1555ae0ee4fb0cd165df10a69c0b68a6e5a60ca5237",
+    "examples/knowledge_ticket_agent/tests/relevance_public_evaluation.py": "1d2f09ecf06118ccad8e759e732eb967b08d7df596db88af3e1167c4ad190c29",
+    "examples/knowledge_ticket_agent/tests/relevance_corpus.py": "cbc3fab3194aa0cceae5ea76a9d2d515e2656d8d48da8dfeee07f317e81e40e8"
+  },
+  "method_identity": "lqd-relevance-retrieval-3.0.1:R1:a0d9b62531ea958014b1e879166d004b191c049daf11a7851004bbeb27f2c467",
+  "source_selection_method": "lqd-obligation-source-selection-1.0.0:40957a2a09285927221a0e99685668294de84715329ddffab82f2d3dfe9c40aa",
+  "DEV_result_sha256": "150aeeb7377aa0f1de5eb014a2edacc54c4bf0ba4e791d538b30831385a58f16",
+  "raw_DEV_result_sha256": "078135dd1a1fef1a9b2c722a2ad916bba1abab93b1bc48f26298fbbf7fd7a3eb",
+  "gates": {
+    "recall": 0.9,
+    "mrr": 0.8,
+    "each_language_recall": 0.9,
+    "each_language_mrr": 0.8,
+    "single_complete": 0.95,
+    "multi_complete": 0.9,
+    "evidence_FA": 0,
+    "evidence_FR_max": 1,
+    "evidence_controls": 10,
+    "citation_authority_integrity": 1,
+    "unauthorized_effects": 0,
+    "p95_s_max": 15,
+    "startup_s_max": 10,
+    "RSS_bytes_max": 3221225472
+  },
+  "challenge_rule": "one new independent public comparison; all conjunctive gates; no source/config/scorer/selection changes after exposure; no formal authority",
+  "model_changes": false,
+  "formal_runs": 0,
+  "paid_APIs": 0
+}

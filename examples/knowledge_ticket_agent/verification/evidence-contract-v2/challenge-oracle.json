@@ -1,0 +1,877 @@
+{
+  "version": "public-domain-evidence-challenge-2.0.0",
+  "cases": [
+    {
+      "id": "public-2-01-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "entry-records"
+              },
+              {
+                "topic": 0,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-01-zh",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "entry-records"
+              },
+              {
+                "topic": 0,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 0,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-01-mixed",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "entry-records"
+              },
+              {
+                "topic": 0,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-02-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "entry-records"
+              },
+              {
+                "topic": 1,
+                "section": "limits-authorities"
+              }
+            ],
+            [
+              {
+                "topic": 1,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 1,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "entry-records"
+              },
+              {
+                "topic": 1,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-02-zh",
+      "units": [
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 1,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-02-mixed",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "entry-records"
+              },
+              {
+                "topic": 1,
+                "section": "limits-authorities"
+              }
+            ],
+            [
+              {
+                "topic": 1,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 1,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 1,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-03-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "entry-records"
+              },
+              {
+                "topic": 2,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-03-zh",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "entry-records"
+              },
+              {
+                "topic": 2,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 2,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-03-mixed",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "entry-records"
+              },
+              {
+                "topic": 2,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-04-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "entry-records"
+              },
+              {
+                "topic": 3,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "entry-records"
+              },
+              {
+                "topic": 3,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-04-zh",
+      "units": [
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 3,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-04-mixed",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "entry-records"
+              },
+              {
+                "topic": 3,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 3,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-05-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "entry-records"
+              },
+              {
+                "topic": 4,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-05-zh",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "entry-records"
+              },
+              {
+                "topic": 4,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 4,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-05-mixed",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "entry-records"
+              },
+              {
+                "topic": 4,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-06-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "entry-records"
+              },
+              {
+                "topic": 5,
+                "section": "limits-authorities"
+              }
+            ],
+            [
+              {
+                "topic": 5,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 5,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "entry-records"
+              },
+              {
+                "topic": 5,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-06-zh",
+      "units": [
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 5,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-06-mixed",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "entry-records"
+              },
+              {
+                "topic": 5,
+                "section": "limits-authorities"
+              }
+            ],
+            [
+              {
+                "topic": 5,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 5,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 5,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-07-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "entry-records"
+              },
+              {
+                "topic": 6,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-07-zh",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "entry-records"
+              },
+              {
+                "topic": 6,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 6,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-07-mixed",
+      "units": [
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "entry-records"
+              },
+              {
+                "topic": 6,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-08-en",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "entry-records"
+              },
+              {
+                "topic": 7,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "completion",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "entry-records"
+              },
+              {
+                "topic": 7,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-08-zh",
+      "units": [
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 7,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "public-2-08-mixed",
+      "units": [
+        {
+          "id": "startup",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "entry-records"
+              },
+              {
+                "topic": 7,
+                "section": "limits-authorities"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "review",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "limits-authorities"
+              },
+              {
+                "topic": 7,
+                "section": "closure-controls"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "public-2-negative-en-1",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-en-2",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-en-3",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-en-4",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-zh-1",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-zh-2",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-zh-3",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-zh-4",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-mixed-1",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-mixed-2",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-mixed-3",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    },
+    {
+      "id": "public-2-negative-mixed-4",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "public-2-evidence-complete-1",
+      "expected": "SUPPORTED",
+      "reason": "complete"
+    },
+    {
+      "id": "public-2-evidence-complete-2",
+      "expected": "SUPPORTED",
+      "reason": "complete"
+    },
+    {
+      "id": "public-2-evidence-partial-1",
+      "expected": "INSUFFICIENT",
+      "reason": "partial"
+    },
+    {
+      "id": "public-2-evidence-partial-2",
+      "expected": "INSUFFICIENT",
+      "reason": "partial"
+    },
+    {
+      "id": "public-2-evidence-missing-1",
+      "expected": "INSUFFICIENT",
+      "reason": "missing"
+    },
+    {
+      "id": "public-2-evidence-missing-2",
+      "expected": "INSUFFICIENT",
+      "reason": "missing"
+    },
+    {
+      "id": "public-2-evidence-conflict-1",
+      "expected": "NOT_ASSESSABLE",
+      "reason": "conflict"
+    },
+    {
+      "id": "public-2-evidence-conflict-2",
+      "expected": "NOT_ASSESSABLE",
+      "reason": "conflict"
+    },
+    {
+      "id": "public-2-evidence-disjoint-1",
+      "expected": "SUPPORTED",
+      "reason": "disjoint"
+    },
+    {
+      "id": "public-2-evidence-disjoint-2",
+      "expected": "SUPPORTED",
+      "reason": "disjoint"
+    }
+  ]
+}

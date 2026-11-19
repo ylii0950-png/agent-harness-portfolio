@@ -1,0 +1,357 @@
+{
+  "scope": "LOCAL_PUBLIC_ENGINEERING_ONLY",
+  "quality": "FAIL_NO_PROMOTION",
+  "runtime_source_sha256": "def4a33dd28805c8a8510cfe90b47ebf49035d48d3ecaa644ad4d9bf7d3bc764",
+  "runtime_source_count": 114,
+  "runtime_commit": "a9f35cb1e6a5f56e5eaa901d7ec7d079b34586be",
+  "default_A1_unchanged": true,
+  "legacy_preservation": {
+    "untracked_copies_preserved": 46,
+    "legacy_module_sha256": {
+      "retrieval_profiles.py": "d40a818ca5ad0be4bc496d82a718f882adb7655198e1a4e3214d2cc97bfd37d7",
+      "retrieval_strategies.py": "0b68a1d881f41b5c32aad9c978b7122540cb21cff1c3e5cfdc276d3b6ea7c6f3",
+      "retrieval_vnext.py": "c490ece53f5e19e13046cf7b76603c013ba34dd77fd438e10e3a59a96c640e92",
+      "retrieval_structural.py": "f4a05d3e8834e4ab641d98cdf9e64ce8af7de135abc67d976ff16f7cb6bfa374",
+      "semantic_model.py": "6cb1fbf946458f9494a9ec1755ecfef85eb5216d0dc880b8ef93f04196ecf89a",
+      "evidence.py": "486d73da3487418d9e49113ec1e18bcea4c2ce1e695d2466748cae1994432b0f",
+      "evidence_adapter.py": "4dd66022a639802e5883417105a97e75cf01f9dea5e9d9aa04c984d23139d9ab",
+      "approvals.py": "128be377e30b8d1a61e90e56b637457a0a2e633dd902192c20a79f308db57a7c",
+      "rules.py": "d2e02baf5c4bc2db2bc5a168a77fff0387ac5f948e39a5ce110c6e85b15699d4",
+      "ticket_store.py": "92067a56228a70db950f2ce35ca8898262a7c9ec9a6c7ea5b32eeae27dc5e646",
+      "formal_evaluation.py": "a3b5fed17adc572499d1d0cbaff1828a02135d892f5f537dd94c09bf8e3dd970",
+      "formal_operator.py": "28af87ab9dbc920b71d6289d5cb292abfe5f7ea7ffcd12074fddb3cbc39ada00",
+      "formal_ledger.py": "f4d370ddca355130d77ade175c66cd7e0d74383af6a5b96b16a719d0755dcadd"
+    },
+    "old_experiments_CI_and_dependency_locks_unchanged": true,
+    "private_assets_accessed": false
+  },
+  "interpreters": {
+    "311": {
+      "steps": [
+        {
+          "name": "sync",
+          "exit_code": 0,
+          "log_sha256": "5472c01de9d1a8ae1fd0b36fa7a577a951ec2eed7a21ce42659509a522ce7fa8"
+        },
+        {
+          "name": "interpreter",
+          "exit_code": 0,
+          "log_sha256": "565bb950bc897a85fa289315396696364fb59e3358a3139878d8738d461203b0"
+        },
+        {
+          "name": "build-core",
+          "exit_code": 0,
+          "log_sha256": "cbf110ca3ac02ba07d29b565f461b9e9d8047cefeae30434ae8ca293eb2f22a1"
+        },
+        {
+          "name": "build-demo",
+          "exit_code": 0,
+          "log_sha256": "5ece7aa9090cb26a0a859545dafbe4e43228a3875cc1af404fe8db66071a7a6d"
+        },
+        {
+          "name": "install-demo",
+          "exit_code": 0,
+          "log_sha256": "103a2708f9dcd14579a69af2b531a02b512b04d322f69281272f5b95c6111d08"
+        },
+        {
+          "name": "installed-imports",
+          "exit_code": 0,
+          "log_sha256": "6b0609c706dfe8a96d3b3abad940ac6ad2a1cf83beef3426efbaef302576c0f2"
+        },
+        {
+          "name": "focused-tests",
+          "exit_code": 0,
+          "log_sha256": "2b0c1fbdbeaa465b7879e9b46c234c11dc3e687c4228939f86cf0e7463596c31"
+        },
+        {
+          "name": "core-tests",
+          "exit_code": 0,
+          "log_sha256": "1730522bce9f4585caeaf0f1a750e0219e51b2c4c1c1a368d8eb2ac8592a261b"
+        },
+        {
+          "name": "demo-tests",
+          "exit_code": 0,
+          "log_sha256": "bda7c76ea5e4aee7a012beeca9b1f59cacf32d423600c5faa6f6988e69e435dc"
+        },
+        {
+          "name": "ruff",
+          "exit_code": 0,
+          "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "name": "format",
+          "exit_code": 0,
+          "log_sha256": "64a4fa60ca2bda7893c1e4b8ea53a24a76e4ea49ffc3d32207015731000ca7cc"
+        },
+        {
+          "name": "mypy-core",
+          "exit_code": 0,
+          "log_sha256": "092e5eb1e45e241cfabcc8c61bcc544108ae075fc01d13940b2b24013bbd1e3a"
+        },
+        {
+          "name": "mypy-demo",
+          "exit_code": 0,
+          "log_sha256": "c68f50a89794521a4d43d1354657bb2b465570f85b8cf4a226fc9f9fa7200852"
+        },
+        {
+          "name": "clean-env",
+          "exit_code": 0,
+          "log_sha256": "b5e16df3ab6dcc4f81cbe95cb54d10e3d78cdeb470bb70a70da0fc52105ea9d3"
+        },
+        {
+          "name": "clean-interpreter",
+          "exit_code": 0,
+          "log_sha256": "565bb950bc897a85fa289315396696364fb59e3358a3139878d8738d461203b0"
+        },
+        {
+          "name": "clean-install",
+          "exit_code": 0,
+          "log_sha256": "00b821c9ec6635019c64bcb09a8ee9661b8234e816e5fcffa257d57492e8c51a"
+        },
+        {
+          "name": "clean-core-cli",
+          "exit_code": 0,
+          "log_sha256": "e138891600836925c09bb06d74fbfe68ec471f0d9439b365d52ec6fa9dd207a7"
+        },
+        {
+          "name": "clean-data-cli",
+          "exit_code": 0,
+          "log_sha256": "c6b3458688a2ad5e9acacfb259fd1e69eee842c19e0ee439292cf0cbaef86509"
+        },
+        {
+          "name": "clean-valid",
+          "exit_code": 0,
+          "log_sha256": "9d4310bab769edd2daf7584c4b496362e00e2682320ba9846c4011f38c8b1aeb"
+        },
+        {
+          "name": "clean-conflict",
+          "exit_code": 0,
+          "log_sha256": "866bff4241bbf8fa2e78c86cc43ef5f3409a2e94185daa7e75a5614c3df330c9"
+        },
+        {
+          "name": "clean-missing-facts",
+          "exit_code": 0,
+          "log_sha256": "c191a95ed62d9c1ee9ebac44a36250bc14778dad28df2f809d67a96e824e17b9"
+        },
+        {
+          "name": "clean-zh-approve",
+          "exit_code": 0,
+          "log_sha256": "acaaff6dff5e0c135f67166666b874f6b8aea9a445a7c80b255206fbb7d406a4"
+        },
+        {
+          "name": "clean-zh-refuse",
+          "exit_code": 0,
+          "log_sha256": "48e19a4d2f70f036e4bef57980215c2c47532895465e2e5b153ba44940ff7a34"
+        }
+      ],
+      "core_passed": 848,
+      "Docker_skip": 1,
+      "Demo_passed": 955,
+      "focused_passed": 113,
+      "native_model_identity": {
+        "version": "lqd-relevance-retrieval-3.0.1",
+        "variant": "R1",
+        "config": "b5aa9dc1d3b99e8598d47ba9906a6d31245f4027cc0a7a6508e8b6610968d5da",
+        "generation": "e21fd1005002a1e15a41b6833dd1ce02c69920fe2161e22ef1ca3379167ded31",
+        "encoder": "0036456a2d734ca2792c05dba2c98ace56c7dc9e59c74df69d99b746347d857b",
+        "pair": "df1026556bb1f4aeb9e50bf9638a0922e7b39a095ef782ef03ffa11fa6109171",
+        "query": "lqd-lossless-request-plan-1.0.0",
+        "score_transport": "positive_monotonic_v1"
+      },
+      "bilingual_supported": 6,
+      "unsupported": 2,
+      "controllers": 4,
+      "compaction": 2,
+      "business": 13,
+      "faults": 10,
+      "native_report_sha256": "8c88aa83548a61fbc9342fd55766af16eb55ceb4f61ea158c6dc24eb03d814e3",
+      "native_extra_sha256": "2d45c87d5005cd97cc2d1884a6707f4758875dc7c207fdf0d019524e5fc862d1",
+      "native_resources": {
+        "startup_s": 2.660596500034444,
+        "CPU_user_s": 3.683312,
+        "CPU_system_s": 0.565637,
+        "wall_s": 12.566435916989576,
+        "peak_RSS_bytes": 1674674176
+      },
+      "CI_environment_Demo": {
+        "passed": 955,
+        "CI": true,
+        "GITHUB_ACTIONS": true,
+        "log_sha256": "07dcd9ca6b6a51f02296555883536110db46d8694c29ed2706c250859d28e8c4",
+        "note": "Final test revision exercises CI preparation guard; runtime unchanged."
+      }
+    },
+    "312": {
+      "steps": [
+        {
+          "name": "sync",
+          "exit_code": 0,
+          "log_sha256": "4b473a9b6f0a9b1eb0e49a94dc0e8f11b907697626ebf72a814d5b5185f7a166"
+        },
+        {
+          "name": "interpreter",
+          "exit_code": 0,
+          "log_sha256": "b929c5f658e0a7c22f6312bfcc5ae42d570686cb4f004394362635647714ac49"
+        },
+        {
+          "name": "build-core",
+          "exit_code": 0,
+          "log_sha256": "22a217ae3d03445bff4218a5a685e634e19c6243694f90b845453a66ef02b764"
+        },
+        {
+          "name": "build-demo",
+          "exit_code": 0,
+          "log_sha256": "c872c42fdea4dae368660ce2c448a9d40f5cd763b4d017abc87109d4a28361bf"
+        },
+        {
+          "name": "install-demo",
+          "exit_code": 0,
+          "log_sha256": "22edba595b26b74e5937ec5c4ee491a183096dd282c49c2412235289e8fc1d7a"
+        },
+        {
+          "name": "installed-imports",
+          "exit_code": 0,
+          "log_sha256": "ef13079f1509bed6200e93fe188994fb797eee03b0c075a9ce332f8b3f9cc618"
+        },
+        {
+          "name": "focused-tests",
+          "exit_code": 0,
+          "log_sha256": "84fe67c757cfd5c73359713dff0ce516a4204b6002351d331876cc0c79adbc78"
+        },
+        {
+          "name": "core-tests",
+          "exit_code": 0,
+          "log_sha256": "b05f1e2cfeadaab510ed74328c6755fe8cfaecf1242c82f4ab11758b4b55395c"
+        },
+        {
+          "name": "demo-tests",
+          "exit_code": 0,
+          "log_sha256": "8e543085df043054323e102c53f181f404a34041ede8b6cbd2ee47f7085cf0c1"
+        },
+        {
+          "name": "ruff",
+          "exit_code": 0,
+          "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "name": "format",
+          "exit_code": 0,
+          "log_sha256": "64a4fa60ca2bda7893c1e4b8ea53a24a76e4ea49ffc3d32207015731000ca7cc"
+        },
+        {
+          "name": "mypy-core",
+          "exit_code": 0,
+          "log_sha256": "092e5eb1e45e241cfabcc8c61bcc544108ae075fc01d13940b2b24013bbd1e3a"
+        },
+        {
+          "name": "mypy-demo",
+          "exit_code": 0,
+          "log_sha256": "c68f50a89794521a4d43d1354657bb2b465570f85b8cf4a226fc9f9fa7200852"
+        },
+        {
+          "name": "clean-env",
+          "exit_code": 0,
+          "log_sha256": "bb3102a4ac8a1338d17ec126918246727401f386e239f95bafc4a065972cf90e"
+        },
+        {
+          "name": "clean-interpreter",
+          "exit_code": 0,
+          "log_sha256": "b929c5f658e0a7c22f6312bfcc5ae42d570686cb4f004394362635647714ac49"
+        },
+        {
+          "name": "clean-install",
+          "exit_code": 0,
+          "log_sha256": "f0baa16fa38cace81ca71ae022c7e9bace0a9e126e9eb11399e707257e6eb019"
+        },
+        {
+          "name": "clean-core-cli",
+          "exit_code": 0,
+          "log_sha256": "e138891600836925c09bb06d74fbfe68ec471f0d9439b365d52ec6fa9dd207a7"
+        },
+        {
+          "name": "clean-data-cli",
+          "exit_code": 0,
+          "log_sha256": "c6b3458688a2ad5e9acacfb259fd1e69eee842c19e0ee439292cf0cbaef86509"
+        },
+        {
+          "name": "clean-valid",
+          "exit_code": 0,
+          "log_sha256": "bcd04f92f8b1774730343789fda02ff9ae3350f91363a0caf3d78bb0cdd231b1"
+        },
+        {
+          "name": "clean-conflict",
+          "exit_code": 0,
+          "log_sha256": "7380ff550d821c457d1479c809272f1945c1222d0b11349b7333e23763a7592b"
+        },
+        {
+          "name": "clean-missing-facts",
+          "exit_code": 0,
+          "log_sha256": "31ec69f39883042b50d27f4adcc541622469b00bb48101947be9cd2593a38038"
+        },
+        {
+          "name": "clean-zh-approve",
+          "exit_code": 0,
+          "log_sha256": "34d9c450529c6a1e54ec8760b9393f5dec27d0cb65d9a3500611d4c16b2f95dd"
+        },
+        {
+          "name": "clean-zh-refuse",
+          "exit_code": 0,
+          "log_sha256": "a37906de19230c121f9e2a8f8e0794818b492df98f45d28519eb8d0aa152a41b"
+        }
+      ],
+      "core_passed": 848,
+      "Docker_skip": 1,
+      "Demo_passed": 955,
+      "focused_passed": 113,
+      "native_model_identity": {
+        "version": "lqd-relevance-retrieval-3.0.1",
+        "variant": "R1",
+        "config": "b5aa9dc1d3b99e8598d47ba9906a6d31245f4027cc0a7a6508e8b6610968d5da",
+        "generation": "e21fd1005002a1e15a41b6833dd1ce02c69920fe2161e22ef1ca3379167ded31",
+        "encoder": "0036456a2d734ca2792c05dba2c98ace56c7dc9e59c74df69d99b746347d857b",
+        "pair": "df1026556bb1f4aeb9e50bf9638a0922e7b39a095ef782ef03ffa11fa6109171",
+        "query": "lqd-lossless-request-plan-1.0.0",
+        "score_transport": "positive_monotonic_v1"
+      },
+      "bilingual_supported": 6,
+      "unsupported": 2,
+      "controllers": 4,
+      "compaction": 2,
+      "business": 13,
+      "faults": 10,
+      "native_report_sha256": "714bd42d99e3315dc4b58d861781d8e67c98dc10e7b8162c3a00c5396eaf90c5",
+      "native_extra_sha256": "efbfb731f6438cbc1e37da2b1e06fadae4eecd16176b8405e9d34a4bb75572e3",
+      "native_resources": {
+        "startup_s": 2.2310327499872074,
+        "CPU_user_s": 3.601643,
+        "CPU_system_s": 0.436272,
+        "wall_s": 12.545967582962476,
+        "peak_RSS_bytes": 1669627904
+      },
+      "CI_environment_Demo": {
+        "passed": 955,
+        "CI": true,
+        "GITHUB_ACTIONS": true,
+        "log_sha256": "c332045c92e05c6a74d86e779f2d83fac521023b1243be61101bc42553acfce8",
+        "note": "Final test revision exercises CI preparation guard; runtime unchanged."
+      }
+    }
+  },
+  "CI": "PENDING_SINGLE_GROUPED_PUSH",
+  "billing_before": {
+    "observed_utc": "2026-11-02T05:39:51.509670+00:00",
+    "source": "authenticated GitHub Settings Billing visible UI",
+    "Actions_hard_budget_USD": 0,
+    "overage_status": "Usage blocked",
+    "billable_usage_USD": 0,
+    "consumed_USD": 4.56,
+    "discounts_USD": 4.56,
+    "included_compute_USD": 18,
+    "storage_used_GB": 0,
+    "storage_included_GB": 2,
+    "settings_changed": false,
+    "new_CI_runs": 0
+  },
+  "formal_runs": 0,
+  "paid_API_calls": 0
+}

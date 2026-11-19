@@ -1,0 +1,82 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "version": "lqd-rules-1.0.0",
+  "rules": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "rule_id": "BILL-01",
+      "version": "lqd-rules-1.0.0",
+      "scope": [
+        "billing_refund"
+      ],
+      "overrides": [],
+      "branches": [
+        {
+          "effect": "eligible",
+          "conditions": [
+            {
+              "field": "age_days_and_amount",
+              "operator": "between",
+              "value": "days:0..14;minor:1..5000;first:true;credited:false;verified:true",
+              "policy_ref": "POL-BILL-01@1.0",
+              "section_id": "eligibility",
+              "statement": "A trusted verified identity is required. For a first purchase, request age must be 0 through 14 UTC calendar days inclusive. The amount must be positive and at most 5000 minor DEMO_CREDIT units, and the invoice must not already be credited. Amounts are integers, not real currency. Only simulated credit guidance is permitted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "rule_id": "BILL-02",
+      "version": "lqd-rules-1.0.0",
+      "scope": [
+        "billing_refund"
+      ],
+      "overrides": [],
+      "branches": [
+        {
+          "effect": "manual_review",
+          "conditions": [
+            {
+              "field": "amount_minor",
+              "operator": "between",
+              "value": "5001..10000",
+              "policy_ref": "POL-BILL-01@1.0",
+              "section_id": "manual",
+              "statement": "Otherwise eligible first-purchase requests from 5001 through 10000 minor DEMO_CREDIT units inclusive require manual_review. This is a review route, not an approval or an executed credit. No high-amount request may be automatically resolved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "rule_id": "BILL-03",
+      "version": "lqd-rules-1.0.0",
+      "scope": [
+        "billing_refund"
+      ],
+      "overrides": [],
+      "branches": [
+        {
+          "effect": "ineligible",
+          "conditions": [
+            {
+              "field": "hard_exclusions",
+              "operator": "guard",
+              "value": "minor>10000 OR credited OR not_first OR outside_window",
+              "policy_ref": "POL-BILL-02@1.0",
+              "section_id": "restrictions",
+              "statement": "A request is ineligible if its amount exceeds 10000 minor DEMO_CREDIT units, its invoice was already credited, it is not a first purchase, or it exceeds the applicable time window. Future purchase dates are invalid facts. A reviewer approval cannot override these restrictions. Without an authorized exception the window is 14 UTC calendar days."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

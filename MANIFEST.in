@@ -1,0 +1,4 @@
+include AGENTS.md PROGRESS.md uv.lock .python-version
+recursive-include docs *.md *.json *.jsonl
+recursive-include licenses *.txt
+recursive-include tests *.py

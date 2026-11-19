@@ -1,0 +1,318 @@
+{
+  "artifacts": [
+    {
+      "path": "dist/agent_harness_lab-0.9.0-py3-none-any.whl",
+      "sha256": "10fbecc218352ca6ad5b11d8769fbd055a95f759aebdc9498609aaf2eedd3a7b",
+      "unchanged_since_335_member_memory_scan": true
+    },
+    {
+      "path": "dist/agent_harness_lab-0.9.0.tar.gz",
+      "sha256": "63d59d8d2fdd844fcb01f9101ffd84bb3dc4760e19e09fb62e954799c0f50c22",
+      "unchanged_since_335_member_memory_scan": true
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/dist/knowledge_ticket_agent_demo-0.1.0-py3-none-any.whl",
+      "sha256": "5ff251ad11acaea2b4131359231a0c5cd75fd64785920cebd75c501432ee73ef",
+      "unchanged_since_335_member_memory_scan": true
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/dist/knowledge_ticket_agent_demo-0.1.0.tar.gz",
+      "sha256": "a1f02768244785c6053ae5ec852fa97c8c0823575fa719670f1e809d850c54ff",
+      "unchanged_since_335_member_memory_scan": true
+    }
+  ],
+  "base_commit": "958a124111551a60779d6d8853f97dd49c8f264f",
+  "counts": {
+    "artifacts_reverified": 4,
+    "canonical_gold_payloads": 1,
+    "complete_private_query_strings": 24,
+    "distinct_worktree_files": 26,
+    "index_git_blobs": 26,
+    "key_representations": 3,
+    "leaks": 0,
+    "new_commit_git_blobs": 2
+  },
+  "formal_scoring": "NOT_RUN",
+  "freeze_manifest_sha256": "f5b0192aecfd0c46a46b8a4e7cce4a5fe2442a6e768432e0b575d71c6bcc9082",
+  "head_before_final_commit": "8dccc68d86207b010acb78e5fba8642d5125a0e1",
+  "independent_access_isolation": "NOT_ESTABLISHED",
+  "index_blobs": [
+    {
+      "git_blob": "5cab6c3e230666957cf96300091e7d5d22c34e13",
+      "path": "AGENTS.md",
+      "sha256": "69c88f7cad1afe719fb9ddba1cd89e64b478ea9672b6d5b51cfa7212b1f05e97"
+    },
+    {
+      "git_blob": "792769e904309f3ca1e5413eaaaafb013079aee1",
+      "path": "PROGRESS.md",
+      "sha256": "b35e5ac15ce52c68d5366a61e1c8d18881fb0b801fd71a4bba2593214dc7c89e"
+    },
+    {
+      "git_blob": "d72e6da13da36a9ba8672f62b1f9a0e59dbbc7ff",
+      "path": "README.md",
+      "sha256": "356313a33fe918534f90d81f3cb9f598ecbc4909fd2f453c501ad4a987940f26"
+    },
+    {
+      "git_blob": "52192ebe0bfce49ef251c609d9ebffa4ad766007",
+      "path": "docs/DECISIONS.md",
+      "sha256": "0f716cfbf3b6c79267e3225322d1458de13705e17855446776b99cc23baeddf8"
+    },
+    {
+      "git_blob": "ad258c870f27326d7b7902471b319ebdb8258a84",
+      "path": "docs/PROJECT_BRIEF.md",
+      "sha256": "8382681423f7c7de8affbb1aa78ee5615157cef3749a4b82d3f22fe4f70d208b"
+    },
+    {
+      "git_blob": "d98e20e2aa916142df4288fd27251a3a1270b286",
+      "path": "docs/ROADMAP.md",
+      "sha256": "a4b03a997aacfe8996099f673288f55727957b4536248173b278093f737ccc64"
+    },
+    {
+      "git_blob": "252cfd0bcf552ef96bf31ea6fc81981e04835532",
+      "path": "docs/phase3-m2e-contract.md",
+      "sha256": "121fbc660037d61452e604f4c380f4655397e65a680a7258e646d550ff16b099"
+    },
+    {
+      "git_blob": "06c630358ba499344c271ef4252ec10e5a1ab7c4",
+      "path": "docs/phase3-m2e-independent-review.md",
+      "sha256": "fdbe4869420a65edf89ccfa034dcabad7307ada2bb01466bd3650b84566fb955"
+    },
+    {
+      "git_blob": "0867ece581d2e707bd858d730b8860039ed62754",
+      "path": "docs/phase3-m2e-verification.md",
+      "sha256": "ad5da20d285343b20640f80c1e5c538017bcd1c06914694158b6d8ba96d8c8e8"
+    },
+    {
+      "git_blob": "0f81811953893fde9faf33c8a1f8dd7ca0a1cd50",
+      "path": "examples/knowledge_ticket_agent/README.md",
+      "sha256": "ae16ebf718d25706b55149064ca8e0041281642502d430c0ae814ccf26d473c8"
+    },
+    {
+      "git_blob": "2ed4922596fd0f45dbf26bac6d4a6906bacc2627",
+      "path": "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_cli.py",
+      "sha256": "e1099513f8fc9a259f6c4ad2846353639d667eeff509ec458fcab4cb2c5c6380"
+    },
+    {
+      "git_blob": "1b1f8d60352051c5215b4dbbb84e770bb9f38c4b",
+      "path": "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_custody.py",
+      "sha256": "bb6d34f743ba8b8806a7d221f4e761278986f9fa05edd4a7d72a172fd1defaf8"
+    },
+    {
+      "git_blob": "a1b8edac8f6b49ca628c06d8fd88e6618f76d588",
+      "path": "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_maintenance.py",
+      "sha256": "7068ebe07b71a85cc2873a374a391727c0c417cdd98807ecd4be794ef896d1c4"
+    },
+    {
+      "git_blob": "b890cfc430f2eef16649d503385f5188d3a0cfc1",
+      "path": "examples/knowledge_ticket_agent/tests/test_m2e_custody.py",
+      "sha256": "19d6ba6f9e190f536687594a10669cf508439715aecaf8aac13adbcb2d3597b9"
+    },
+    {
+      "git_blob": "0682eaac7d62fb1d5c0edf14bfaea732a0847235",
+      "path": "examples/knowledge_ticket_agent/tests/test_m2e_distribution.py",
+      "sha256": "a8dc82bb07c958b63b422807f7fcf8c31cf62b854cc0848356cb8d1e66dff59c"
+    },
+    {
+      "git_blob": "f57d769b76ae6182171e7e95ea30991059a70823",
+      "path": "examples/knowledge_ticket_agent/tests/test_m2e_maintenance.py",
+      "sha256": "5aeef37633ce9c7c8bbba5bbd9a75c156fa36d9e14b55a69225a962cca8737d6"
+    },
+    {
+      "git_blob": "7402bb51e2081ca0e8d334ea4fb3b854484ccaf4",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/dataset-qa.json",
+      "sha256": "60ad977a5dd57804e90dde3b7b265f2d6afc6297a57f726b40be510b24faece7"
+    },
+    {
+      "git_blob": "832d566a242ca8bd0648ec807a1bdd543d03f86a",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/freeze-manifest.json",
+      "sha256": "f5b0192aecfd0c46a46b8a4e7cce4a5fe2442a6e768432e0b575d71c6bcc9082"
+    },
+    {
+      "git_blob": "4c95c97415206accf2cb572bd9e9ddac7dd962f1",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-diagnostic.log",
+      "sha256": "86de85ad23a69178d02ee341f6eeb5c5ba2a32fd8087e9310e531f2290abc731"
+    },
+    {
+      "git_blob": "3a53d6debcccb77a9b1902a902ec183409e9b69e",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-lockfix.log",
+      "sha256": "42724d066fdf512a556c389e24afaf6a8910dd5606a6bb9a9809522ec6c64881"
+    },
+    {
+      "git_blob": "8f9e0e37d7bf4684d543f133a72020288b1b3c7c",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python311-core.txt",
+      "sha256": "a820d200fc6138d15996e79422192fe2f636607c59ed5b46b1de050210091107"
+    },
+    {
+      "git_blob": "c912b41117100238b5fb87dc454cd5180e0a1972",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python311-demo.txt",
+      "sha256": "bd679c84341f5edd06e2dcab907045cdbac54cc335d82e2da64dec8b1bed8200"
+    },
+    {
+      "git_blob": "f0b2b14d2c6c1d18f19ab1d42eb23cfd9157a35a",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python312-core.txt",
+      "sha256": "4e7c29f6c0c9f7f3cb062513864efefa641244c420491062ff18ee2241e5f477"
+    },
+    {
+      "git_blob": "ba31808eb82bc31980c55e366ae91b9146a573e3",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python312-demo.txt",
+      "sha256": "6417c3664eb957712b27c728ffb83ec45ec98ae2e53b85068217d71d2db0bb61"
+    },
+    {
+      "git_blob": "9ab0e20fb8ba0e608dafc689a5482967e8bf8a9e",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-verification.json",
+      "sha256": "6e8bcd0dd683c127f45e3214fdb51a5f3a7e75070fda9136460c0131da5e4bc7"
+    },
+    {
+      "git_blob": "8a0db3019e25b23334795eae0e1ff769bbddab8b",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/retriever-lock.json",
+      "sha256": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd"
+    }
+  ],
+  "journal_prefix_verification": {
+    "current_event_count": 19,
+    "current_pending_seals": [],
+    "frozen_events": 18,
+    "frozen_prefix_sha256": "a1b90339818f2af97d2a0b0d447d0bcea12b8538ef03b7596ede61041d93abea",
+    "prefix_preserved": true,
+    "scope": "The 18-event frozen prefix is retained; current journal tail is later and is not claimed to remain 18 events."
+  },
+  "maintenance_tools_sha256": {
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_cli.py": "e1099513f8fc9a259f6c4ad2846353639d667eeff509ec458fcab4cb2c5c6380",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_custody.py": "bb6d34f743ba8b8806a7d221f4e761278986f9fa05edd4a7d72a172fd1defaf8",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_maintenance.py": "7068ebe07b71a85cc2873a374a391727c0c417cdd98807ecd4be794ef896d1c4"
+  },
+  "new_commit_blobs": [
+    {
+      "commit": "8dccc68d86207b010acb78e5fba8642d5125a0e1",
+      "git_blob": "252cfd0bcf552ef96bf31ea6fc81981e04835532",
+      "path": "docs/phase3-m2e-contract.md",
+      "sha256": "121fbc660037d61452e604f4c380f4655397e65a680a7258e646d550ff16b099"
+    },
+    {
+      "commit": "8dccc68d86207b010acb78e5fba8642d5125a0e1",
+      "git_blob": "8a0db3019e25b23334795eae0e1ff769bbddab8b",
+      "path": "examples/knowledge_ticket_agent/verification/m2e/retriever-lock.json",
+      "sha256": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd"
+    }
+  ],
+  "new_commits_scanned": [
+    "8dccc68d86207b010acb78e5fba8642d5125a0e1"
+  ],
+  "publication": "LOCAL_ONLY_NO_PUSH_NO_PR",
+  "ranking_attempts": 0,
+  "remote_ci": "DEFERRED_QUOTA",
+  "retriever_lock_sha256": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd",
+  "scope": "All worktree/index texts changed since frozen M2R base, all new-commit changed Git blobs including precreation contract/lock, and current staged Git blobs. Full private query strings/canonical Gold/binary+hex+base64 key checked only in memory. Public policy quotes are expected and are not classified as leaks.",
+  "scoring_attempts": 0,
+  "self_content_checked_in_memory_before_write": true,
+  "self_hash": "Intentionally omitted to avoid recursive self-reference. Parent records this file SHA in commit/final delivery.",
+  "source_gold_sha256": "f7a25aadfa0e60449bbe03933c8352536a03d30283d6ce5dcdaecfa6e6109651",
+  "status": "PASS",
+  "version": "lqd-m2e-final-staged-leakage-1.0.0",
+  "worktree_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "69c88f7cad1afe719fb9ddba1cd89e64b478ea9672b6d5b51cfa7212b1f05e97"
+    },
+    {
+      "path": "PROGRESS.md",
+      "sha256": "b35e5ac15ce52c68d5366a61e1c8d18881fb0b801fd71a4bba2593214dc7c89e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "356313a33fe918534f90d81f3cb9f598ecbc4909fd2f453c501ad4a987940f26"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "sha256": "0f716cfbf3b6c79267e3225322d1458de13705e17855446776b99cc23baeddf8"
+    },
+    {
+      "path": "docs/PROJECT_BRIEF.md",
+      "sha256": "8382681423f7c7de8affbb1aa78ee5615157cef3749a4b82d3f22fe4f70d208b"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "sha256": "a4b03a997aacfe8996099f673288f55727957b4536248173b278093f737ccc64"
+    },
+    {
+      "path": "docs/phase3-m2e-contract.md",
+      "sha256": "121fbc660037d61452e604f4c380f4655397e65a680a7258e646d550ff16b099"
+    },
+    {
+      "path": "docs/phase3-m2e-independent-review.md",
+      "sha256": "fdbe4869420a65edf89ccfa034dcabad7307ada2bb01466bd3650b84566fb955"
+    },
+    {
+      "path": "docs/phase3-m2e-verification.md",
+      "sha256": "ad5da20d285343b20640f80c1e5c538017bcd1c06914694158b6d8ba96d8c8e8"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/README.md",
+      "sha256": "ae16ebf718d25706b55149064ca8e0041281642502d430c0ae814ccf26d473c8"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_cli.py",
+      "sha256": "e1099513f8fc9a259f6c4ad2846353639d667eeff509ec458fcab4cb2c5c6380"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_custody.py",
+      "sha256": "bb6d34f743ba8b8806a7d221f4e761278986f9fa05edd4a7d72a172fd1defaf8"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_maintenance.py",
+      "sha256": "7068ebe07b71a85cc2873a374a391727c0c417cdd98807ecd4be794ef896d1c4"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/tests/test_m2e_custody.py",
+      "sha256": "19d6ba6f9e190f536687594a10669cf508439715aecaf8aac13adbcb2d3597b9"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/tests/test_m2e_distribution.py",
+      "sha256": "a8dc82bb07c958b63b422807f7fcf8c31cf62b854cc0848356cb8d1e66dff59c"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/tests/test_m2e_maintenance.py",
+      "sha256": "5aeef37633ce9c7c8bbba5bbd9a75c156fa36d9e14b55a69225a962cca8737d6"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/dataset-qa.json",
+      "sha256": "60ad977a5dd57804e90dde3b7b265f2d6afc6297a57f726b40be510b24faece7"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/freeze-manifest.json",
+      "sha256": "f5b0192aecfd0c46a46b8a4e7cce4a5fe2442a6e768432e0b575d71c6bcc9082"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-diagnostic.log",
+      "sha256": "86de85ad23a69178d02ee341f6eeb5c5ba2a32fd8087e9310e531f2290abc731"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-lockfix.log",
+      "sha256": "42724d066fdf512a556c389e24afaf6a8910dd5606a6bb9a9809522ec6c64881"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python311-core.txt",
+      "sha256": "a820d200fc6138d15996e79422192fe2f636607c59ed5b46b1de050210091107"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python311-demo.txt",
+      "sha256": "bd679c84341f5edd06e2dcab907045cdbac54cc335d82e2da64dec8b1bed8200"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python312-core.txt",
+      "sha256": "4e7c29f6c0c9f7f3cb062513864efefa641244c420491062ff18ee2241e5f477"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-logs/python312-demo.txt",
+      "sha256": "6417c3664eb957712b27c728ffb83ec45ec98ae2e53b85068217d71d2db0bb61"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/local-verification.json",
+      "sha256": "6e8bcd0dd683c127f45e3214fdb51a5f3a7e75070fda9136460c0131da5e4bc7"
+    },
+    {
+      "path": "examples/knowledge_ticket_agent/verification/m2e/retriever-lock.json",
+      "sha256": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd"
+    }
+  ]
+}

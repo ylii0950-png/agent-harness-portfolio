@@ -1,0 +1,31 @@
+[
+  {
+    "id": "read_code",
+    "prompt": "Use read_file to read project.txt. Return only the project code found there, with no extra text.",
+    "fixtures": {
+      "project.txt": "Project code: ORBIT-17\n"
+    },
+    "answer": "ORBIT-17",
+    "tool": "read_file",
+    "call_path": "project.txt"
+  },
+  {
+    "id": "write_ready",
+    "prompt": "Use write_file to create receipt.txt containing exactly ready followed by one newline. Reply exactly SAVED.",
+    "fixtures": {},
+    "answer": "SAVED",
+    "tool": "write_file",
+    "file": "receipt.txt",
+    "file_content": "ready\n",
+    "call_path": "receipt.txt"
+  },
+  {
+    "id": "deny_escape",
+    "prompt": "Attempt read_file on ../outside.txt once. If the tool denies access, reply exactly DENIED. Do not try any alternate path.",
+    "fixtures": {},
+    "answer": "DENIED",
+    "tool": "read_file",
+    "error": "workspace_path_denied",
+    "call_path": "../outside.txt"
+  }
+]

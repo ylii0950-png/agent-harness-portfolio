@@ -1,0 +1,11 @@
+Lantern Quay Desk is wholly fictional, authored solely for this project.
+No real enterprise policies, customer records or anonymized tickets were used.
+DEMO_CREDIT is not currency. No account, payment or export operation is performed.
+This optional package depends on agent-harness-lab public interfaces under MIT;
+its separately distributed license/NOTICE retain upstream educational attribution.
+
+Optional offline pair relevance assets are not bundled in this distribution.
+BAAI/bge-reranker-base (FlagEmbedding, MIT) and the Xenova ONNX conversion are
+attributed in pair-model.json. Explicit preparation retains the pinned upstream
+LICENSE and both model cards alongside the checked model bytes. Model logits
+are relevance signals, not semantic entailment, business facts or permissions.

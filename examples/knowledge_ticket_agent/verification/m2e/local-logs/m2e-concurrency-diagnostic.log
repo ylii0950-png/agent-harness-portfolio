@@ -1,0 +1,56 @@
+.                                                                        [100%]
+1 passed in 0.13s
+
+.                                                                        [100%]
+1 passed in 0.12s
+
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____________________ test_two_process_audit_serialization _____________________
+
+vault = <knowledge_ticket_agent.evaluation_custody.LocalVault object at 0x108ecb470>
+
+    def test_two_process_audit_serialization(vault: LocalVault) -> None:
+        code = """import sys,json,traceback
+    from pathlib import Path
+    from knowledge_ticket_agent.evaluation_custody import LocalVault
+    try:
+        v=LocalVault(Path(sys.argv[1]))
+        for _ in range(12):v.log('validate',actor=sys.argv[2],artifact='sample.aesgcm',digest='a'*64)
+    except Exception as error:
+        chain=[]
+        while error is not None:
+            chain.append({'type':type(error).__name__,'errno':getattr(error,'errno',None),
+                'frames':[(f.name,f.lineno) for f in traceback.extract_tb(error.__traceback__)]})
+            error=error.__context__
+        print(json.dumps(chain),file=sys.stderr)
+        sys.exit(1)
+    """
+        processes = [
+            subprocess.Popen(
+                [sys.executable, "-c", code, str(vault.root), f"test{i}"],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            )
+            for i in range(2)
+        ]
+        outcomes = []
+        try:
+            for process in processes:
+                _, error = process.communicate(timeout=15)
+                outcomes.append((process.returncode, error))
+        finally:
+            for process in processes:
+                if process.poll() is None:
+                    process.kill()
+                process.communicate(timeout=5)
+>       assert all(code == 0 for code, _ in outcomes), outcomes
+E       AssertionError: [(0, b''), (1, b'[{"type": "FixtureError", "errno": null, "frames": [["<module>", 6], ["log", 268], ["__enter__", 137], ["_transaction", 213]]}, {"type": "FileNotFoundError", "errno": 2, "frames": [["_transaction", 200]]}]
+E         ')]
+E       assert False
+E        +  where False = all(<generator object test_two_process_audit_serialization.<locals>.<genexpr> at 0x108e23d30>)
+
+examples/knowledge_ticket_agent/tests/test_m2e_custody.py:195: AssertionError
+=========================== short test summary info ============================
+FAILED examples/knowledge_ticket_agent/tests/test_m2e_custody.py::test_two_process_audit_serialization
+1 failed in 0.12s

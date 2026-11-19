@@ -1,0 +1,50 @@
+{
+  "scope": "PUBLIC_ENGINEERING_ADVERSE_ATTEMPTS_RETAINED",
+  "attempts": [
+    {
+      "relative_local_evidence": "initial/312/focused-tests.log",
+      "sha256": "299a8b574c982e16f8501e8772396e0adc94c5ee8fdbe6201a5b9c5bba34130a"
+    },
+    {
+      "relative_local_evidence": "candidate/312/focused-tests.log",
+      "sha256": "873ac0ba56bce6f3eb90934ff762c3c4c42fb4dad23a7d5dd217d35fc8508e5a"
+    },
+    {
+      "relative_local_evidence": "final-local/311/focused-tests.log",
+      "sha256": "e7ebef617f038863450310d9e008d8923e45bf6f4ebe7a73793b96df003a4fa7"
+    },
+    {
+      "relative_local_evidence": "final-local/311/native-integration.log",
+      "sha256": "31a18220b041e97cb3eb8e2be4e815b3fc2a3fc95a9cab1ea48b008ed6c64b04"
+    },
+    {
+      "relative_local_evidence": "final-local/312/focused-tests.log",
+      "sha256": "9f8c13a1860f056ef4010e09e610a4a145564d74ba17b159df02b2f762f26658"
+    },
+    {
+      "relative_local_evidence": "final-local/312/native-integration.log",
+      "sha256": "9c0596b45edd36c2915c9432334a63e0963247c2e1e6cbbe793fd6ed4a4fcfaa"
+    },
+    {
+      "relative_local_evidence": "dev-v1/A1.log",
+      "sha256": "59dc1298ba71912568cefa231dcb172c2ae1a61108941c7d72bcd62a826c9788"
+    },
+    {
+      "relative_local_evidence": "integrated/311/CI-environment-demo.log",
+      "sha256": "edf55ffcc66c06f48d3699fbab74a1c7de79daec21bfa2c10157d907f69bcade"
+    },
+    {
+      "relative_local_evidence": "integrated/312/CI-environment-demo.log",
+      "sha256": "86c81961b20780ad4b2a9d27ec2a583eb4840d8aa998cfb0e216bc0c39465800"
+    }
+  ],
+  "explanations": [
+    "Initial focused test assertion errors retained before corrections.",
+    "First DEV A1 helper completed inference but failed report construction on missing method_identity; no successful metrics report or candidate selection came from it. Fixed helper reran DEV only.",
+    "Native old integration committed once but exhausted model rounds before readback; truthful FAILED logs preserved. Prospective navigation fixed without changing limits or ranking.",
+    "Supplemental local CI-flag invocation initially selected an empty source .venv, so pytest never ran; corrected explicit installed interpreter invocation has separate logs. No GitHub rerun occurred."
+  ],
+  "Challenge_invocations_per_profile": 1,
+  "runtime_config_models_scorer_or_selection_changed_after_Challenge": false,
+  "test_only_change_after_Challenge": "CI preparation guard assertions; runtime, source collection, scorer, fixtures and selection unchanged."
+}

@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "gold_version": "lqd-business-gold-1.0.0",
+  "sha256": "073ef949c07aa7ddd3f0340742d4764b73a1b17921ea96e4286bd88a4b73a0b6",
+  "bytes": 142410,
+  "cases": 36,
+  "retrieval_mapping": "not_created_M2_only"
+}

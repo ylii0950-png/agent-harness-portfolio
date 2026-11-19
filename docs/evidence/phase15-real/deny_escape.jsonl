@@ -1,0 +1,34 @@
+{"elapsed_ms": 10.893, "event": "run.started", "schema_version": 1, "seq": 1}
+{"elapsed_ms": 10.98, "event": "model.request", "item_count": 1, "round": 1, "schema_version": 1, "seq": 2}
+{"elapsed_ms": 3009.311, "event": "model.event", "event_type": "response.created", "schema_version": 1, "seq": 3}
+{"elapsed_ms": 3009.988, "event": "model.event", "event_type": "response.in_progress", "schema_version": 1, "seq": 4}
+{"elapsed_ms": 3571.21, "event": "model.event", "event_type": "response.output_item.added", "schema_version": 1, "seq": 5}
+{"elapsed_ms": 3571.519, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 6}
+{"elapsed_ms": 3600.952, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 7}
+{"elapsed_ms": 3601.311, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 8}
+{"elapsed_ms": 3624.93, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 9}
+{"elapsed_ms": 3650.114, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 10}
+{"elapsed_ms": 3686.262, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 11}
+{"elapsed_ms": 3711.253, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 12}
+{"elapsed_ms": 3920.2, "event": "model.event", "event_type": "other", "schema_version": 1, "seq": 13}
+{"elapsed_ms": 3940.27, "event": "model.event", "event_type": "response.function_call_arguments.done", "schema_version": 1, "seq": 14}
+{"elapsed_ms": 3940.498, "event": "model.event", "event_type": "response.output_item.done", "schema_version": 1, "seq": 15}
+{"elapsed_ms": 3968.014, "event": "model.event", "event_type": "response.completed", "schema_version": 1, "seq": 16}
+{"duration_ms": 3957.6096669916296, "elapsed_ms": 3968.664, "event": "model.response", "input_tokens": 111, "item_count": 1, "output_tokens": 20, "round": 1, "schema_version": 1, "seq": 17, "total_tokens": 131}
+{"call_ref": "6d027a79b1ed4f45", "elapsed_ms": 3968.813, "event": "tool.call", "round": 1, "schema_version": 1, "seq": 18, "tool_attempt": 1, "tool_name": "read_file"}
+{"call_ref": "6d027a79b1ed4f45", "content_bytes": 0, "duration_ms": 0.13912501162849367, "elapsed_ms": 3969.008, "error_code": "workspace_path_denied", "event": "tool.result", "round": 1, "schema_version": 1, "seq": 19, "success": false, "tool_attempt": 1, "tool_name": "read_file"}
+{"elapsed_ms": 3969.064, "event": "model.request", "item_count": 3, "round": 2, "schema_version": 1, "seq": 20}
+{"elapsed_ms": 6567.784, "event": "model.event", "event_type": "response.created", "schema_version": 1, "seq": 21}
+{"elapsed_ms": 6568.348, "event": "model.event", "event_type": "response.in_progress", "schema_version": 1, "seq": 22}
+{"elapsed_ms": 8435.176, "event": "model.event", "event_type": "response.output_item.added", "schema_version": 1, "seq": 23}
+{"elapsed_ms": 8435.608, "event": "model.event", "event_type": "response.content_part.added", "schema_version": 1, "seq": 24}
+{"elapsed_ms": 8435.695, "event": "model.event", "event_type": "response.output_text.delta", "schema_version": 1, "seq": 25}
+{"elapsed_ms": 8457.553, "event": "model.event", "event_type": "response.output_text.delta", "schema_version": 1, "seq": 26}
+{"elapsed_ms": 8660.027, "event": "model.event", "event_type": "other", "schema_version": 1, "seq": 27}
+{"elapsed_ms": 8660.274, "event": "model.event", "event_type": "response.output_text.done", "schema_version": 1, "seq": 28}
+{"elapsed_ms": 8662.011, "event": "model.event", "event_type": "response.content_part.done", "schema_version": 1, "seq": 29}
+{"elapsed_ms": 8662.175, "event": "model.event", "event_type": "response.output_item.done", "schema_version": 1, "seq": 30}
+{"elapsed_ms": 8662.545, "event": "model.event", "event_type": "response.completed", "schema_version": 1, "seq": 31}
+{"duration_ms": 4693.900750004104, "elapsed_ms": 8663.026, "event": "model.response", "input_tokens": 180, "item_count": 0, "output_tokens": 6, "round": 2, "schema_version": 1, "seq": 32, "total_tokens": 186}
+{"duration_ms": 8652.239582996117, "elapsed_ms": 8663.145, "event": "run.stopped", "model_rounds": 2, "schema_version": 1, "seq": 33, "stop_reason": "completed", "tool_calls": 1}
+{"elapsed_ms": 8663.276, "event": "eval.result", "result": "passed", "schema_version": 1, "seq": 34, "task_id": "deny_escape"}

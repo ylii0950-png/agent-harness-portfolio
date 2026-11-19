@@ -1,0 +1,733 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "schema_version": 1,
+  "corpus_version": "lqd-data-1.0.0",
+  "ruleset_version": "lqd-rules-1.0.0",
+  "profile": "full",
+  "as_of": "2031-04-15T12:00:00Z",
+  "resources": [
+    {
+      "path": "customers.json",
+      "sha256": "545cb3ea0e8b46d062b2cedc7829b9fad2a8ba1be023f55c480fbd3ad1f1e990",
+      "bytes": 1944
+    },
+    {
+      "path": "documents/CONFLICT-RET-A-1.0.md",
+      "sha256": "a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+      "bytes": 282
+    },
+    {
+      "path": "documents/CONFLICT-RET-B-1.0.md",
+      "sha256": "2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f",
+      "bytes": 282
+    },
+    {
+      "path": "documents/EX-BILL-TEAM-1.0.md",
+      "sha256": "46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+      "bytes": 439
+    },
+    {
+      "path": "documents/EX-SECURITY-HOLD-1.0.md",
+      "sha256": "94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+      "bytes": 338
+    },
+    {
+      "path": "documents/FAQ-ACCESS-01-1.0.md",
+      "sha256": "505ab4091636861c253ad6b9a5bedda70a4fa5b3aa2d8d3bf283254be1b39683",
+      "bytes": 232
+    },
+    {
+      "path": "documents/FAQ-ACCESS-02-1.0.md",
+      "sha256": "210d4958f96da4df8041cc86abb3310a76f416da56d427523d28583f8fa46937",
+      "bytes": 247
+    },
+    {
+      "path": "documents/FAQ-BILL-01-1.0.md",
+      "sha256": "fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150",
+      "bytes": 284
+    },
+    {
+      "path": "documents/FAQ-BILL-02-1.0.md",
+      "sha256": "8486c5b3db0533a00d0b10305dff208bc1024c024f134046bd13b613f54de050",
+      "bytes": 261
+    },
+    {
+      "path": "documents/FAQ-EXPORT-01-1.0.md",
+      "sha256": "7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+      "bytes": 237
+    },
+    {
+      "path": "documents/FAQ-EXPORT-02-1.0.md",
+      "sha256": "c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449",
+      "bytes": 258
+    },
+    {
+      "path": "documents/POL-ACCESS-01-1.0.md",
+      "sha256": "7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+      "bytes": 463
+    },
+    {
+      "path": "documents/POL-ACCESS-02-1.0.md",
+      "sha256": "e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+      "bytes": 344
+    },
+    {
+      "path": "documents/POL-BILL-01-0.9.md",
+      "sha256": "c04505e5cfc7602e4f0e1b9968033c12c13c381e9a1012ad6360b1677a9373dd",
+      "bytes": 286
+    },
+    {
+      "path": "documents/POL-BILL-01-1.0.md",
+      "sha256": "65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+      "bytes": 732
+    },
+    {
+      "path": "documents/POL-BILL-02-1.0.md",
+      "sha256": "3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+      "bytes": 460
+    },
+    {
+      "path": "documents/POL-CASE-01-1.0.md",
+      "sha256": "326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4",
+      "bytes": 508
+    },
+    {
+      "path": "documents/POL-ESCALATE-01-1.0.md",
+      "sha256": "1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+      "bytes": 393
+    },
+    {
+      "path": "documents/POL-EXPORT-01-0.9.md",
+      "sha256": "ad1789a8bec69a416d2e83a705a8e912e1a4823405f3a9b1daff35731358f5b6",
+      "bytes": 280
+    },
+    {
+      "path": "documents/POL-EXPORT-01-1.0.md",
+      "sha256": "697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+      "bytes": 334
+    },
+    {
+      "path": "documents/POL-EXPORT-02-1.0.md",
+      "sha256": "67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+      "bytes": 401
+    },
+    {
+      "path": "invoices.json",
+      "sha256": "c5fcdb78f2076321d69a6c5931c5af37497d93cf201114b612f2d06831ccc938",
+      "bytes": 8185
+    },
+    {
+      "path": "rules.json",
+      "sha256": "59e85af85d0e7beeeabe83138b19d907c7dd2bf01c04ec3fb2a531c5fc7198ea",
+      "bytes": 9285
+    },
+    {
+      "path": "staff.json",
+      "sha256": "4e4d80b0e7192781916e57b1177f1baacc35ffb453f774becfa0dd094ea4b63a",
+      "bytes": 2859
+    },
+    {
+      "path": "tickets/dev.json",
+      "sha256": "0279975d936076ef55bc2517f188579419b780c8bfecd52039fac4ee076fb6cb",
+      "bytes": 8781
+    },
+    {
+      "path": "tickets/eval.json",
+      "sha256": "feeca4ab10c1702d17bfebaffdb3492803d53e06c680e9aa1eeed15f8584a721",
+      "bytes": 17743
+    }
+  ],
+  "documents": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-BILL-01",
+      "version": "1.0",
+      "title": "Fictional purchase credit eligibility",
+      "policy_family": "billing_eligibility",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [
+        "POL-BILL-01@0.9"
+      ],
+      "rule_ids": [
+        "BILL-01",
+        "BILL-02"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-BILL-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "eligibility",
+          "heading": "First purchase eligibility"
+        },
+        {
+          "section_id": "manual",
+          "heading": "High amount review"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-BILL-02",
+      "version": "1.0",
+      "title": "Fictional credit exclusions",
+      "policy_family": "billing_restrictions",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "BILL-03"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-BILL-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "restrictions",
+          "heading": "Hard restrictions"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-ACCESS-01",
+      "version": "1.0",
+      "title": "Fictional account access verification",
+      "policy_family": "access_verification",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "account_access"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "ACCESS-01"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-ACCESS-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "verification",
+          "heading": "Identity and ownership"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-ACCESS-02",
+      "version": "1.0",
+      "title": "Fictional account safety restrictions",
+      "policy_family": "access_security",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "account_access",
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "ACCESS-02"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-ACCESS-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "security",
+          "heading": "Security hold"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-EXPORT-01",
+      "version": "1.0",
+      "title": "Fictional workspace export eligibility",
+      "policy_family": "export_eligibility",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [
+        "POL-EXPORT-01@0.9"
+      ],
+      "rule_ids": [
+        "EXPORT-01"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-EXPORT-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "scope",
+          "heading": "Required export facts"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-EXPORT-02",
+      "version": "1.0",
+      "title": "Fictional export information and retention",
+      "policy_family": "export_retention",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "EXPORT-02"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-EXPORT-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "missing",
+          "heading": "Missing evidence"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-ESCALATE-01",
+      "version": "1.0",
+      "title": "Fictional support escalation routing",
+      "policy_family": "support_escalation",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund",
+        "account_access",
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "CASE-01"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-ESCALATE-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "routing",
+          "heading": "Review is not approval"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-CASE-01",
+      "version": "1.0",
+      "title": "Fictional simulated ticket states",
+      "policy_family": "case_states",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund",
+        "account_access",
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "CASE-01"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-CASE-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "states",
+          "heading": "Permitted simulated states"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-BILL-01",
+      "version": "0.9",
+      "title": "Fictional obsolete credit policy",
+      "policy_family": "billing_eligibility",
+      "kind": "legacy",
+      "effective_from": "2030-01-01T00:00:00Z",
+      "effective_to": "2031-01-01T00:00:00Z",
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [],
+      "path": "documents/POL-BILL-01-0.9.md",
+      "sections": [
+        {
+          "section_id": "obsolete",
+          "heading": "Expired window"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-EXPORT-01",
+      "version": "0.9",
+      "title": "Fictional obsolete export policy",
+      "policy_family": "export_eligibility",
+      "kind": "legacy",
+      "effective_from": "2030-01-01T00:00:00Z",
+      "effective_to": "2031-01-01T00:00:00Z",
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [],
+      "path": "documents/POL-EXPORT-01-0.9.md",
+      "sections": [
+        {
+          "section_id": "obsolete",
+          "heading": "Expired membership route"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "EX-BILL-TEAM",
+      "version": "1.0",
+      "title": "Fictional Team first-purchase time exception",
+      "policy_family": "billing_exception",
+      "kind": "exception",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "BILL-EX1"
+      ],
+      "source_refs": [],
+      "path": "documents/EX-BILL-TEAM-1.0.md",
+      "sections": [
+        {
+          "section_id": "team_window",
+          "heading": "Narrow Team exception"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "EX-SECURITY-HOLD",
+      "version": "1.0",
+      "title": "Fictional security escalation exception",
+      "policy_family": "security_exception",
+      "kind": "exception",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "account_access",
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "ACCESS-02"
+      ],
+      "source_refs": [],
+      "path": "documents/EX-SECURITY-HOLD-1.0.md",
+      "sections": [
+        {
+          "section_id": "hold",
+          "heading": "Safety override"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "CONFLICT-RET-A",
+      "version": "1.0",
+      "title": "Fictional retention conflict A",
+      "policy_family": "retention_conflict",
+      "kind": "conflict",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "EXPORT-02"
+      ],
+      "source_refs": [],
+      "path": "documents/CONFLICT-RET-A-1.0.md",
+      "sections": [
+        {
+          "section_id": "retention",
+          "heading": "Conflicting duration A"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "CONFLICT-RET-B",
+      "version": "1.0",
+      "title": "Fictional retention conflict B",
+      "policy_family": "retention_conflict",
+      "kind": "conflict",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "EXPORT-02"
+      ],
+      "source_refs": [],
+      "path": "documents/CONFLICT-RET-B-1.0.md",
+      "sections": [
+        {
+          "section_id": "retention",
+          "heading": "Conflicting duration B"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "FAQ-BILL-01",
+      "version": "1.0",
+      "title": "Fictional first purchase questions",
+      "policy_family": "faq_faq-bill-01",
+      "kind": "faq",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [
+        "POL-BILL-01@1.0"
+      ],
+      "path": "documents/FAQ-BILL-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "answer",
+          "heading": "Navigation"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "FAQ-BILL-02",
+      "version": "1.0",
+      "title": "Fictional exception questions",
+      "policy_family": "faq_faq-bill-02",
+      "kind": "faq",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [
+        "EX-BILL-TEAM@1.0"
+      ],
+      "path": "documents/FAQ-BILL-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "answer",
+          "heading": "Navigation"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "FAQ-ACCESS-01",
+      "version": "1.0",
+      "title": "Fictional identity questions",
+      "policy_family": "faq_faq-access-01",
+      "kind": "faq",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "account_access"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [
+        "POL-ACCESS-01@1.0"
+      ],
+      "path": "documents/FAQ-ACCESS-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "answer",
+          "heading": "Navigation"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "FAQ-ACCESS-02",
+      "version": "1.0",
+      "title": "Fictional safety questions",
+      "policy_family": "faq_faq-access-02",
+      "kind": "faq",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "account_access"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [
+        "POL-ACCESS-02@1.0"
+      ],
+      "path": "documents/FAQ-ACCESS-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "answer",
+          "heading": "Navigation"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "FAQ-EXPORT-01",
+      "version": "1.0",
+      "title": "Fictional scope questions",
+      "policy_family": "faq_faq-export-01",
+      "kind": "faq",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [
+        "POL-EXPORT-01@1.0"
+      ],
+      "path": "documents/FAQ-EXPORT-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "answer",
+          "heading": "Navigation"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "FAQ-EXPORT-02",
+      "version": "1.0",
+      "title": "Fictional retention questions",
+      "policy_family": "faq_faq-export-02",
+      "kind": "faq",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "data_export"
+      ],
+      "supersedes": [],
+      "rule_ids": [],
+      "source_refs": [
+        "POL-EXPORT-02@1.0"
+      ],
+      "path": "documents/FAQ-EXPORT-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "answer",
+          "heading": "Navigation"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "normal",
+      "documents": [
+        "POL-BILL-01@1.0",
+        "POL-BILL-02@1.0",
+        "POL-ACCESS-01@1.0",
+        "POL-ACCESS-02@1.0",
+        "POL-EXPORT-01@1.0",
+        "POL-EXPORT-02@1.0",
+        "POL-ESCALATE-01@1.0",
+        "POL-CASE-01@1.0",
+        "POL-BILL-01@0.9",
+        "POL-EXPORT-01@0.9",
+        "EX-BILL-TEAM@1.0",
+        "EX-SECURITY-HOLD@1.0",
+        "FAQ-BILL-01@1.0",
+        "FAQ-BILL-02@1.0",
+        "FAQ-ACCESS-01@1.0",
+        "FAQ-ACCESS-02@1.0",
+        "FAQ-EXPORT-01@1.0",
+        "FAQ-EXPORT-02@1.0"
+      ]
+    },
+    {
+      "name": "conflict",
+      "documents": [
+        "POL-BILL-01@1.0",
+        "POL-BILL-02@1.0",
+        "POL-ACCESS-01@1.0",
+        "POL-ACCESS-02@1.0",
+        "POL-EXPORT-01@1.0",
+        "POL-EXPORT-02@1.0",
+        "POL-ESCALATE-01@1.0",
+        "POL-CASE-01@1.0",
+        "POL-BILL-01@0.9",
+        "POL-EXPORT-01@0.9",
+        "EX-BILL-TEAM@1.0",
+        "EX-SECURITY-HOLD@1.0",
+        "CONFLICT-RET-A@1.0",
+        "CONFLICT-RET-B@1.0",
+        "FAQ-BILL-01@1.0",
+        "FAQ-BILL-02@1.0",
+        "FAQ-ACCESS-01@1.0",
+        "FAQ-ACCESS-02@1.0",
+        "FAQ-EXPORT-01@1.0",
+        "FAQ-EXPORT-02@1.0"
+      ]
+    }
+  ],
+  "counts": {
+    "documents": 20,
+    "customers": 6,
+    "staff": 3,
+    "invoices": 23,
+    "dev": 12,
+    "eval": 24,
+    "rules": 9
+  }
+}

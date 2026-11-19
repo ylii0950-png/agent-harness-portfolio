@@ -1,0 +1,102 @@
+{
+  "profile": "PUBLIC_ENGINEERING_NOT_INDEPENDENT_NOT_FORMAL",
+  "historical_M2F": "FAIL_UNCHANGED",
+  "M2_formal": "NOT_RUN",
+  "M5_formal": "NOT_RUN",
+  "new_real_model_requests": 0,
+  "M2": {
+    "contract": "lqd-policy-quality-3.0.0",
+    "dataset_version": "lqd-m2-public-revised-3.0.2",
+    "dataset_sha256": "f16e1ab3db2dd9327f48b720eaa5effacd14a4e1dde49c3426a4310fb46b4a0a",
+    "recall_at_3": 1.0,
+    "mrr_at_3": 0.9444444444444445,
+    "documentary_denominator": 8,
+    "negative_denominator": 8,
+    "engineering_contract": "PASS",
+    "read_only_state_verified": true
+  },
+  "M2_incomplete_regressions": {
+    "all_missing": "PASS_insufficient",
+    "partially_missing": "PASS_insufficient",
+    "unauthorized_effects": 0
+  },
+  "M5": {
+    "suite_id": "kt-m5-restricted-24-3.0.0",
+    "case_denominator": 24,
+    "passed": 24,
+    "rec_denominator": 20,
+    "rec_macro": 1.0,
+    "retrieval_denominator": 18,
+    "retrieval_macro": [
+      [
+        "hit",
+        1.0
+      ],
+      [
+        "recall",
+        1.0
+      ],
+      [
+        "reciprocal_rank",
+        1.0
+      ],
+      [
+        "raw_chunk_recall",
+        1.0
+      ]
+    ],
+    "relevance_profile": "PUBLIC_SYNTHETIC_FORMAL_COMPATIBILITY_NOT_FORMAL"
+  },
+  "M5_legacy_initial_MRR": 0.5277777777777778,
+  "additional_distinct_English12": {
+    "profile": "ADDITIONAL_PUBLIC_DISTINCT_ENGLISH_NOT_FORMAL",
+    "cases": 12,
+    "recall": 1.0,
+    "mrr": 0.9444444444444445
+  },
+  "multilingual12": {
+    "profile": "PUBLIC_BILINGUAL_DEV_NOT_FORMAL",
+    "version": "lqd-zh-en-domain-query-1.0.0",
+    "config_sha256": "7ec7af27e2e97000418dbac60c90ec7dff21cd0c4f1b7014bea9d0b4612bca1e",
+    "cases": 12,
+    "recall": 1.0,
+    "mrr": 0.8472222222222223
+  },
+  "bilingual_CLI_cases": 16,
+  "English_Chinese_paired_approval_and_refusal": "PASS",
+  "synthetic_Responses_CN_approved_and_refused": "PASS_NOT_LIVE",
+  "context_compaction_and_budget_failure": "PASS",
+  "local_validation": {
+    "python3.11": {
+      "core": 848,
+      "skipped": 1,
+      "Demo": 907
+    },
+    "python3.12": {
+      "core": 848,
+      "skipped": 1,
+      "Demo": 907
+    },
+    "focused": 117,
+    "ruff": "PASS",
+    "strict_mypy": "PASS",
+    "build_inventory_files": [
+      59,
+      82
+    ],
+    "clean_install_both": "PASS"
+  },
+  "Docker": {
+    "local": "UNAVAILABLE_NO_BINARY",
+    "applicable_actual_CI": 40365311925,
+    "head": "32dd23bce12a83079f5759de04e7871db073d36e",
+    "actual_tests": "1 passed / 20 deselected",
+    "runtime_sources_unchanged": true
+  },
+  "public_report_sha256": {
+    "M5": "8463e5c67225f6c6a44eadcffb680a9eb837644db3d829b305509f2f177df6e5",
+    "Chinese": "a925be52a94f4d39402a784778f1db5a5513fff480d22309efa9b617b7482730",
+    "English12": "4c2c3f02fcd0adc4fa8804ecd47d8c7dc2bbc6a86da0ad23fd0535e845484c65"
+  },
+  "remaining": "Independent data/Gold freeze, exact PO one-run approvals, both formal PASS and final independent review ACCEPTED"
+}

@@ -1,0 +1,343 @@
+{
+  "actual_cost": null,
+  "cases": [
+    {
+      "approvals": [
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        },
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        }
+      ],
+      "ask_handler_calls": 0,
+      "case": "A_R",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": false,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": false,
+        "final_plan_completed": false,
+        "four_explicit_updates": false,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": false,
+        "source_read": true,
+        "todo_follows_verified_actions": false
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 33884.244,
+      "engineering_blocker": false,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 9,
+      "provider_failures": [],
+      "requests": 9,
+      "served_models": [
+        "gpt-6-luna"
+      ],
+      "status": "failed",
+      "stop_reason": "completed",
+      "tool_calls": 8,
+      "trajectory_sha256": "e93185d3586557e39ad851b32348a0a6c07475ad6081225fc122ad69dc792d8d",
+      "usage": [
+        {
+          "input_tokens": 475,
+          "output_tokens": 53,
+          "total_tokens": 528
+        },
+        {
+          "input_tokens": 629,
+          "output_tokens": 28,
+          "total_tokens": 657
+        },
+        {
+          "input_tokens": 759,
+          "output_tokens": 19,
+          "total_tokens": 778
+        },
+        {
+          "input_tokens": 812,
+          "output_tokens": 27,
+          "total_tokens": 839
+        },
+        {
+          "input_tokens": 940,
+          "output_tokens": 28,
+          "total_tokens": 968
+        },
+        {
+          "input_tokens": 1070,
+          "output_tokens": 30,
+          "total_tokens": 1100
+        },
+        {
+          "input_tokens": 1149,
+          "output_tokens": 84,
+          "total_tokens": 1233
+        },
+        {
+          "input_tokens": 1282,
+          "output_tokens": 14,
+          "total_tokens": 1296
+        },
+        {
+          "input_tokens": 1398,
+          "output_tokens": 75,
+          "total_tokens": 1473
+        }
+      ]
+    },
+    {
+      "approvals": [],
+      "ask_handler_calls": 0,
+      "case": "B_R",
+      "checks": {
+        "agent_completed": true,
+        "child_completed": true,
+        "child_discovered": true,
+        "child_loaded": true,
+        "child_read": true,
+        "child_read_only": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "parent_did_not_bypass_child": true,
+        "parent_used_result": true,
+        "receipt_exact": true,
+        "structured_child_code": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 23828.294,
+      "engineering_blocker": false,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 8,
+      "provider_failures": [],
+      "requests": 8,
+      "served_models": [
+        "gpt-6-luna"
+      ],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 6,
+      "trajectory_sha256": "69296729b329d9ff8bd38cd34e5419347e1dfd92b17cee026c11b14c1d59a84a",
+      "usage": [
+        {
+          "input_tokens": 378,
+          "output_tokens": 109,
+          "total_tokens": 487
+        },
+        {
+          "input_tokens": 189,
+          "output_tokens": 15,
+          "total_tokens": 204
+        },
+        {
+          "input_tokens": 278,
+          "output_tokens": 18,
+          "total_tokens": 296
+        },
+        {
+          "input_tokens": 388,
+          "output_tokens": 19,
+          "total_tokens": 407
+        },
+        {
+          "input_tokens": 440,
+          "output_tokens": 8,
+          "total_tokens": 448
+        },
+        {
+          "input_tokens": 559,
+          "output_tokens": 27,
+          "total_tokens": 586
+        },
+        {
+          "input_tokens": 614,
+          "output_tokens": 19,
+          "total_tokens": 633
+        },
+        {
+          "input_tokens": 664,
+          "output_tokens": 8,
+          "total_tokens": 672
+        }
+      ]
+    },
+    {
+      "approvals": [
+        {
+          "approved": true,
+          "source": "scripted_fixture"
+        },
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        }
+      ],
+      "ask_handler_calls": 1,
+      "case": "D_R",
+      "checks": {
+        "agent_completed": true,
+        "approved_readback": true,
+        "ask_approved_exact": true,
+        "ask_denied": true,
+        "ask_denied_exact": true,
+        "child_completed": true,
+        "child_denied": true,
+        "context_isolated": true,
+        "escape_denied": true,
+        "exact_workspace_inventory": true,
+        "no_unexpected_workspace_changes": true,
+        "only_approved_handler_executed": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "static_write_still_denied": true,
+        "untrusted_skill_loaded": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 32446.295,
+      "engineering_blocker": false,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 9,
+      "provider_failures": [],
+      "requests": 9,
+      "served_models": [
+        "gpt-6-luna"
+      ],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 8,
+      "trajectory_sha256": "ad0d79e51030e65c18053b7b5e535cc05385f53b783a3d8a98c9c5df86c9171a",
+      "usage": [
+        {
+          "input_tokens": 385,
+          "output_tokens": 15,
+          "total_tokens": 400
+        },
+        {
+          "input_tokens": 477,
+          "output_tokens": 20,
+          "total_tokens": 497
+        },
+        {
+          "input_tokens": 615,
+          "output_tokens": 20,
+          "total_tokens": 635
+        },
+        {
+          "input_tokens": 684,
+          "output_tokens": 77,
+          "total_tokens": 761
+        },
+        {
+          "input_tokens": 118,
+          "output_tokens": 27,
+          "total_tokens": 145
+        },
+        {
+          "input_tokens": 194,
+          "output_tokens": 28,
+          "total_tokens": 222
+        },
+        {
+          "input_tokens": 853,
+          "output_tokens": 63,
+          "total_tokens": 916
+        },
+        {
+          "input_tokens": 991,
+          "output_tokens": 19,
+          "total_tokens": 1010
+        },
+        {
+          "input_tokens": 1038,
+          "output_tokens": 56,
+          "total_tokens": 1094
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "failed": 1,
+    "not_run": 0,
+    "passed": 2,
+    "quota_error": 0,
+    "timeout": 0
+  },
+  "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+  "grader_version": 2,
+  "mode": "real",
+  "preflight": [
+    {
+      "approval_scope": "exact_fixture_operation",
+      "case": "A_R",
+      "child_rounds": null,
+      "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+      "grader_version": 2,
+      "parent_rounds": 11,
+      "remaining": 30,
+      "static_write": "ask",
+      "total_rounds": 11,
+      "used_before": 0
+    },
+    {
+      "approval_scope": "none",
+      "case": "B_R",
+      "child_rounds": 4,
+      "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+      "grader_version": 2,
+      "parent_rounds": 4,
+      "remaining": 21,
+      "static_write": "allow",
+      "total_rounds": 8,
+      "used_before": 9
+    },
+    {
+      "approval_scope": "exact_fixture_operation",
+      "case": "D_R",
+      "child_rounds": 2,
+      "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+      "grader_version": 2,
+      "parent_rounds": 8,
+      "remaining": 13,
+      "static_write": "deny",
+      "total_rounds": 10,
+      "used_before": 17
+    }
+  ],
+  "request_budget": 30,
+  "requested_model": "gpt-6-luna",
+  "requests": 26,
+  "schema_version": 1,
+  "suite": "phase26r",
+  "usage_summary": {
+    "input_tokens": {
+      "known_partial_total": 17379,
+      "known_requests": 26,
+      "unknown_requests": 0
+    },
+    "output_tokens": {
+      "known_partial_total": 906,
+      "known_requests": 26,
+      "unknown_requests": 0
+    },
+    "total_tokens": {
+      "known_partial_total": 18285,
+      "known_requests": 26,
+      "unknown_requests": 0
+    }
+  }
+}

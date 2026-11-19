@@ -1,0 +1,28 @@
+agent-harness-lab
+Copyright (c) 2026 Leno
+Licensed under the MIT License; see LICENSE.
+
+Educational and architectural reference:
+  shareAI-lab/learn-claude-code
+  https://github.com/shareAI-lab/learn-claude-code
+  Reference branch: main
+  Reference commit: ce8f9f186058939da54c9d6fead78dfb5d0fd6c3
+  Copyright (c) 2024 shareAI Lab
+  License: MIT
+
+Phase 0 is independently implemented. No upstream Python implementation was
+copied or executed. This repository is not an official shareAI Lab project.
+The complete, unmodified upstream license is retained in
+licenses/learn-claude-code-MIT.txt, including in source and wheel distributions.
+The reference version and inspected structure are recorded in
+docs/upstream-reference.json and docs/upstream.md.
+
+Future reuse of upstream code or substantial text must preserve its original
+copyright and license notices and be recorded here. The upstream license does
+not imply endorsement of this project.
+
+Phase 1 additionally inspected s01_agent_loop/code.py and s02_tool_use/code.py
+at the same reference commit for feedback-loop and tool-dispatch concepts.
+The bounded runtime, registry, contracts, demo, and tests are independently
+implemented. No upstream Python was copied or executed; file hashes and source
+URLs are recorded in docs/upstream-reference.json.

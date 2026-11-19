@@ -1,0 +1,803 @@
+{
+  "contract": "lqd-policy-quality-3.0.0",
+  "dataset_version": "lqd-m2-public-revised-3.0.2",
+  "corpus_index_sha256": "e54a66cf15711628885acf289e6425c769e6b0f2af8f2463ac32c6b8ddfbf004",
+  "retriever_config_sha256": "5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354",
+  "dataset_sha256": "f16e1ab3db2dd9327f48b720eaa5effacd14a4e1dde49c3426a4310fb46b4a0a",
+  "scope": "PUBLIC_PROSPECTIVE_NON_BLIND_NOT_FORMAL",
+  "historical_M2": "FAIL_UNCHANGED",
+  "revised_formal_quality": "NOT_RUN",
+  "top_k": 3,
+  "ranking_denominator": 12,
+  "recall_at_3": 1.0,
+  "mrr_at_3": 0.9444444444444445,
+  "documentary_denominator": 8,
+  "negative_denominator": 8,
+  "engineering_contract": "PASS",
+  "read_only_state_verified": true,
+  "ranking": [
+    {
+      "query": "first purchase eligibility window",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+        "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+      ]
+    },
+    {
+      "query": "high amount review threshold",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+          "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+        "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+        "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+      ]
+    },
+    {
+      "query": "hard restrictions chargebacks account",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+        "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+      ]
+    },
+    {
+      "query": "permitted simulated states transition",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4",
+        "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ]
+    },
+    {
+      "query": "identity and ownership verification procedure",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+          "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+        "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+        "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+      ]
+    },
+    {
+      "query": "security hold protection policy",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+          "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+          "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa",
+        "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+        "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+      ]
+    },
+    {
+      "query": "required export facts fields",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+          "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+          "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+        "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+        "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+      ]
+    },
+    {
+      "query": "missing evidence incomplete exports",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+          "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+        "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+        "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+      ]
+    },
+    {
+      "query": "purchase window credit eligibility",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ]
+    },
+    {
+      "query": "amount manual review credit",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+          "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+        "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+        "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+      ]
+    },
+    {
+      "query": "restricted chargeback credit prohibition",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 0.3333333333333333,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 3,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+        "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+      ]
+    },
+    {
+      "query": "case state resolved awaiting information",
+      "metrics": {
+        "hit": 1.0,
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "raw_chunk_recall": 1.0,
+        "first_relevant_rank": 1,
+        "covered_units": [
+          "0"
+        ],
+        "missing_units": [],
+        "top3": [
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4",
+          "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ]
+      },
+      "initial_ids": [
+        "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4",
+        "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8",
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-BILL-01@1.0",
+              "eligibility"
+            ],
+            [
+              "POL-BILL-01@1.0",
+              "manual"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 1,
+        "full_reads": 2,
+        "model_rounds": 3,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-BILL-01@1.0",
+              "manual"
+            ],
+            [
+              "POL-BILL-02@1.0",
+              "restrictions"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 1,
+        "full_reads": 2,
+        "model_rounds": 3,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-BILL-02@1.0",
+              "restrictions"
+            ],
+            [
+              "POL-CASE-01@1.0",
+              "states"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+            "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 2,
+        "full_reads": 2,
+        "model_rounds": 5,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-CASE-01@1.0",
+              "states"
+            ],
+            [
+              "POL-BILL-01@1.0",
+              "eligibility"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 2,
+        "full_reads": 2,
+        "model_rounds": 5,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-ACCESS-01@1.0",
+              "verification"
+            ],
+            [
+              "POL-ACCESS-02@1.0",
+              "security"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+            "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 2,
+        "full_reads": 2,
+        "model_rounds": 5,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-ACCESS-02@1.0",
+              "security"
+            ],
+            [
+              "POL-ACCESS-01@1.0",
+              "verification"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+            "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 2,
+        "full_reads": 2,
+        "model_rounds": 5,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+          "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-EXPORT-01@1.0",
+              "scope"
+            ],
+            [
+              "POL-EXPORT-02@1.0",
+              "missing"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+            "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 1,
+        "full_reads": 2,
+        "model_rounds": 3,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+          "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "documentary",
+      "expected": "answerable",
+      "observed": {
+        "decision": {
+          "status": "answerable",
+          "reason": "specified_explanation_only",
+          "covered_sections": [
+            [
+              "POL-EXPORT-02@1.0",
+              "missing"
+            ],
+            [
+              "POL-EXPORT-01@1.0",
+              "scope"
+            ]
+          ],
+          "missing_sections": [],
+          "supported_citation_ids": [
+            "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+            "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+          ],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 1,
+        "full_reads": 2,
+        "model_rounds": 3,
+        "initial_hit_ids": [
+          "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+          "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+        ],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "unsupported_intent_or_facts",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "unsupported_intent_or_facts",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "unsupported_intent_or_facts",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "unsupported_intent_or_facts",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "invalid_or_inapplicable_contract",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "invalid_or_inapplicable_contract",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "invalid_or_inapplicable_contract",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "expected": "not_assessable",
+      "observed": {
+        "decision": {
+          "status": "not_assessable",
+          "reason": "invalid_or_inapplicable_contract",
+          "covered_sections": [],
+          "missing_sections": [],
+          "supported_citation_ids": [],
+          "version": "lqd-specified-answer-1.0.0"
+        },
+        "searches": 0,
+        "full_reads": 0,
+        "model_rounds": 0,
+        "initial_hit_ids": [],
+        "contract": "lqd-policy-resolution-2.0.0",
+        "approval_calls": 0,
+        "commits": 0,
+        "unchanged_state_verified": true
+      },
+      "passed": true
+    }
+  ],
+  "limitations": "Public/non-blind; explicit application-selected documentary intent, not semantic entailment, business facts, permission or initial top3 improvement"
+}

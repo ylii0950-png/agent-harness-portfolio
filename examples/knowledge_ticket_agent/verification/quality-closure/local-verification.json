@@ -1,0 +1,50 @@
+{
+  "profile": "LOCAL_OFFLINE_NOT_FORMAL",
+  "python": {
+    "3.11": {
+      "core_passed": 848,
+      "core_skipped": 1,
+      "demo_passed": 839
+    },
+    "3.12": {
+      "core_passed": 848,
+      "core_skipped": 1,
+      "demo_passed": 839
+    }
+  },
+  "skip": "explicit unavailable preloaded Docker runtime",
+  "focused_new_tests": 29,
+  "ruff": "PASS",
+  "strict_mypy": "PASS",
+  "build_wheel_sdist": "PASS",
+  "clean_install_311_312": "PASS",
+  "original_core_and_m4": "UNCHANGED",
+  "sealed_M5": "NOT_RUN",
+  "M2F_reruns": 0,
+  "new_live": "NOT_RUN_BEFORE_INTEGRATION",
+  "source_digests": {
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/agent_tools.py": "9c43ec1c3a0bfc8a6a395fcfb4ea300ff5f24641763992768552b000263f0b58",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/approvals.py": "128be377e30b8d1a61e90e56b637457a0a2e633dd902192c20a79f308db57a7c",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/business_evaluation.py": "780e92e3ef9a80debd0fdaf8253771011726f3eeca8a022082ce5aff92a7dc4b",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_preflight.py": "9cc5e225d0d54f269bb1352bca81ebf63c7f9184134fe03ccc31867a61e38b42",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_runtime.py": "12ca117369c8fd57a3f6a0212ab4069435e3813e77b0e8708d2fdfdf0e1b312a",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_scope.py": "3d774c2a2216344fc024e3938f040857491b31d8b5de9ca066471d8b4d540934",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/formal_evaluation.py": "0f74c4c7aaf8662b4ebeb4492cf3b36670ac2cf5050a56c598dd0d97b9266810",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/formal_scope.py": "3e74863150f8e5f602a5af8446c5fbfe30a8b928687a9c0b6e949120d678e5ae",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/quality_acceptance.py": "131873277bd09fc0655efaf907f20f1f0bf62124ac08cf6f506945ce499cf295",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/quality_evidence.py": "9da6c3f3806dcd11f1bc309e965c02251b5673819604c5fb64c736193b150f96",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/refusal_campaign.py": "7dd5e7f38d89a80b4dcca8880a38fcb9752cfd516be83a55e2ab6e1038b25234",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/rules.py": "d2e02baf5c4bc2db2bc5a168a77fff0387ac5f948e39a5ce110c6e85b15699d4",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/workflow_controller.py": "c1c8deed7337ae7c8df01bc75e6fe3fd225f762d63582310be81202efa1ee360",
+    "examples/knowledge_ticket_agent/tests/test_quality_closure.py": "00d2c5ca710fb4a58497cdb3ba860ac59af860e44aed8648dc1ad2f4f88f46a0"
+  },
+  "local_log_sha256": {
+    "full-core312.log": "da5c371534cdf7ff17ce9155d92fff04e3f4962ad34d0acb2df64a5e92544bde",
+    "full-core311.log": "b5e4bc0e6ee14d00d20a1334b8d6545a4199f5c5146d60fd552164714432bd2a",
+    "full-mypy-demo.log": "9ad320a85ca21c0eff33d60d04b500d1f61878a0511449d431cc57cbc0d0a44d",
+    "full-demo312.log": "833b9cd74dd64229783c0a7c1ce8efe72b39140359210bd6cdf9daf1e1f53e5b",
+    "full-demo311.log": "9dd55ac5dac04b8dec5e7aa3a7206fedac47cd019cca947e9e60a8741661c36e",
+    "full-mypy-core.log": "092e5eb1e45e241cfabcc8c61bcc544108ae075fc01d13940b2b24013bbd1e3a",
+    "full-ruff.log": "8e3147c5c48def10dd8486d03e26057c5a2bb86c11a9698ef980cf841effc5b9"
+  }
+}

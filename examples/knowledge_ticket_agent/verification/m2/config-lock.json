@@ -1,0 +1,11 @@
+{
+  "stage": "after-dev-before-first-sealed-evaluation",
+  "config_version": "lqd-lexical-1.0.0",
+  "k1": "1.2",
+  "b": "0.75",
+  "tuning_runs": 0,
+  "dev_runs": 1,
+  "selection": "retain approved initial parameters; no parameter sweep",
+  "gold_freeze_commit": "1a92f9e",
+  "sealed_scores_seen_at_lock": false
+}

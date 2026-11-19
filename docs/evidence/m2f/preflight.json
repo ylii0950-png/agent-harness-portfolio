@@ -1,0 +1,302 @@
+{
+  "checks": {
+    "independent-review": {
+      "command": [
+        "independent reviewer actual checks; see log"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/independent-review.log",
+      "sha256": "2fb8b62e7dd0c508c43ddff55993a58416b30c74f1f05c0d0249dedca5249382"
+    },
+    "py311-build": {
+      "command": [
+        "uv",
+        "build",
+        "--no-build-isolation",
+        "--python",
+        ".venv-m2f-py311/bin/python"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-build.log",
+      "sha256": "c05e28c97365c8f59a519149a689a031ddb5c4a6ef01543cf97a88b036ae50be"
+    },
+    "py311-clean": {
+      "command": [
+        ".venv-m2f-clean-py311/bin/python",
+        "-c",
+        "import importlib.util, json, sys\nfrom knowledge_ticket_agent import load_dataset\nfrom knowledge_ticket_agent.evaluation_integrity import verify_frozen_inputs\nfrom knowledge_ticket_agent.retrieval_strategies import StrategyRetriever, strategy\nfrom knowledge_ticket_agent.schemas import Category\nfrom knowledge_ticket_agent.citations import cite, verify_citation\nassert importlib.util.find_spec(\"cryptography\") is None\nr = StrategyRetriever(load_dataset(), config=strategy(\"A1\"))\nresult = r.search(\"first purchase credit\", category=Category.BILLING)\nassert result.hits\nfor h in result.hits:\n    verify_citation(cite(r, h.chunk_id, category=Category.BILLING), load_dataset(), r, category=Category.BILLING)\nassert verify_frozen_inputs(__import__(\"pathlib\").Path.cwd())[\"status\"] == \"PASS\"\nimport knowledge_ticket_agent.formal_operator\nprint(json.dumps({\"python\":sys.version.split()[0],\"clean_local_wheels\":\"PASS\", \"private_data_loaded\":False,\"cryptography_absent\":True,\"source_citations\":len(result.hits)}))\n"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-clean.log",
+      "sha256": "f256c3e8366821227a1de627dd895e409b406963257b7a75b233ac4ecdaa04db"
+    },
+    "py311-core": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-core.log",
+      "sha256": "b0cf6d8902926f637aee1e322b8788078a91ec299b0514dc5e05f72a7668b076"
+    },
+    "py311-demo": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "pytest",
+        "-c",
+        "examples/knowledge_ticket_agent/pyproject.toml",
+        "examples/knowledge_ticket_agent/tests"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-demo.log",
+      "sha256": "acd8f268865ea09f7b6f51cb3570b1a1284e42c18350f11bb32f16a9a597c2a9"
+    },
+    "py311-demo-build": {
+      "command": [
+        "uv",
+        "build",
+        "--project",
+        "examples/knowledge_ticket_agent",
+        "--no-build-isolation",
+        "--python",
+        ".venv-m2f-py311/bin/python"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-demo-build.log",
+      "sha256": "6903c83a2d47498bafd46b21bb2aafaef471d1f2e2ec031205552ad55370936d"
+    },
+    "py311-demo-mypy": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "mypy",
+        "--strict",
+        "examples/knowledge_ticket_agent/src",
+        "examples/knowledge_ticket_agent/tests"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-demo-mypy.log",
+      "sha256": "92435112eb200c328d10cbc7665e1f0f5df3ce49b468e1aafc70a19518cae775"
+    },
+    "py311-format": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-format.log",
+      "sha256": "90eed93f6ffbe0a9111698a2f6bb6f64a3a96ee972cdae5f51035dc8061c30a0"
+    },
+    "py311-lint": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-lint.log",
+      "sha256": "6019c3821b373daf6917e8637c8f1c7e50ffd3b89fd1747ee45c614db6b82459"
+    },
+    "py311-mypy": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "mypy"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py311-mypy.log",
+      "sha256": "fd5049f14dcbf435c801be15f91c3a58027b845595f94e4fdc63b3aa0f78dc80"
+    },
+    "py312-build": {
+      "command": [
+        "uv",
+        "build",
+        "--no-build-isolation",
+        "--python",
+        ".venv-m2f-py312/bin/python"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-build.log",
+      "sha256": "b48ddb041edccd0dd7cfaf9eaa8d878340d4b77ec8dbd8a50799f200ee5b5a89"
+    },
+    "py312-clean": {
+      "command": [
+        ".venv-m2f-clean-py312/bin/python",
+        "-c",
+        "import importlib.util, json, sys\nfrom knowledge_ticket_agent import load_dataset\nfrom knowledge_ticket_agent.evaluation_integrity import verify_frozen_inputs\nfrom knowledge_ticket_agent.retrieval_strategies import StrategyRetriever, strategy\nfrom knowledge_ticket_agent.schemas import Category\nfrom knowledge_ticket_agent.citations import cite, verify_citation\nassert importlib.util.find_spec(\"cryptography\") is None\nr = StrategyRetriever(load_dataset(), config=strategy(\"A1\"))\nresult = r.search(\"first purchase credit\", category=Category.BILLING)\nassert result.hits\nfor h in result.hits:\n    verify_citation(cite(r, h.chunk_id, category=Category.BILLING), load_dataset(), r, category=Category.BILLING)\nassert verify_frozen_inputs(__import__(\"pathlib\").Path.cwd())[\"status\"] == \"PASS\"\nimport knowledge_ticket_agent.formal_operator\nprint(json.dumps({\"python\":sys.version.split()[0],\"clean_local_wheels\":\"PASS\", \"private_data_loaded\":False,\"cryptography_absent\":True,\"source_citations\":len(result.hits)}))\n"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-clean.log",
+      "sha256": "935023f10b4f53a26590f319488b38a598381e567a7181d28c78c90e74c00ae6"
+    },
+    "py312-core": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-core.log",
+      "sha256": "d32ebd5432f944cc435fd573d8156b2c6e84131c044412dd1196b34b2b8778d4"
+    },
+    "py312-demo": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "pytest",
+        "-c",
+        "examples/knowledge_ticket_agent/pyproject.toml",
+        "examples/knowledge_ticket_agent/tests"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-demo.log",
+      "sha256": "c9ef908de1e318bf4fdd5ccd13816baec052d8dd47daec57e2671f75293c4119"
+    },
+    "py312-demo-build": {
+      "command": [
+        "uv",
+        "build",
+        "--project",
+        "examples/knowledge_ticket_agent",
+        "--no-build-isolation",
+        "--python",
+        ".venv-m2f-py312/bin/python"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-demo-build.log",
+      "sha256": "0b7c8ddfcdb66f60bc79b1415a5d6489d136174aa2b8bbf7463c2f41593aa053"
+    },
+    "py312-demo-mypy": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "mypy",
+        "--strict",
+        "examples/knowledge_ticket_agent/src",
+        "examples/knowledge_ticket_agent/tests"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-demo-mypy.log",
+      "sha256": "fdba5b4e396441aaf1ba0d4aee9a2b6de7229057c665772ec81bd032ce1cc3f5"
+    },
+    "py312-format": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-format.log",
+      "sha256": "cbf25ae91c68d20f19db932f5e95f200d9f73887d65e4fe6713bac7860b15e79"
+    },
+    "py312-lint": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-lint.log",
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "py312-mypy": {
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "mypy"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/py312-mypy.log",
+      "sha256": "3bce484934e38822ff7a68a9eb1d47d2dd53c92386f38d0dd24152acfb6fab7c"
+    },
+    "synthetic-rehearsal": {
+      "command": [
+        ".venv-m2f-py312/bin/python",
+        "-m",
+        "pytest",
+        "-c",
+        "examples/knowledge_ticket_agent/pyproject.toml",
+        "examples/knowledge_ticket_agent/tests/test_m2f_formal.py"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/m2f-20261025/synthetic-rehearsal.log",
+      "sha256": "eb4992d457073afb904090913aed8fa25412d298f593c432b78539c4d1f6940e"
+    }
+  },
+  "core_passed_per_version": 788,
+  "demo_passed_per_version": 453,
+  "failures": 0,
+  "formal_scoring_at_receipt": "NOT_RUN; custody gates checked by Operator before execution",
+  "implementation": {
+    "docs/phase3-m2f-protocol.md": "170840e0629bab7fac20366ed3950dca3ee9fd9665dc07c54187beb93aad92c4",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/__init__.py": "6490e3afef97a981f725ca398d78f4df1d72b65e3eb51dcfb0b5ebfaa0b4ab12",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/chunking.py": "946a5db3ce8e59698eab87561c3f41c179f9fc4afe3c0d298af6092bc210d140",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/citations.py": "e2391c73d465b6d975bdf154204d9d07338519ceb0bd27e618f84ad13c34b361",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/cli.py": "c297d3b87924c2fe398a4b87a0a4139fd3ab080fc53341df0462eae3f05f9250",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_cli.py": "e1099513f8fc9a259f6c4ad2846353639d667eeff509ec458fcab4cb2c5c6380",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_custody.py": "bb6d34f743ba8b8806a7d221f4e761278986f9fa05edd4a7d72a172fd1defaf8",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_integrity.py": "2d248f7a58d7e94533caa5bf3bb9e334d7ed98b963c64e025f14e22095268643",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_maintenance.py": "7068ebe07b71a85cc2873a374a391727c0c417cdd98807ecd4be794ef896d1c4",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_rehearsal.py": "a733b78fac3038559341ced72e9e43abeabef6064f1e13396878efb4866246a7",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evidence.py": "486d73da3487418d9e49113ec1e18bcea4c2ce1e695d2466748cae1994432b0f",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/formal_ledger.py": "f4d370ddca355130d77ade175c66cd7e0d74383af6a5b96b16a719d0755dcadd",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/formal_operator.py": "28af87ab9dbc920b71d6289d5cb292abfe5f7ea7ffcd12074fddb3cbc39ada00",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/formal_scoring.py": "f84ef2441794415b0c77870763658e3a43a03c80303b376d4e80d26e039a45e3",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/gold.py": "7328b1f9ed839eaf7f562ea8ed8128531ee03d584201950136361aa54ffd37dc",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/loaders.py": "6db3ccbfc6ec381a571bac1e38af33e0f71de45ef459759098f0f4e9c0818bfa",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval.py": "1a1140af7fb5abb6a6c072306f314c4402262bf46f2246f0925db1a01ca5a5fd",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_cli.py": "e8f26ddc99e03ba0d9bd517304dabe192a7a089b704320f98face7d385507702",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_dev.py": "4b2f36a45f00b13f3266299d602b857a8a2f088c6ffeab2783c444b292a95269",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_eval.py": "72ddd16a8cb123f9763a00b72f77efbdbcfeac4022baa085e68f5e055cc9c855",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_gold.py": "405ca225aeef116e32f494f3c1253df3f0a531885b703ddad7d95d204f1dd300",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_strategies.py": "0b68a1d881f41b5c32aad9c978b7122540cb21cff1c3e5cfdc276d3b6ea7c6f3",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_v2_cli.py": "0bbcceae0e36b916c44c7c3cb249e4ae0c94f52a66e9f84c747079f0b12d5852",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/schemas.py": "951773f2087c9cb4360dd4d82685f935c8d404159ba7f00d61e023cfac67f7da",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/strict.py": "bf4a88a171acb067c6cb4466a74da58f71be4e923c256244811968ae6b100d82",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/validation.py": "caab545116b5ce035f272b3e73f2c0cfef42edd27858ac6ea316ffec5ecaffeb",
+    "examples/knowledge_ticket_agent/tests/test_m2f_formal.py": "1af3a8ce21afbad90622da2404ca7868fa18eb5c75a1fa35e76609ec0c4e9091"
+  },
+  "independent_review": "PASS;52 targeted tests; no private access",
+  "model_requests": 0,
+  "new_synthetic_tests": 38,
+  "platform": "Darwin arm64",
+  "process_separation": "NON_BLIND_SAME_UID",
+  "protocol": "lqd-formal-offline-1.0.0",
+  "python_versions": [
+    "3.11.17",
+    "3.12.15"
+  ],
+  "release": "lqd-heldout-retrieval-2.0.0",
+  "retained_preflight_failure": {
+    "error_code": "formal_artifacts",
+    "fix": "Require current four artifacts; additionally scan retained historical archives, ignore nonarchives; delete nothing.",
+    "formal_claim_created": false
+  },
+  "skipped": 0,
+  "status": "PASS"
+}

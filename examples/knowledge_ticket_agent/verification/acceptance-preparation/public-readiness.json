@@ -1,0 +1,92 @@
+{
+  "profile": "PUBLIC_SUBSTITUTES_NOT_INDEPENDENT_NOT_FORMAL",
+  "M2": {
+    "contract": "lqd-policy-quality-formal-1.0.0",
+    "input_version": "PUBLIC-SUBSTITUTE-NOT-INDEPENDENT-1",
+    "gold_version": "PUBLIC-GOLD-1",
+    "denominators": [
+      12,
+      8,
+      8
+    ],
+    "scope": "PUBLIC_REHEARSAL_NOT_FORMAL",
+    "revised_formal_quality": "NOT_RUN",
+    "recall_at_3": 1.0,
+    "mrr_at_3": 0.9444444444444445,
+    "documentary_passed": 8,
+    "negative_passed": 8
+  },
+  "M5": {
+    "business_declarations_passed": 24,
+    "denominators": [
+      18,
+      20,
+      24
+    ],
+    "required_evidence_macro": 1.0,
+    "retrieval_macro": {
+      "hit": 1.0,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5277777777777778,
+      "raw_chunk_recall": 1.0
+    },
+    "quality_thresholds_satisfied": false,
+    "formal_result": "NOT_RUN",
+    "raw_receipt_outcomes": {
+      "KT-E01": "business_success",
+      "KT-E02": "business_success",
+      "KT-E03": "business_success",
+      "KT-E04": "business_success",
+      "KT-E05": "business_success",
+      "KT-E06": "business_success",
+      "KT-E07": "business_success",
+      "KT-E08": "business_success",
+      "KT-E09": "permission_denial",
+      "KT-E10": "permission_denial",
+      "KT-E11": "permission_denial",
+      "KT-E12": "permission_denial",
+      "KT-E13": "permission_denial",
+      "KT-E14": "permission_denial",
+      "KT-E15": "permission_denial",
+      "KT-E16": "permission_denial",
+      "KT-E17": "permission_denial",
+      "KT-E18": "permission_denial",
+      "KT-E19": "permission_denial",
+      "KT-E20": "permission_denial",
+      "KT-E21": "expected_denial",
+      "KT-E22": "expected_denial",
+      "KT-E23": "tool_error",
+      "KT-E24": "expected_denial"
+    }
+  },
+  "actual_report_sha256": {
+    "M2": "5a3af80fb8ef39e853e798f286a877bde43a08cd1aeac1cfab0c0b8e2d47e43b",
+    "M5": "9ba80f70679817aeaf9538a7f22a6b4cca06a4b197606d6d6cc3bc4a0d276d33"
+  },
+  "local_checks": {
+    "python311": {
+      "core_passed": 848,
+      "core_skipped": 1,
+      "demo_passed": 862
+    },
+    "python312": {
+      "core_passed": 848,
+      "core_skipped": 1,
+      "demo_passed": 862
+    },
+    "focused_passed": 52,
+    "ruff": "PASS",
+    "strict_mypy": "PASS",
+    "build_parity_core_demo_files": [
+      59,
+      80
+    ],
+    "clean_install_both_pythons": "PASS",
+    "structural_CLI_both_purposes": "PASS_NO_CLAIMS"
+  },
+  "production_claims_created": 0,
+  "formal_runs": 0,
+  "new_live_requests": 0,
+  "historical_M2": "FAIL_UNCHANGED",
+  "remaining": "Independent data/Gold freeze, custodian attestation, exact post-merge release lock, M2 dependency decision and new PO scoring authority"
+}

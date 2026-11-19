@@ -1,0 +1,667 @@
+{
+  "version": "lqd-m2r-dev-1.0.0",
+  "source_gold_sha256": "33672036fbfcf70f2b9f66eb36faf76c40067b2b22ab0b872e532dfde7092fa9",
+  "manifest_sha256": "52a13a1b0b0eae835fde7f27612b14dea57d8ecbf457aa21dd49d26127d856c9",
+  "index_sha256": "e54a66cf15711628885acf289e6425c769e6b0f2af8f2463ac32c6b8ddfbf004",
+  "metrics_version": "lqd-evidence-metrics-1.0.0",
+  "cases": [
+    {
+      "case_id": "KT-D01",
+      "split": "dev",
+      "query_id": "Q-D01",
+      "query": "Is this first purchase at the ordinary time and amount boundary eligible for simulated credit guidance?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D02",
+      "split": "dev",
+      "query_id": "Q-D02",
+      "query": "What policy explains a Solo credit request arriving one calendar day after the ordinary window?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D03",
+      "split": "dev",
+      "query_id": "Q-D03",
+      "query": "Which review route applies to a first purchase just above the lower amount band?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D04",
+      "split": "dev",
+      "query_id": "Q-D04",
+      "query": "What restriction applies when a first purchase invoice has already been credited?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D05",
+      "split": "dev",
+      "query_id": "Q-D05",
+      "query": "How does the authorized Team exception affect a request at the extended time boundary?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-EX1",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-EX1",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+        "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ],
+      "minimum_chunks": 2
+    },
+    {
+      "case_id": "KT-D06",
+      "split": "dev",
+      "query_id": "Q-D06",
+      "query": "What route applies at the upper edge of the high-amount review band?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D07",
+      "split": "dev",
+      "query_id": "Q-D07",
+      "query": "Can an amount above the upper credit review limit qualify for guidance?",
+      "category": "billing_refund",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "BILL-03",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+            ]
+          ]
+        },
+        {
+          "unit_id": "BILL-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D08",
+      "split": "dev",
+      "query_id": "Q-D08",
+      "query": "What trusted identity and ownership facts are required for account access guidance?",
+      "category": "account_access",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "ACCESS-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "ACCESS-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+            ]
+          ]
+        },
+        {
+          "unit_id": "ACCESS-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D09",
+      "split": "dev",
+      "query_id": "Q-D09",
+      "query": "How should support respond to an account access request from a tenant member?",
+      "category": "account_access",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "ACCESS-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "ACCESS-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+            ]
+          ]
+        },
+        {
+          "unit_id": "ACCESS-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D10",
+      "split": "dev",
+      "query_id": "Q-D10",
+      "query": "Which policy governs export guidance for a verified owner of their own workspace?",
+      "category": "data_export",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "EXPORT-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "EXPORT-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+            ]
+          ]
+        },
+        {
+          "unit_id": "EXPORT-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+            ]
+          ]
+        },
+        {
+          "unit_id": "ACCESS-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D11",
+      "split": "dev",
+      "query_id": "Q-D11",
+      "query": "What missing identity evidence blocks an otherwise scoped workspace export request?",
+      "category": "data_export",
+      "snapshot": "normal",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "EXPORT-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "EXPORT-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+            ]
+          ]
+        },
+        {
+          "unit_id": "EXPORT-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+            ]
+          ]
+        },
+        {
+          "unit_id": "ACCESS-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+      ],
+      "minimum_chunks": 1
+    },
+    {
+      "case_id": "KT-D12",
+      "split": "dev",
+      "query_id": "Q-D12",
+      "query": "How should contradictory equal-priority retention statements be handled before giving export advice?",
+      "category": "data_export",
+      "snapshot": "conflict",
+      "positive": true,
+      "required_coverage": true,
+      "units": [
+        {
+          "unit_id": "CONFLICT-A",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CONFLICT-B",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+            ]
+          ]
+        }
+      ],
+      "required_units": [
+        {
+          "unit_id": "CONFLICT-A",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CONFLICT-B",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+            ]
+          ]
+        },
+        {
+          "unit_id": "EXPORT-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+            ]
+          ]
+        },
+        {
+          "unit_id": "EXPORT-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+            ]
+          ]
+        },
+        {
+          "unit_id": "ACCESS-02",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+            ]
+          ]
+        },
+        {
+          "unit_id": "CASE-01",
+          "alternatives": [
+            [
+              "lqd-section-1.0.0:POL-CASE-01@1.0:states:part01:326368d4f4b3dd33025ed70c620f1736708088b5d9f5db2972dc19d402f3eeb4"
+            ]
+          ]
+        }
+      ],
+      "relevant_chunks": [
+        "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+        "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+      ],
+      "minimum_chunks": 2
+    }
+  ]
+}

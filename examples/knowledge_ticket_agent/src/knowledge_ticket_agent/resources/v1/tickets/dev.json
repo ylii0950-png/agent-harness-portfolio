@@ -1,0 +1,271 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "version": "lqd-data-1.0.0",
+  "tickets": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D01",
+      "split": "dev",
+      "customer_id": "SYN-CUST-06",
+      "tenant_id": "SYN-TENANT-03",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D01",
+      "body": "Is this first purchase at the ordinary time and amount boundary eligible for simulated credit guidance?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D01",
+        "trusted_identity_ref": "SYN-CUST-06",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D02",
+      "split": "dev",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D02",
+      "body": "What policy explains a Solo credit request arriving one calendar day after the ordinary window?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D02",
+        "trusted_identity_ref": "SYN-CUST-01",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D03",
+      "split": "dev",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D03",
+      "body": "Which review route applies to a first purchase just above the lower amount band?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D03",
+        "trusted_identity_ref": "SYN-CUST-01",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D04",
+      "split": "dev",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D04",
+      "body": "What restriction applies when a first purchase invoice has already been credited?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D04",
+        "trusted_identity_ref": "SYN-CUST-01",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D05",
+      "split": "dev",
+      "customer_id": "SYN-CUST-02",
+      "tenant_id": "SYN-TENANT-02",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D05",
+      "body": "How does the authorized Team exception affect a request at the extended time boundary?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D05",
+        "trusted_identity_ref": "SYN-CUST-02",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": "BILL-EX1"
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D06",
+      "split": "dev",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D06",
+      "body": "What route applies at the upper edge of the high-amount review band?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D06",
+        "trusted_identity_ref": "SYN-CUST-01",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D07",
+      "split": "dev",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D07",
+      "body": "Can an amount above the upper credit review limit qualify for guidance?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": "SYN-INV-D07",
+        "trusted_identity_ref": "SYN-CUST-01",
+        "requested_action": "credit_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D08",
+      "split": "dev",
+      "customer_id": "SYN-CUST-06",
+      "tenant_id": "SYN-TENANT-03",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D08",
+      "body": "What trusted identity and ownership facts are required for account access guidance?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": null,
+        "trusted_identity_ref": "SYN-CUST-06",
+        "requested_action": "access_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D09",
+      "split": "dev",
+      "customer_id": "SYN-CUST-03",
+      "tenant_id": "SYN-TENANT-02",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D09",
+      "body": "How should support respond to an account access request from a tenant member?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": null,
+        "trusted_identity_ref": "SYN-CUST-03",
+        "requested_action": "access_guidance",
+        "request_scope": null,
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D10",
+      "split": "dev",
+      "customer_id": "SYN-CUST-06",
+      "tenant_id": "SYN-TENANT-03",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D10",
+      "body": "Which policy governs export guidance for a verified owner of their own workspace?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": null,
+        "trusted_identity_ref": "SYN-CUST-06",
+        "requested_action": "export_guidance",
+        "request_scope": "own_workspace",
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D11",
+      "split": "dev",
+      "customer_id": "SYN-CUST-04",
+      "tenant_id": "SYN-TENANT-03",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D11",
+      "body": "What missing identity evidence blocks an otherwise scoped workspace export request?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": null,
+        "trusted_identity_ref": "SYN-CUST-04",
+        "requested_action": "export_guidance",
+        "request_scope": "own_workspace",
+        "exception_id": null
+      }
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "ticket_id": "KT-D12",
+      "split": "dev",
+      "customer_id": "SYN-CUST-06",
+      "tenant_id": "SYN-TENANT-03",
+      "submitted_at": "2031-04-15T12:00:00Z",
+      "revision": 0,
+      "status": "open",
+      "last_action_id": null,
+      "subject": "Fictional support request D12",
+      "body": "How should contradictory equal-priority retention statements be handled before giving export advice?",
+      "claimed_category": null,
+      "facts": {
+        "invoice_id": null,
+        "trusted_identity_ref": "SYN-CUST-06",
+        "requested_action": "export_guidance",
+        "request_scope": "own_workspace",
+        "exception_id": null
+      }
+    }
+  ]
+}

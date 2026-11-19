@@ -1,0 +1,214 @@
+{
+  "actual_cost": null,
+  "cases": [
+    {
+      "approvals": [
+        {
+          "approved": true,
+          "source": "scripted_fixture"
+        },
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        }
+      ],
+      "case": "A",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": true,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "final_plan_completed": true,
+        "four_explicit_updates": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": true,
+        "source_read": true,
+        "todo_follows_verified_actions": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 3.741,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 4,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 9,
+      "trajectory_sha256": "70a11f2d90316992a6135cba9fe390734e2e497af495d8ca10c2a0341e05ca4f",
+      "usage": null
+    },
+    {
+      "approvals": [],
+      "case": "B",
+      "checks": {
+        "agent_completed": true,
+        "child_completed": true,
+        "child_discovered": true,
+        "child_loaded": true,
+        "child_read": true,
+        "child_read_only": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "parent_did_not_bypass_child": true,
+        "parent_used_result": true,
+        "receipt_exact": true,
+        "structured_child_code": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 3.662,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 6,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 6,
+      "trajectory_sha256": "35b60e07bfadcd73c6904660774ba11cef399eef9b03bda6f80437f98fc31fd1",
+      "usage": null
+    },
+    {
+      "approvals": [],
+      "case": "C_off",
+      "checks": {
+        "agent_completed": true,
+        "both_inputs_read": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "receipt_exact": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 2.441,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 4,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 3,
+      "trajectory_sha256": "6db902842fad535f1fb426155ecea570fac88f416f8a813660300dc3f902c580",
+      "usage": null
+    },
+    {
+      "approvals": [],
+      "case": "C_on",
+      "checks": {
+        "agent_completed": true,
+        "both_inputs_read": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "receipt_exact": true
+      },
+      "compaction_count": 1,
+      "context_estimates": [
+        {
+          "compacted_results": 1,
+          "estimated_after": 3443,
+          "estimated_before": 8443
+        }
+      ],
+      "elapsed_ms": 2.612,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 4,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 3,
+      "trajectory_sha256": "6db902842fad535f1fb426155ecea570fac88f416f8a813660300dc3f902c580",
+      "usage": null
+    },
+    {
+      "approvals": [
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        }
+      ],
+      "case": "D",
+      "checks": {
+        "agent_completed": true,
+        "ask_denied": true,
+        "child_completed": true,
+        "child_denied": true,
+        "context_isolated": true,
+        "escape_denied": true,
+        "exact_workspace_inventory": true,
+        "no_authorized_write": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "untrusted_skill_loaded": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 3.314,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 6,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 6,
+      "trajectory_sha256": "72c1176a37e6134ede8837b502fd9820b83581cc44c5052add428889f1f4a4b1",
+      "usage": null
+    }
+  ],
+  "compaction_ab": {
+    "causal_claim": "none_single_pair_no_seed_control",
+    "same_fixture_and_prompt": true,
+    "same_observed_tool_shape": true,
+    "triggered": true
+  },
+  "counts": {
+    "failed": 0,
+    "not_run": 0,
+    "passed": 5,
+    "quota_error": 0,
+    "timeout": 0
+  },
+  "fixture_sha256": "b66feb2c42c6aacdacaedbc8157fd851d7d24774962aebffadc7a6391f07c6f9",
+  "grader_version": 1,
+  "mode": "mock",
+  "request_budget": null,
+  "requested_model": null,
+  "requests": null,
+  "schema_version": 1,
+  "usage_summary": {
+    "input_tokens": {
+      "known_partial_total": null,
+      "known_requests": 0,
+      "unknown_requests": 0
+    },
+    "output_tokens": {
+      "known_partial_total": null,
+      "known_requests": 0,
+      "unknown_requests": 0
+    },
+    "total_tokens": {
+      "known_partial_total": null,
+      "known_requests": 0,
+      "unknown_requests": 0
+    }
+  }
+}

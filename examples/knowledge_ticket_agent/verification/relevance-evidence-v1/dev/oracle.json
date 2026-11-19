@@ -1,0 +1,1354 @@
+{
+  "version": "public-relevance-dev-1.0.0",
+  "cases": [
+    {
+      "id": "RCE-D-00-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-00-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-00-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-00-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-00-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-00-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-01-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-01-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-01-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-01-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-01-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-01-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-02-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-02-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-02-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-02-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-02-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-02-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-03-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-03-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-03-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-03-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-03-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-03-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-04-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-04-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-04-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-04-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-04-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-04-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-05-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-05-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-05-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-05-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-05-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-05-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-06-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-06-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-06-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-06-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-06-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-06-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-07-0",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-07-1",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-07-2",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-07-3",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-07-4",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "conditions"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "single"
+    },
+    {
+      "id": "RCE-D-07-5",
+      "units": [
+        {
+          "id": "conditions",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "conditions"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "records"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "multi"
+    },
+    {
+      "id": "RCE-D-N-0-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-0-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-0-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-1-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-1-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-1-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-2-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-2-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-2-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-3-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-3-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-3-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-4-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-4-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-4-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-5-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-5-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-5-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-6-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-6-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-6-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-7-en",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-7-zh",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    },
+    {
+      "id": "RCE-D-N-7-mixed",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "RCE-D-E-complete-0",
+      "expected": "supported",
+      "reason": "complete"
+    },
+    {
+      "id": "RCE-D-E-partial-0",
+      "expected": "insufficient",
+      "reason": "partial"
+    },
+    {
+      "id": "RCE-D-E-missing-0",
+      "expected": "insufficient",
+      "reason": "missing"
+    },
+    {
+      "id": "RCE-D-E-contradiction-0",
+      "expected": "not_assessable",
+      "reason": "contradiction"
+    },
+    {
+      "id": "RCE-D-E-conditional_nonconflict-0",
+      "expected": "supported",
+      "reason": "conditional_nonconflict"
+    },
+    {
+      "id": "RCE-D-E-complete-1",
+      "expected": "supported",
+      "reason": "complete"
+    },
+    {
+      "id": "RCE-D-E-partial-1",
+      "expected": "insufficient",
+      "reason": "partial"
+    },
+    {
+      "id": "RCE-D-E-missing-1",
+      "expected": "insufficient",
+      "reason": "missing"
+    },
+    {
+      "id": "RCE-D-E-contradiction-1",
+      "expected": "not_assessable",
+      "reason": "contradiction"
+    },
+    {
+      "id": "RCE-D-E-conditional_nonconflict-1",
+      "expected": "supported",
+      "reason": "conditional_nonconflict"
+    },
+    {
+      "id": "RCE-D-E-complete-2",
+      "expected": "supported",
+      "reason": "complete"
+    },
+    {
+      "id": "RCE-D-E-partial-2",
+      "expected": "insufficient",
+      "reason": "partial"
+    },
+    {
+      "id": "RCE-D-E-missing-2",
+      "expected": "insufficient",
+      "reason": "missing"
+    },
+    {
+      "id": "RCE-D-E-contradiction-2",
+      "expected": "not_assessable",
+      "reason": "contradiction"
+    },
+    {
+      "id": "RCE-D-E-conditional_nonconflict-2",
+      "expected": "supported",
+      "reason": "conditional_nonconflict"
+    }
+  ]
+}

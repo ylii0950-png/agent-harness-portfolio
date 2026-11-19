@@ -1,0 +1,499 @@
+{
+  "version": "lqd-vnext-public-dev-1.0.0",
+  "scope": "PUBLIC_ENGINEERING_AUTHORED_FICTION_NOT_INDEPENDENT_ACCEPTANCE",
+  "topics": [
+    {
+      "title": "equipment loan extension",
+      "rule": "Borrowed laboratory devices can be kept for six extra days after a supervisor signs an extension request.",
+      "record": "Staff record the request, requester and decision in the service log for equipment loan extension."
+    },
+    {
+      "title": "equipment loss replacement",
+      "rule": "If a borrowed laboratory device is lost, the borrower submits a replacement voucher. An extension form cannot settle a missing device.",
+      "record": "Staff record the request, requester and decision in the service log for equipment loss replacement."
+    },
+    {
+      "title": "meeting room cancellation notice",
+      "rule": "A reserved meeting room can be cancelled without a charge until noon two business days before the meeting.",
+      "record": "Staff record the request, requester and decision in the service log for meeting room cancellation notice."
+    },
+    {
+      "title": "meeting room damage charge",
+      "rule": "Damage to a reserved meeting room is charged after a staff inspection. Cancelling the reservation does not remove a damage charge.",
+      "record": "Staff record the request, requester and decision in the service log for meeting room damage charge."
+    },
+    {
+      "title": "travel advance reconciliation",
+      "rule": "An employee settles money received before a business trip by submitting itemized receipts within eleven days after returning.",
+      "record": "Staff record the request, requester and decision in the service log for travel advance reconciliation."
+    },
+    {
+      "title": "travel expense preapproval",
+      "rule": "Before buying travel tickets with personal money, an employee obtains written authorization from the budget owner. Receipts alone do not replace prior authorization.",
+      "record": "Staff record the request, requester and decision in the service log for travel expense preapproval."
+    },
+    {
+      "title": "archive collection delegate",
+      "rule": "A named representative can collect a physical archive parcel with a collection slip registered by its requester.",
+      "record": "Staff record the request, requester and decision in the service log for archive collection delegate."
+    },
+    {
+      "title": "archive destruction consent",
+      "rule": "A paper archive is destroyed only after written consent from its records owner. A collection slip cannot authorize destruction.",
+      "record": "Staff record the request, requester and decision in the service log for archive destruction consent."
+    }
+  ],
+  "cases": [
+    {
+      "id": "VN-DEV-01-canonical",
+      "topic": 0,
+      "variant": "canonical",
+      "query": "equipment loan extension",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-01-paraphrase",
+      "topic": 0,
+      "variant": "paraphrase",
+      "query": "How can I keep a borrowed laboratory device beyond its return date?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-01-zh",
+      "topic": 0,
+      "variant": "zh",
+      "query": "借来的实验设备到期后还想多用几天，应该满足什么条件？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-01-mixed",
+      "topic": 0,
+      "variant": "mixed",
+      "query": "loan到期之后能延长使用几天，需要谁同意？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-01-long",
+      "topic": 0,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: How can I keep a borrowed laboratory device beyond its return date?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-01-complement",
+      "topic": 0,
+      "variant": "complement",
+      "query": "How can I keep a borrowed laboratory device beyond its return date? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-02-canonical",
+      "topic": 1,
+      "variant": "canonical",
+      "query": "equipment loss replacement",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-02-paraphrase",
+      "topic": 1,
+      "variant": "paraphrase",
+      "query": "What paperwork settles a laboratory device that I borrowed and cannot find?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-02-zh",
+      "topic": 1,
+      "variant": "zh",
+      "query": "借来的实验设备找不到了，需要提交什么文件？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-02-mixed",
+      "topic": 1,
+      "variant": "mixed",
+      "query": "borrowed device丢失后需要什么凭据？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-02-long",
+      "topic": 1,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: What paperwork settles a laboratory device that I borrowed and cannot find?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-02-complement",
+      "topic": 1,
+      "variant": "complement",
+      "query": "What paperwork settles a laboratory device that I borrowed and cannot find? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-03-canonical",
+      "topic": 2,
+      "variant": "canonical",
+      "query": "meeting room cancellation notice",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-03-paraphrase",
+      "topic": 2,
+      "variant": "paraphrase",
+      "query": "How early must I tell staff that I no longer need my reserved meeting space?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-03-zh",
+      "topic": 2,
+      "variant": "zh",
+      "query": "订好的会议室不用了，最迟什么时候通知才不收费？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-03-mixed",
+      "topic": 2,
+      "variant": "mixed",
+      "query": "reserved meeting room不用了，什么时候通知可以免除费用？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-03-long",
+      "topic": 2,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: How early must I tell staff that I no longer need my reserved meeting space?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-03-complement",
+      "topic": 2,
+      "variant": "complement",
+      "query": "How early must I tell staff that I no longer need my reserved meeting space? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-04-canonical",
+      "topic": 3,
+      "variant": "canonical",
+      "query": "meeting room damage charge",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-04-paraphrase",
+      "topic": 3,
+      "variant": "paraphrase",
+      "query": "Can calling off a room reservation remove the amount owed for damage?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-04-zh",
+      "topic": 3,
+      "variant": "zh",
+      "query": "取消会议室预订能免除房间损坏的费用吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-04-mixed",
+      "topic": 3,
+      "variant": "mixed",
+      "query": "room reservation取消后还要支付damage charge吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-04-long",
+      "topic": 3,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: Can calling off a room reservation remove the amount owed for damage?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-04-complement",
+      "topic": 3,
+      "variant": "complement",
+      "query": "Can calling off a room reservation remove the amount owed for damage? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-05-canonical",
+      "topic": 4,
+      "variant": "canonical",
+      "query": "travel advance reconciliation",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-05-paraphrase",
+      "topic": 4,
+      "variant": "paraphrase",
+      "query": "How do I account for money issued before my work trip once I am back?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-05-zh",
+      "topic": 4,
+      "variant": "zh",
+      "query": "出差前预支的款项回来以后应该怎样报账？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-05-mixed",
+      "topic": 4,
+      "variant": "mixed",
+      "query": "business trip结束后怎么核销提前拿到的款项？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-05-long",
+      "topic": 4,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: How do I account for money issued before my work trip once I am back?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-05-complement",
+      "topic": 4,
+      "variant": "complement",
+      "query": "How do I account for money issued before my work trip once I am back? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-06-canonical",
+      "topic": 5,
+      "variant": "canonical",
+      "query": "travel expense preapproval",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-06-paraphrase",
+      "topic": 5,
+      "variant": "paraphrase",
+      "query": "May I pay for a work journey myself and ask for approval only afterwards?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-06-zh",
+      "topic": 5,
+      "variant": "zh",
+      "query": "可以先自己花钱购买出差车票，回来以后再补审批吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-06-mixed",
+      "topic": 5,
+      "variant": "mixed",
+      "query": "travel tickets先垫付再补approval可以吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-06-long",
+      "topic": 5,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: May I pay for a work journey myself and ask for approval only afterwards?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-06-complement",
+      "topic": 5,
+      "variant": "complement",
+      "query": "May I pay for a work journey myself and ask for approval only afterwards? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-07-canonical",
+      "topic": 6,
+      "variant": "canonical",
+      "query": "archive collection delegate",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-07-paraphrase",
+      "topic": 6,
+      "variant": "paraphrase",
+      "query": "What must another person show to pick up my stored paper parcel for me?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-07-zh",
+      "topic": 6,
+      "variant": "zh",
+      "query": "让别人替我领取存档的纸质包裹，需要带什么证明？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-07-mixed",
+      "topic": 6,
+      "variant": "mixed",
+      "query": "archive parcel让别人代取，需要什么手续？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-07-long",
+      "topic": 6,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: What must another person show to pick up my stored paper parcel for me?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-07-complement",
+      "topic": 6,
+      "variant": "complement",
+      "query": "What must another person show to pick up my stored paper parcel for me? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-DEV-08-canonical",
+      "topic": 7,
+      "variant": "canonical",
+      "query": "archive destruction consent",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-08-paraphrase",
+      "topic": 7,
+      "variant": "paraphrase",
+      "query": "Does paperwork for picking up stored files also allow someone to shred them?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-08-zh",
+      "topic": 7,
+      "variant": "zh",
+      "query": "领取存档材料的凭条能同时授权销毁材料吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-08-mixed",
+      "topic": 7,
+      "variant": "mixed",
+      "query": "collection slip能授权shred archive吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-08-long",
+      "topic": 7,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: Does paperwork for picking up stored files also allow someone to shred them?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-DEV-08-complement",
+      "topic": 7,
+      "variant": "complement",
+      "query": "Does paperwork for picking up stored files also allow someone to shred them? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    }
+  ],
+  "controls": [
+    "empty",
+    "oov",
+    "partial_evidence",
+    "conflict",
+    "faq_authority",
+    "source_tamper",
+    "category_scope",
+    "bad_query"
+  ],
+  "business_scope": "Actual public DEV ticket tools, trusted facts, approval/refusal and fault fixtures; no real execution."
+}

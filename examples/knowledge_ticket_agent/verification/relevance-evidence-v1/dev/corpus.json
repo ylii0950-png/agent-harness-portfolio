@@ -1,0 +1,207 @@
+{
+  "version": "public-relevance-dev-1.0.0",
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "topics": [
+    {
+      "title": "Observatory roof dry inspection",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Observatory roof dry inspection is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For observatory roof dry inspection, the observatory steward must approve the work. The authorized work window is two hours. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for observatory roof dry inspection must include inspection diagram and roof register. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Observatory roof dry inspection follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Observatory roof rain inspection",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Observatory roof rain inspection is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For observatory roof rain inspection, the weather officer must approve the work. The authorized work window is thirty minutes. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for observatory roof rain inspection must include rain gauge log and roof register. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Observatory roof rain inspection follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Seed cabinet ordinary access",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Seed cabinet ordinary access is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For seed cabinet ordinary access, the seed librarian must approve the work. The authorized work window is one day. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for seed cabinet ordinary access must include sample list and cabinet receipt. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Seed cabinet ordinary access follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Seed cabinet quarantine access",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Seed cabinet quarantine access is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For seed cabinet quarantine access, the quarantine keeper must approve the work. The authorized work window is four hours. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for seed cabinet quarantine access must include containment sheet and cabinet receipt. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Seed cabinet quarantine access follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Pottery kiln cold servicing",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Pottery kiln cold servicing is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For pottery kiln cold servicing, the ceramics supervisor must approve the work. The authorized work window is three days. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for pottery kiln cold servicing must include temperature log and service form. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Pottery kiln cold servicing follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Pottery kiln warm servicing",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Pottery kiln warm servicing is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For pottery kiln warm servicing, the thermal supervisor must approve the work. The authorized work window is forty minutes. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for pottery kiln warm servicing must include cooling checklist and service form. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Pottery kiln warm servicing follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Canal sensor daylight calibration",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Canal sensor daylight calibration is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For canal sensor daylight calibration, the waterway technician must approve the work. The authorized work window is six hours. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for canal sensor daylight calibration must include reference reading and calibration certificate. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Canal sensor daylight calibration follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    },
+    {
+      "title": "Canal sensor night calibration",
+      "sections": [
+        {
+          "id": "overview",
+          "heading": "Introduction and contact directory",
+          "body": "Canal sensor night calibration is a fictional activity. This overview names the activity but does not identify an authorizer or time allowance. Contact the service desk to locate the controlling sections."
+        },
+        {
+          "id": "conditions",
+          "heading": "Authorization and time allowance",
+          "body": "For canal sensor night calibration, the night coordinator must approve the work. The authorized work window is ninety minutes. This rule applies only to this activity and operating condition."
+        },
+        {
+          "id": "records",
+          "heading": "Documents to supply",
+          "body": "A request for canal sensor night calibration must include lighting checklist and calibration certificate. These two attachments are required before the activity begins."
+        },
+        {
+          "id": "notice",
+          "heading": "Informational routing",
+          "body": "Canal sensor night calibration follows a documented process. Questions about approval, duration and paperwork are routed to the policy. This routing notice supplies no actual approval role, time limit or attachment names."
+        }
+      ]
+    }
+  ]
+}

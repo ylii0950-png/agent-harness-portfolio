@@ -1,0 +1,135 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "schema_version": 1,
+  "corpus_version": "lqd-data-1.0.0",
+  "ruleset_version": "lqd-rules-1.0.0",
+  "profile": "seed",
+  "as_of": "2031-04-15T12:00:00Z",
+  "resources": [
+    {
+      "path": "customers.json",
+      "sha256": "a66bde0e5386a2381c559d388f0f6a2938779f859da656b39ff86668d6f1d6d7",
+      "bytes": 418
+    },
+    {
+      "path": "documents/POL-BILL-01-1.0.md",
+      "sha256": "65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+      "bytes": 732
+    },
+    {
+      "path": "documents/POL-BILL-02-1.0.md",
+      "sha256": "3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+      "bytes": 460
+    },
+    {
+      "path": "invoices.json",
+      "sha256": "ba6423b64210263dc53d70fd2e34cab29953f3768c90cfdc237e0ecde4a24f91",
+      "bytes": 1515
+    },
+    {
+      "path": "rules.json",
+      "sha256": "05373297793408a5d89887925acead1c4d9529a3f3806096ab8214ab4aa9f9f1",
+      "bytes": 2919
+    },
+    {
+      "path": "staff.json",
+      "sha256": "85a9ff5e3aa73063963e7f6ecec97b5402b758457eb406a823a25d427eeae49c",
+      "bytes": 407
+    },
+    {
+      "path": "tickets/dev.json",
+      "sha256": "4260627095da37b2d451bcd1e964004e04568dae6793e24bdaaf2ad1c4bc9273",
+      "bytes": 3026
+    },
+    {
+      "path": "tickets/eval.json",
+      "sha256": "0ad7a6e9ba86fb096a7ef0029e42405b473d959468e3a720f948f0965e3ddb77",
+      "bytes": 109
+    }
+  ],
+  "documents": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-BILL-01",
+      "version": "1.0",
+      "title": "Fictional purchase credit eligibility",
+      "policy_family": "billing_eligibility",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "BILL-01",
+        "BILL-02"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-BILL-01-1.0.md",
+      "sections": [
+        {
+          "section_id": "eligibility",
+          "heading": "First purchase eligibility"
+        },
+        {
+          "section_id": "manual",
+          "heading": "High amount review"
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "doc_id": "POL-BILL-02",
+      "version": "1.0",
+      "title": "Fictional credit exclusions",
+      "policy_family": "billing_restrictions",
+      "kind": "policy",
+      "effective_from": "2031-01-01T00:00:00Z",
+      "effective_to": null,
+      "scope": [
+        "billing_refund"
+      ],
+      "supersedes": [],
+      "rule_ids": [
+        "BILL-03"
+      ],
+      "source_refs": [],
+      "path": "documents/POL-BILL-02-1.0.md",
+      "sections": [
+        {
+          "section_id": "restrictions",
+          "heading": "Hard restrictions"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "normal",
+      "documents": [
+        "POL-BILL-01@1.0",
+        "POL-BILL-02@1.0"
+      ]
+    },
+    {
+      "name": "conflict",
+      "documents": [
+        "POL-BILL-01@1.0",
+        "POL-BILL-02@1.0"
+      ]
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "customers": 1,
+    "staff": 1,
+    "invoices": 4,
+    "dev": 4,
+    "eval": 0,
+    "rules": 3
+  }
+}

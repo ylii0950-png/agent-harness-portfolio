@@ -1,0 +1,247 @@
+{
+  "report_sha256": "7608afdcc7d7ab3c975d5ce750ff14ac5de71e975a6b93e301591d5d2405263d",
+  "run_id": "6bec8a95-790b-4be0-8adb-d785aeac0069",
+  "status": "COMPLETED",
+  "summary": {
+    "agent_business_safety": "NOT_EVALUATED",
+    "evaluation_mode": "PROCESS_SEPARATED_NON_BLIND",
+    "methods": {
+      "A1": {
+        "errors": 0,
+        "metrics": {
+          "chunk_recall_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "evidence_recall_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "full_evidence_case_rate": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "hit_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "mrr_at_3": {
+            "exact": "11/12",
+            "value": 0.9166666666666666
+          },
+          "required_evidence_coverage": {
+            "exact": "1",
+            "value": 1.0
+          }
+        },
+        "negative_denominator": 6,
+        "negative_passed": 2,
+        "negative_results": [
+          {
+            "faq_hits": 0,
+            "negative_kind": "no_policy_evidence",
+            "negative_pass": false,
+            "query_id": "M2E-N01",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "faq_not_authority",
+            "negative_pass": false,
+            "query_id": "M2E-N02",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "unverifiable_fact",
+            "negative_pass": true,
+            "query_id": "M2E-N03",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "execution_not_authorized",
+            "negative_pass": false,
+            "query_id": "M2E-N04",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "expired_only",
+            "negative_pass": true,
+            "query_id": "M2E-N05",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "no_policy_evidence",
+            "negative_pass": false,
+            "query_id": "M2E-N06",
+            "status": "OK"
+          }
+        ],
+        "not_run": 0,
+        "positive_denominator": 18,
+        "quality_thresholds_met": true
+      },
+      "bm25": {
+        "errors": 0,
+        "metrics": {
+          "chunk_recall_at_3": {
+            "exact": "103/108",
+            "value": 0.9537037037037037
+          },
+          "evidence_recall_at_3": {
+            "exact": "103/108",
+            "value": 0.9537037037037037
+          },
+          "full_evidence_case_rate": {
+            "exact": "8/9",
+            "value": 0.8888888888888888
+          },
+          "hit_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "mrr_at_3": {
+            "exact": "11/12",
+            "value": 0.9166666666666666
+          },
+          "required_evidence_coverage": {
+            "exact": "103/108",
+            "value": 0.9537037037037037
+          }
+        },
+        "negative_denominator": 6,
+        "negative_passed": 2,
+        "negative_results": [
+          {
+            "faq_hits": 0,
+            "negative_kind": "no_policy_evidence",
+            "negative_pass": false,
+            "query_id": "M2E-N01",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 1,
+            "negative_kind": "faq_not_authority",
+            "negative_pass": false,
+            "query_id": "M2E-N02",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 1,
+            "negative_kind": "unverifiable_fact",
+            "negative_pass": true,
+            "query_id": "M2E-N03",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "execution_not_authorized",
+            "negative_pass": false,
+            "query_id": "M2E-N04",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "expired_only",
+            "negative_pass": true,
+            "query_id": "M2E-N05",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 1,
+            "negative_kind": "no_policy_evidence",
+            "negative_pass": false,
+            "query_id": "M2E-N06",
+            "status": "OK"
+          }
+        ],
+        "not_run": 0,
+        "positive_denominator": 18,
+        "quality_thresholds_met": true
+      },
+      "keyword": {
+        "errors": 0,
+        "metrics": {
+          "chunk_recall_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "evidence_recall_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "full_evidence_case_rate": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "hit_at_3": {
+            "exact": "1",
+            "value": 1.0
+          },
+          "mrr_at_3": {
+            "exact": "35/36",
+            "value": 0.9722222222222222
+          },
+          "required_evidence_coverage": {
+            "exact": "1",
+            "value": 1.0
+          }
+        },
+        "negative_denominator": 6,
+        "negative_passed": 3,
+        "negative_results": [
+          {
+            "faq_hits": 0,
+            "negative_kind": "no_policy_evidence",
+            "negative_pass": false,
+            "query_id": "M2E-N01",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 1,
+            "negative_kind": "faq_not_authority",
+            "negative_pass": false,
+            "query_id": "M2E-N02",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 1,
+            "negative_kind": "unverifiable_fact",
+            "negative_pass": true,
+            "query_id": "M2E-N03",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 0,
+            "negative_kind": "execution_not_authorized",
+            "negative_pass": true,
+            "query_id": "M2E-N04",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 1,
+            "negative_kind": "expired_only",
+            "negative_pass": true,
+            "query_id": "M2E-N05",
+            "status": "OK"
+          },
+          {
+            "faq_hits": 2,
+            "negative_kind": "no_policy_evidence",
+            "negative_pass": false,
+            "query_id": "M2E-N06",
+            "status": "OK"
+          }
+        ],
+        "not_run": 0,
+        "positive_denominator": 18,
+        "quality_thresholds_met": true
+      }
+    },
+    "protocol": "lqd-formal-offline-1.0.0",
+    "top_k": 3
+  }
+}

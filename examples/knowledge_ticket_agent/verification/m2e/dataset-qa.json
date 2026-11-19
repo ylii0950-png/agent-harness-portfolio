@@ -1,0 +1,203 @@
+{
+  "category_distribution": {
+    "account_access": {
+      "negative": 2,
+      "positive": 6
+    },
+    "billing_refund": {
+      "negative": 2,
+      "positive": 6
+    },
+    "data_export": {
+      "negative": 2,
+      "positive": 6
+    }
+  },
+  "counts": {
+    "negative": 6,
+    "old_comparison_queries": 30,
+    "positive": 18,
+    "total": 24
+  },
+  "duplicate_audit": {
+    "lexical_alert_definition": "normalized exact, token Jaccard>=0.65, sequence ratio>=0.85, or equal number template; no ranking",
+    "manual_review_scope": "all 24 against fixed policy semantics, 30 old queries and within-new tasks; low lexical similarity alone is not novelty proof",
+    "manual_semantic_duplicate_pairs_remaining": 0,
+    "old_lexical_threshold_alert_pairs": 0,
+    "old_normalized_exact_query_pairs": 0,
+    "positive_queries_with_identical_complete_evidence_set_to_old": 6,
+    "shared_corpus_semantic_correlation": "Substantial and unavoidable; identical evidence is not itself identical question semantics, and this is not a statistically independent corpus.",
+    "within_new_lexical_threshold_alert_pairs": 0,
+    "within_new_normalized_exact_pairs": 0,
+    "within_new_positive_identical_complete_evidence_pair_count": 2
+  },
+  "formal_scoring": "NOT_RUN",
+  "independent_access_isolation": "NOT_ESTABLISHED",
+  "limitation": "Suitable only for explicitly nonblind local technical freeze; no retrieval quality, model safety, independent access protection or M2 acceptance claimed.",
+  "model_requests": 0,
+  "mq_distribution": {
+    "1": 8,
+    "2": 8,
+    "3": 2
+  },
+  "positive_structural_proof": [
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P01"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P02"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P03"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P04"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P05"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P06"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P07"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P08"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P09"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P10"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P11"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P12"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P13"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P14"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P15"
+    },
+    {
+      "minimum_chunks": 3,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P16"
+    },
+    {
+      "minimum_chunks": 3,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P17"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P18"
+    }
+  ],
+  "private_final_review_cipher_sha256": "8e5ac125f9be72aaf091e7c65a071defca7c556e0a80ca956ccc346f9cf5dc2e",
+  "remaining_semantic_blockers": [],
+  "resolved_findings": [
+    {
+      "issue": "within_new_semantic_near_duplicate_replaced",
+      "query_id": "M2E-P12"
+    },
+    {
+      "issue": "old_semantic_neighborhood_overlap_replaced",
+      "query_id": "M2E-P15"
+    },
+    {
+      "issue": "fact_wording_precision",
+      "query_id": "M2E-P09"
+    },
+    {
+      "issue": "independent_obligation_grounding",
+      "query_id": "M2E-P17"
+    },
+    {
+      "issue": "metadata_vs_body_rationale_and_id_binding",
+      "query_id": "M2E-N02"
+    },
+    {
+      "issue": "rationale_id_binding",
+      "query_id": "M2E-N03"
+    },
+    {
+      "issue": "rationale_id_binding",
+      "query_id": "M2E-N04"
+    },
+    {
+      "issue": "rationale_id_binding",
+      "query_id": "M2E-N05"
+    }
+  ],
+  "retrieval_rank_calls": 0,
+  "reviewed_cipher_sha256": "3d4b00a01ff4b122c8800b5f02fed0916af28a0d20f1222d0ac32da27e055606",
+  "reviewed_plain_sha256": "f7a25aadfa0e60449bbe03933c8352536a03d30283d6ce5dcdaecfa6e6109651",
+  "role": "independent semantic reviewer task, same uid and filesystem",
+  "semantic_review": "PASS_WITH_LIMITATIONS",
+  "strata_counts": {
+    "amount_representation": 1,
+    "conflicting_identity": 1,
+    "exception_and_review": 1,
+    "exception_scope": 1,
+    "explicit_conflict": 1,
+    "hold_and_recording": 1,
+    "identity_provenance": 1,
+    "invalid_facts": 1,
+    "low_trust_instruction": 1,
+    "missing_information_routing": 1,
+    "negative_execution_not_authorized": 1,
+    "negative_expired_only": 1,
+    "negative_faq_not_authority": 1,
+    "negative_no_policy_evidence": 2,
+    "negative_unverifiable_fact": 1,
+    "no_permission_grant": 1,
+    "review_recording": 1,
+    "revision_and_verification": 1,
+    "safety_override": 1,
+    "simulated_only": 1,
+    "ticket_state_contract": 1,
+    "unknown_scope_recording": 1,
+    "unsupported_detail_abstention": 1
+  },
+  "true_independent_blind_test": false,
+  "version": "lqd-heldout-retrieval-2.0.0"
+}

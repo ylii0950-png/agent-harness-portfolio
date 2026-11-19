@@ -1,0 +1,247 @@
+{
+  "version": "public-domain-evidence-dev-2.0.0",
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "topics": [
+    {
+      "title": "dry optical bench alignment",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"dry optical bench alignment\",\"scenario\":\"dry\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"dry optical bench alignment\",\"aliases\":[\"干燥光学台对准\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"dry optical bench alignment startup\",\"干燥光学台对准启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"dry optical bench alignment closeout\",\"干燥光学台对准完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"dry optical bench alignment review role\",\"干燥光学台对准复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"35\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 0\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"optics steward\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns dry optical bench alignment. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "humid optical bench alignment",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"humid optical bench alignment\",\"scenario\":\"humid\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"humid optical bench alignment\",\"aliases\":[\"潮湿光学台对准\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"humid optical bench alignment startup\",\"潮湿光学台对准启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"humid optical bench alignment closeout\",\"潮湿光学台对准完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"humid optical bench alignment review role\",\"潮湿光学台对准复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"40\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 1\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"moisture reviewer\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns humid optical bench alignment. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "portable pressure gauge check",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"portable pressure gauge check\",\"scenario\":\"portable\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"portable pressure gauge check\",\"aliases\":[\"便携压力计检查\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"portable pressure gauge check startup\",\"便携压力计检查启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"portable pressure gauge check closeout\",\"便携压力计检查完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"portable pressure gauge check review role\",\"便携压力计检查复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"45\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 2\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"mobile lead\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns portable pressure gauge check. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "fixed pressure gauge check",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"fixed pressure gauge check\",\"scenario\":\"fixed\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"fixed pressure gauge check\",\"aliases\":[\"固定压力计检查\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"fixed pressure gauge check startup\",\"固定压力计检查启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"fixed pressure gauge check closeout\",\"固定压力计检查完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"fixed pressure gauge check review role\",\"固定压力计检查复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"50\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 3\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"station lead\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns fixed pressure gauge check. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "ceramic probe calibration",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"ceramic probe calibration\",\"scenario\":\"ceramic\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"ceramic probe calibration\",\"aliases\":[\"陶瓷探头校准\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"ceramic probe calibration startup\",\"陶瓷探头校准启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"ceramic probe calibration closeout\",\"陶瓷探头校准完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"ceramic probe calibration review role\",\"陶瓷探头校准复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"55\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 4\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"materials reviewer\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns ceramic probe calibration. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "steel probe calibration",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"steel probe calibration\",\"scenario\":\"steel\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"steel probe calibration\",\"aliases\":[\"钢制探头校准\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"steel probe calibration startup\",\"钢制探头校准启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"steel probe calibration closeout\",\"钢制探头校准完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"steel probe calibration review role\",\"钢制探头校准复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"60\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 5\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"metrology lead\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns steel probe calibration. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "indoor motion sensor test",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"indoor motion sensor test\",\"scenario\":\"indoor\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"indoor motion sensor test\",\"aliases\":[\"室内运动传感器测试\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"indoor motion sensor test startup\",\"室内运动传感器测试启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"indoor motion sensor test closeout\",\"室内运动传感器测试完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"indoor motion sensor test review role\",\"室内运动传感器测试复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"65\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 6\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"indoor coordinator\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns indoor motion sensor test. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    },
+    {
+      "title": "outdoor motion sensor test",
+      "sections": [
+        {
+          "id": "contract",
+          "heading": "Scope and fact requirements",
+          "body": "@context {\"name\":\"inspection\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"outdoor motion sensor test\",\"scenario\":\"outdoor\",\"time\":\"daytime\",\"conditions\":[]}}\n@term {\"canonical\":\"outdoor motion sensor test\",\"aliases\":[\"室外运动传感器测试\"]}\n@schema {\"context\":\"inspection\",\"name\":\"startup\",\"phrases\":[\"outdoor motion sensor test startup\",\"室外运动传感器测试启动条件\"],\"alternatives\":[[{\"key\":\"start.limit\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false}]]}\n@schema {\"context\":\"inspection\",\"name\":\"completion\",\"phrases\":[\"outdoor motion sensor test closeout\",\"室外运动传感器测试完成记录\"],\"alternatives\":[[{\"key\":\"record.measurement\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":false},{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n@schema {\"context\":\"inspection\",\"name\":\"review\",\"phrases\":[\"outdoor motion sensor test review role\",\"室外运动传感器测试复核角色\"],\"alternatives\":[[{\"key\":\"review.role\",\"value\":null,\"operator\":\"eq\",\"modality\":\"required\",\"functional\":true}]]}\n"
+        },
+        {
+          "id": "fact_0",
+          "heading": "Startup temperature condition",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"70\",\"unit\":\"c\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_1",
+          "heading": "Completion measurement fields",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"record.measurement\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"reference offset and device serial 7\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "fact_2",
+          "heading": "Review signing role",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"field coordinator\",\"unit\":\"\"},\"modality\":\"required\"}\n"
+        },
+        {
+          "id": "background",
+          "heading": "Service introduction",
+          "body": "@note This fictional service concerns outdoor motion sensor test. The source contract lists fact families; this introduction supplies no operational facts.\n"
+        }
+      ]
+    }
+  ]
+}

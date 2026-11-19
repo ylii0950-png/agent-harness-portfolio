@@ -1,0 +1,8 @@
+{
+  "version": "lqd-retrieval-gold-1.0.0",
+  "sha256": "33672036fbfcf70f2b9f66eb36faf76c40067b2b22ab0b872e532dfde7092fa9",
+  "bytes": 57126,
+  "positive_eval_queries": 18,
+  "required_eval_cases": 20,
+  "scoring_started": false
+}

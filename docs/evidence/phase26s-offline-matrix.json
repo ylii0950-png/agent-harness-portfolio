@@ -1,0 +1,742 @@
+{
+  "baseline_commit": "94b6f64d03d87d691a122d7649e22528d0eaba3f",
+  "credential_access": false,
+  "evidence_kind": "current offline synthetic observations, not historical model arguments",
+  "lifecycle": [
+    {
+      "case": "successful_serial_A",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": true,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "final_plan_completed": true,
+        "four_explicit_updates": true,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": true,
+        "source_read": true,
+        "todo_follows_verified_actions": true
+      },
+      "model_calls": 10,
+      "normative_acceptance": true,
+      "prescribed_denial_target_requested": null,
+      "stop_reason": "completed",
+      "task_status": "passed",
+      "tool_calls": 9
+    },
+    {
+      "case": "synthetic_denial_then_safe_stop",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": false,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": false,
+        "final_plan_completed": false,
+        "four_explicit_updates": false,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": false,
+        "source_read": true,
+        "todo_follows_verified_actions": false
+      },
+      "model_calls": 9,
+      "normative_acceptance": false,
+      "prescribed_denial_target_requested": null,
+      "stop_reason": "completed",
+      "task_status": "failed",
+      "tool_calls": 8
+    },
+    {
+      "case": "final_answer_without_work",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": false,
+        "ask_denied": false,
+        "context_isolated": true,
+        "exact_workspace_inventory": false,
+        "final_plan_completed": false,
+        "four_explicit_updates": false,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": false,
+        "receipt_exact": false,
+        "source_read": false,
+        "todo_follows_verified_actions": false
+      },
+      "model_calls": 1,
+      "normative_acceptance": false,
+      "prescribed_denial_target_requested": null,
+      "stop_reason": "completed",
+      "task_status": "failed",
+      "tool_calls": 0
+    },
+    {
+      "case": "serial_path_with_only_four_rounds",
+      "checks": {
+        "agent_completed": false,
+        "ask_approved": false,
+        "ask_denied": false,
+        "context_isolated": true,
+        "exact_workspace_inventory": false,
+        "final_plan_completed": false,
+        "four_explicit_updates": false,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": false,
+        "source_read": true,
+        "todo_follows_verified_actions": false
+      },
+      "model_calls": 4,
+      "normative_acceptance": false,
+      "prescribed_denial_target_requested": null,
+      "stop_reason": "max_model_rounds",
+      "task_status": "failed",
+      "tool_calls": 3
+    },
+    {
+      "case": "batched_A_with_four_rounds",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": true,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "final_plan_completed": true,
+        "four_explicit_updates": true,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": true,
+        "source_read": true,
+        "todo_follows_verified_actions": true
+      },
+      "model_calls": 4,
+      "normative_acceptance": true,
+      "prescribed_denial_target_requested": null,
+      "stop_reason": "completed",
+      "task_status": "passed",
+      "tool_calls": 9
+    },
+    {
+      "case": "wrong_denial_target_current_grader_false_positive",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": true,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "final_plan_completed": true,
+        "four_explicit_updates": true,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": true,
+        "source_read": true,
+        "todo_follows_verified_actions": true
+      },
+      "model_calls": 10,
+      "normative_acceptance": false,
+      "prescribed_denial_target_requested": false,
+      "stop_reason": "completed",
+      "task_status": "passed",
+      "tool_calls": 9
+    }
+  ],
+  "matrix": [
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "exact_create_omitted",
+      "changed": true,
+      "error": null,
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        true
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "exact_create_false",
+      "changed": true,
+      "error": null,
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        true
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "json_order_and_whitespace",
+      "changed": true,
+      "error": null,
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        true
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "json_unicode_escape_equivalence",
+      "changed": true,
+      "error": null,
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        true
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "replacement_mode",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "different_target",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "dot_alias",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "double_separator",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "parent_traversal",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "absolute_target",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "case_variant",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "unicode_lookalike",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "missing_lf",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "crlf",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "double_lf",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "literal_backslash_n",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "included_source_prefix",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "leading_space",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "different_content",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "missing_path",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "missing_content",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "extra_field",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "operation_extra_field",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "path_wrong_type",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "content_wrong_type",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "overwrite_null",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "overwrite_integer_zero",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "overwrite_string_false",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "malformed_json",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "duplicate_json_field",
+      "changed": false,
+      "error": "invalid_arguments",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "invalid_arguments"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "unknown_tool_name",
+      "changed": false,
+      "error": "unknown_tool",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "unknown_tool"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "static_deny",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "policy_denied"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "missing_write_capability",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "capability_denied"
+    },
+    {
+      "approval_callbacks": 0,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "missing_approver",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_unavailable"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "approver_exception",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_failed"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "approver_non_bool",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_invalid"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "write_opt_in_disabled",
+      "changed": false,
+      "error": "workspace_permission_denied",
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "approved_target_is_symlink",
+      "changed": false,
+      "error": "workspace_path_denied",
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "preexisting_create_only",
+      "changed": false,
+      "error": "workspace_already_exists",
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approved"
+    },
+    {
+      "approval_callbacks": 1,
+      "assertions_passed": true,
+      "authorized": false,
+      "case": "preexisting_overwrite_true",
+      "changed": false,
+      "error": "permission_denied",
+      "handler": 0,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        false
+      ],
+      "reason": "approval_denied"
+    },
+    {
+      "approval_callbacks": 2,
+      "assertions_passed": true,
+      "authorized": true,
+      "case": "subsequent_different_operation",
+      "changed": true,
+      "error": null,
+      "handler": 1,
+      "outside_unchanged": true,
+      "per_call_file_effect": [
+        true,
+        false
+      ],
+      "reason": "approved"
+    }
+  ],
+  "matrix_count": 41,
+  "matrix_passed": 41,
+  "package_fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+  "probe_sha256": "6b8df9516f697f29e57454f5158fc46a8d26d0f1360dab91435c3f46b5843adc",
+  "production_changes": false,
+  "real_model_requests": 0,
+  "schema_version": 1,
+  "scope": "offline_synthetic_A_only_not_real_reconstruction"
+}

@@ -1,0 +1,247 @@
+{
+  "version": "public-relevance-challenge-1.0.0",
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "topics": [
+    {
+      "title": "Lumen Works: Dry-clay Bisque Cycle",
+      "sections": [
+        {
+          "id": "bisque_overview",
+          "heading": "Purpose and similar processes",
+          "body": "This fictional workshop uses a first firing to prepare unglazed clay for later surface treatment. A dry-clay bisque cycle is not a glaze cycle. The words airing, curing, and finishing in orientation notes do not specify permission to start, a vent schedule, or a completion record."
+        },
+        {
+          "id": "bisque_operation",
+          "heading": "Current standard operating rule",
+          "body": "For a standard dry-clay bisque cycle with a healthy exhaust fan, start is permitted only when the moisture card reads DRY and every rack gap is at least 4 cm. Keep the top vent open for the first 20 minutes. The maximum target is 900 C. Separately, during the weekly bisque audit photograph, the audit clerk must display a copper triangle at the audit desk. This audit-marker instruction is current."
+        },
+        {
+          "id": "bisque_closeout",
+          "heading": "Completion evidence",
+          "body": "After the standard cycle cools below 60 C, the operator enters the batch code, achieved peak temperature, and cooling-check time in the firing register. The shift lead countersigns that entry before the pieces leave the unloading shelf. A loading checklist does not replace the completion entry."
+        },
+        {
+          "id": "bisque_fault",
+          "heading": "Exhaust-fan fault exception",
+          "body": "If an exhaust-fan fault is documented before start, keep the top vent closed and do not start the bisque cycle. Send the fault code to the shift lead. A DRY card and adequate rack gaps do not override this fault hold. After repair, a new healthy-fan check is required before the standard rule applies."
+        },
+        {
+          "id": "bisque_marker_notice",
+          "heading": "Current marker bulletin",
+          "body": "During the same weekly bisque audit photograph, the audit clerk must not display a copper triangle at the audit desk. This current instruction addresses the same clerk, action, desk, and photograph as the operating rule. This bulletin gives no authority to cancel or supersede another instruction. The audit photograph is separate from starting, firing, or unloading a cycle."
+        }
+      ]
+    },
+    {
+      "title": "Lumen Works: Glaze Maturation Cycle",
+      "sections": [
+        {
+          "id": "glaze_overview",
+          "heading": "Surface firing orientation",
+          "body": "Glaze maturation follows application of a fictional glass-forming coat. Its witness tile and hood schedule differ from first-firing practice. Orientation words such as bright, cured, and finished are descriptive only; this paragraph contains no start authorization or sign-off requirements."
+        },
+        {
+          "id": "glaze_operation",
+          "heading": "Standard glaze loading and hood",
+          "body": "A standard glaze cycle can start only when the witness tile is marked DRY and coated pieces have at least 6 cm clearance. Use target cone 6. With a healthy extraction hood, keep the inspection flap closed throughout the first 10 minutes. A bisque moisture card is not a substitute for the glaze witness tile."
+        },
+        {
+          "id": "glaze_closeout",
+          "heading": "Release from the cooling rack",
+          "body": "Once the glaze rack is below 50 C, record the load code, witness-cone result, and rack temperature. The surface reviewer signs the record before release. A cone target written before firing is not evidence of the observed witness-cone result."
+        },
+        {
+          "id": "glaze_crackle",
+          "heading": "Unexpected crackle hold",
+          "body": "If an unexpected crackle band appears on the witness tile, keep the entire load on the cooling rack and request surface-reviewer inspection. Do not release unaffected-looking pieces separately. This hold applies even when the normal record is complete; only a written reviewer disposition lifts it."
+        },
+        {
+          "id": "glaze_labels",
+          "heading": "Label vocabulary",
+          "body": "A blue dot identifies an unreviewed glaze rack; a green dot identifies a reviewed rack. Dot color alone does not supply the load code, cone result, rack temperature, or reviewer signature. A decorative copper triangle used elsewhere does not govern this cycle."
+        }
+      ]
+    },
+    {
+      "title": "Tidelight Lab: Freshwater Observation Intake",
+      "sections": [
+        {
+          "id": "fresh_overview",
+          "heading": "Observation bay orientation",
+          "body": "This fictional lab keeps freshwater and marine observation intake separate. A clear-water batch means visually clear intake water, not a completed observation period. The orientation describes settling and acclimation without specifying entry limits or release evidence."
+        },
+        {
+          "id": "fresh_operation",
+          "heading": "Clear-water intake requirements",
+          "body": "A new freshwater batch may enter the observation bay only when conductivity is at most 500 lab units and its temperature differs from the bay by no more than 2 C. For standard clear-water intake, keep the observation lamp on and the transfer gate shut for 24 hours. Separately, during the weekly freshwater audit photograph, the audit clerk must hang a violet square at the audit desk. That audit-marker requirement is current."
+        },
+        {
+          "id": "fresh_closeout",
+          "heading": "Observation closeout",
+          "body": "At the end of the freshwater observation period, record batch code, measured conductivity, and elapsed observation hours. The aquatic reviewer signs before the transfer gate is released. A marine salinity reading or an unsigned arrival slip cannot replace this freshwater record."
+        },
+        {
+          "id": "fresh_amber",
+          "heading": "Amber-water exception",
+          "body": "For an amber-water freshwater intake, keep the observation lamp off and suspend entry pending aquatic-reviewer assessment. Do not treat amber color as proof that the ordinary 24-hour observation was completed. The clear-water lamp-on rule applies only to clear water, so it does not direct the lamp state during this hold."
+        },
+        {
+          "id": "fresh_marker_notice",
+          "heading": "Current desk-marker instruction",
+          "body": "During the same weekly freshwater audit photograph, the audit clerk must not hang a violet square at the audit desk. This current instruction addresses the same clerk, marker, desk, and photograph as the operating rule. It contains no priority or replacement clause. The photograph is separate from intake, observation, and transfer authorization."
+        }
+      ]
+    },
+    {
+      "title": "Tidelight Lab: Marine Observation Intake",
+      "sections": [
+        {
+          "id": "marine_overview",
+          "heading": "Marine intake orientation",
+          "body": "Marine intake uses a salt-water observation bay. Acclimation and holding are informal descriptions, not entry thresholds. Freshwater conductivity limits and freshwater observation duration do not apply to this policy."
+        },
+        {
+          "id": "marine_operation",
+          "heading": "Marine entry and observation",
+          "body": "A marine batch may enter only when salinity is between 28 and 32 lab units inclusive and the temperature difference from the marine bay is at most 1 C. Observe the batch for 36 hours with the circulation loop on. Neither 24 elapsed hours nor an acceptable freshwater conductivity result authorizes marine release."
+        },
+        {
+          "id": "marine_closeout",
+          "heading": "Marine transfer record",
+          "body": "Before marine transfer, record batch code, measured salinity, and elapsed observation hours; obtain the marine reviewer signature. The record must show the observed salinity, not merely the permitted range. A freshwater reviewer signature cannot satisfy this marine sign-off."
+        },
+        {
+          "id": "marine_cloud",
+          "heading": "Clouding exception",
+          "body": "If water becomes cloudy during marine observation, stop the transfer plan and notify the marine reviewer. Keep the circulation loop on during the hold. A clear sample taken at arrival does not cancel later clouding. Resume only after the reviewer issues a written release."
+        },
+        {
+          "id": "marine_status",
+          "heading": "Status board meanings",
+          "body": "WAIT means no transfer release is recorded; REVIEW means a reviewer is considering a hold; RELEASED means the signed transfer record exists. The board summarizes status and does not itself supply the measurements or the signature."
+        }
+      ]
+    },
+    {
+      "title": "Nocturne Theatre: Fabric Dome Dry Cleaning",
+      "sections": [
+        {
+          "id": "dome_overview",
+          "heading": "Dome care overview",
+          "body": "The fictional theatre has a fabric projection dome and separate glass projection lenses. Dust removal, polishing, and optical care are nearby vocabulary, but a fabric dome must use its own cleaning procedure. This overview supplies no humidity limit or completion authorization."
+        },
+        {
+          "id": "dome_operation",
+          "heading": "Standard clear-surface dry cycle",
+          "body": "A standard clear-surface dome dry-cleaning cycle may begin only below 45 percent room humidity. Use the low-suction setting and move clockwise. Keep the work lamp on during this clear-surface cycle. Separately, during the monthly dome audit photograph, the audit clerk must place a silver circle on the audit desk. This audit-marker instruction is current."
+        },
+        {
+          "id": "dome_closeout",
+          "heading": "Cleaning completion record",
+          "body": "After dry cleaning, record dome sector, final humidity, and nozzle inspection result. The fabric steward signs before the dome is used for projection. A lens inspection form is not a dome completion record; a starting humidity measurement does not replace final humidity."
+        },
+        {
+          "id": "dome_flecks",
+          "heading": "Reflective-fleck exception",
+          "body": "If reflective flecks are detected on the fabric, keep the work lamp off and suspend the dry-cleaning cycle for fabric-steward inspection. Do not vacuum flecks to obtain a clear-surface classification. The lamp-on instruction is limited to a standard clear surface and does not apply during the fleck hold."
+        },
+        {
+          "id": "dome_marker_notice",
+          "heading": "Current door-marker bulletin",
+          "body": "During the same monthly dome audit photograph, the audit clerk must not place a silver circle on the audit desk. This current bulletin names the same clerk, marker, desk, action, and photograph as the operating rule. No instruction here establishes precedence. The photograph is separate from cleaning and return-to-projection authorization."
+        }
+      ]
+    },
+    {
+      "title": "Nocturne Theatre: Glass Projection Lens Cleaning",
+      "sections": [
+        {
+          "id": "lens_overview",
+          "heading": "Lens-care orientation",
+          "body": "Projection lenses are glass optical surfaces, separate from the fabric dome. The orientation calls care gentle and precise but supplies no approved cleaner, start test, or release procedure. A dome vacuum schedule is not lens-cleaning guidance."
+        },
+        {
+          "id": "lens_operation",
+          "heading": "Routine lens surface rule",
+          "body": "Routine lens cleaning may start only when the residue test strip reads CLEAN and the lens housing is below 30 C. Fit the hand shield and use a dry lint-free pad. Liquid solvent is prohibited in this routine procedure, even if it is advertised for optical use. Do not use the dome nozzle on glass."
+        },
+        {
+          "id": "lens_closeout",
+          "heading": "Lens release evidence",
+          "body": "Before returning a cleaned lens to projection, record lens code, test-strip result, and edge inspection result. The optics steward signs the entry. A housing temperature note alone does not satisfy these three required fields or substitute for the signature."
+        },
+        {
+          "id": "lens_smear",
+          "heading": "Persistent-smear route",
+          "body": "If a smear remains after one dry-pad pass, stop routine cleaning, cap the lens, and refer it to the optics steward. Do not make a second pass or switch to liquid solvent under this policy. A new routine attempt requires a written steward instruction."
+        },
+        {
+          "id": "lens_pad_note",
+          "heading": "Pad packaging note",
+          "body": "SEALED on a pad packet describes packaging, not the lens residue result. OPEN describes a packet that has been opened. Neither label certifies that the test strip reads CLEAN or that the housing is cool enough to start."
+        }
+      ]
+    },
+    {
+      "title": "Cobalt Culture Studio: Mushroom Culture Incubation",
+      "sections": [
+        {
+          "id": "mush_overview",
+          "heading": "Culture-room orientation",
+          "body": "This fictional studio uses inert demonstration cultures with no food or clinical purpose. Mushroom culture incubation and yeast starter incubation are separate procedures. Terms like rest, growth, and maturity in this orientation do not specify a temperature window or release checks."
+        },
+        {
+          "id": "mush_operation",
+          "heading": "Sealed incubation conditions",
+          "body": "A mushroom demonstration culture may enter the incubation cabinet only with an intact seal and a cabinet temperature from 18 to 20 C inclusive. Incubate in darkness for 48 hours. A yeast aeration clip is not permitted on this sealed culture. The time starts when both the seal and temperature checks pass."
+        },
+        {
+          "id": "mush_closeout",
+          "heading": "Incubation completion entry",
+          "body": "At mushroom-culture closeout, record culture code, actual temperature range, and elapsed incubation hours. The culture steward signs before the cabinet slot is cleared. A planned set point does not replace the actual temperature range; an unsigned timer photograph is insufficient."
+        },
+        {
+          "id": "mush_humidity",
+          "heading": "High-humidity hold",
+          "body": "If cabinet humidity exceeds 70 percent during mushroom incubation, pause the timer, leave the seal intact, and refer the cabinet to the culture steward. Do not open a culture to lower humidity. Resume the timer only after a written steward release; paused time does not count toward 48 hours."
+        },
+        {
+          "id": "mush_counter",
+          "heading": "Timer display note",
+          "body": "A colon flashing on the cabinet display indicates a paused timer. A steady colon indicates a running timer. Display appearance does not certify a sound seal, an allowed temperature range, or the steward signature."
+        }
+      ]
+    },
+    {
+      "title": "Cobalt Culture Studio: Yeast Starter Incubation",
+      "sections": [
+        {
+          "id": "yeast_overview",
+          "heading": "Starter-room orientation",
+          "body": "This fictional studio keeps demonstration yeast starters separate from sealed mushroom cultures. The words active, rested, and ready are informal observations. They do not define the permitted temperature, required aeration, or release evidence."
+        },
+        {
+          "id": "yeast_operation",
+          "heading": "Aerated starter conditions",
+          "body": "A yeast demonstration starter may enter incubation only when the aeration clip is open and cabinet temperature is from 21 to 23 C inclusive. Keep the cabinet light on and incubate for 12 hours. Do not substitute the mushroom dark, sealed 48-hour procedure. The timer begins only after both entry checks pass."
+        },
+        {
+          "id": "yeast_closeout",
+          "heading": "Starter completion entry",
+          "body": "Before clearing a yeast starter from incubation, record starter code, actual temperature range, and foam-line observation. The starter steward signs the entry. Elapsed hours alone do not replace the foam observation or signature, even though the required incubation duration is 12 hours."
+        },
+        {
+          "id": "yeast_foam",
+          "heading": "Red-line foam exception",
+          "body": "If foam reaches the red line, stop the timer and leave the aeration clip open while notifying the starter steward. Do not clear the starter as complete at 12 hours while this hold is active. A written starter-steward release is required before incubation can resume."
+        },
+        {
+          "id": "yeast_clip_note",
+          "heading": "Clip color note",
+          "body": "A white clip handle identifies this studio kit; a gray handle identifies a spare kit. Handle color says nothing about whether the clip is open. Neither kit label supplies a foam-line observation or authorizes clearance."
+        }
+      ]
+    }
+  ]
+}

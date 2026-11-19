@@ -1,0 +1,37 @@
+{
+  "base_commit": "f0f9297626c06e8eba83ca3a0f34b9158dfc048a",
+  "files_sha256": {
+    "docs/phase3-heldout-v2-protocol.md": "da0a8e70fb26966d300aa808ba0333873939adc52dcec71634c8c9a47e308b33",
+    "docs/phase3-m2r-experiment-plan.md": "9503cea36b3067fe90276fd780798efb6ae9b4c74591f314c880dbbee0855248",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_dev.py": "4b2f36a45f00b13f3266299d602b857a8a2f088c6ffeab2783c444b292a95269",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_strategies.py": "0b68a1d881f41b5c32aad9c978b7122540cb21cff1c3e5cfdc276d3b6ea7c6f3",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/retrieval_v2_cli.py": "0bbcceae0e36b916c44c7c3cb249e4ae0c94f52a66e9f84c747079f0b12d5852",
+    "examples/knowledge_ticket_agent/tests/dev_gold/m2r-v1/dev_gold.json": "8fa47e735e7f250521e458c1898c12dd28a3010f6d2fb6d31a1410a2a389b600",
+    "examples/knowledge_ticket_agent/tests/dev_gold/m2r-v1/freeze.json": "ee4082e980dc60993c010b7e1e812c2c51064e46f89e00faa88c3d5024881341",
+    "examples/knowledge_ticket_agent/tests/test_m2r_dev_boundary.py": "5ea2e488d8d11a06e064bd0bd1702c310b8281137d6d8ed8da65d6f17e585dba",
+    "examples/knowledge_ticket_agent/tests/test_m2r_experiment.py": "90eff9aae0e45640e6b1703c7bbb3754944a1ade3dac116cda3a67b685dc706b",
+    "examples/knowledge_ticket_agent/tests/test_m2r_strategies.py": "39e64a572b8a31cd46d546ef5d17b81a4a2505f8bb57f76b09fd29d1a42ec330",
+    "examples/knowledge_ticket_agent/verification/m2r/dev-experiment.json": "244341bb3f8d22914d27568da46a38feee7870d397fb02324e795cc6a9a3c631",
+    "examples/knowledge_ticket_agent/verification/m2r/dev-required-evidence.json": "0074ade2029a0284f18a0081a6244db6db1726e74063e5bbc29385a0d2824efd"
+  },
+  "heldout_v2": "not_created_not_run",
+  "preregistration_commit": "3dd5386e4e50c709471b32a1b39006cdf9dd53bb",
+  "selected_config": {
+    "b": "0.75",
+    "diversity_milli": 0,
+    "k1": "1.2",
+    "name": "A1",
+    "normalizer": "v1-NFKC-casefold-[a-z0-9]+-unique-query",
+    "scoring": "flat",
+    "version": "lqd-authority-fields-2.0.0",
+    "weights": [
+      1,
+      1,
+      1
+    ]
+  },
+  "selected_config_sha256": "5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354",
+  "selection_scope": "12_original_dev_queries_only",
+  "v1_sealed_new_strategy_runs": 0,
+  "version": "lqd-m2r-selection-lock-1.0.0"
+}

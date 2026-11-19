@@ -1,0 +1,227 @@
+{
+  "version": "portfolio-demo-1.0.0",
+  "scope": "OFFLINE_FICTIONAL_FIXTURES",
+  "runtime_commit": "2eec6a622a307a4f72362e4842ba005a4bff1169",
+  "python": "3.12.15",
+  "packages": {
+    "core": "0.9.0",
+    "demo": "0.1.0"
+  },
+  "portfolio_demo": "PASS",
+  "advanced_evidence": {
+    "contract": "lqd-domain-evidence-3.0.0",
+    "selection": "lqd-obligation-source-selection-2.0.0",
+    "view": "lqd-assertion-search-view-1.0.0"
+  },
+  "approved-en": {
+    "approval": "approved",
+    "reason": "proposal_created",
+    "outcome": "business_success",
+    "commits": 1,
+    "verification": "PASS",
+    "postwrite_readback_verified": true,
+    "unchanged_state_verified": false,
+    "retrieval_method": "lqd-zh-en-domain-query-1.0.0:7ec7af27e2e97000418dbac60c90ec7dff21cd0c4f1b7014bea9d0b4612bca1e:lqd-authority-fields-2.0.0:A1:5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354:authority:bm25",
+    "full_reads": 6,
+    "citations": 6
+  },
+  "refused-zh": {
+    "approval": "approval_denied",
+    "reason": "approval_denied",
+    "outcome": "permission_denial",
+    "commits": 0,
+    "verification": "PASS",
+    "postwrite_readback_verified": false,
+    "unchanged_state_verified": true,
+    "retrieval_method": "lqd-zh-en-domain-query-1.0.0:7ec7af27e2e97000418dbac60c90ec7dff21cd0c4f1b7014bea9d0b4612bca1e:lqd-authority-fields-2.0.0:A1:5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354:authority:bm25",
+    "full_reads": 6,
+    "citations": 6
+  },
+  "insufficient": {
+    "approval": "not_requested",
+    "reason": "agent_evidence_missing",
+    "outcome": "expected_denial",
+    "commits": 0,
+    "verification": "PASS",
+    "postwrite_readback_verified": false,
+    "unchanged_state_verified": true,
+    "retrieval_method": "lqd-authority-fields-2.0.0:A1:5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354:authority:bm25",
+    "full_reads": 3,
+    "citations": 3
+  },
+  "missing-facts": {
+    "approval": "not_requested",
+    "reason": "no_executable_proposal",
+    "outcome": "expected_denial",
+    "commits": 0,
+    "verification": "PASS",
+    "postwrite_readback_verified": false,
+    "unchanged_state_verified": true,
+    "retrieval_method": "lqd-authority-fields-2.0.0:A1:5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354:authority:bm25",
+    "full_reads": 6,
+    "citations": 6
+  },
+  "conflict": {
+    "approval": "not_requested",
+    "reason": "no_executable_proposal",
+    "outcome": "expected_denial",
+    "commits": 0,
+    "verification": "PASS",
+    "postwrite_readback_verified": false,
+    "unchanged_state_verified": true,
+    "retrieval_method": "lqd-authority-fields-2.0.0:A1:5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354:authority:bm25",
+    "full_reads": 8,
+    "citations": 8
+  },
+  "advanced-r1": {
+    "approval": "approved",
+    "reason": "proposal_created",
+    "outcome": "business_success",
+    "commits": 1,
+    "verification": "PASS",
+    "postwrite_readback_verified": true,
+    "unchanged_state_verified": false,
+    "retrieval_method": "lqd-relevance-retrieval-3.0.1:R1:a0d9b62531ea958014b1e879166d004b191c049daf11a7851004bbeb27f2c467",
+    "full_reads": 6,
+    "citations": 6
+  },
+  "native": {
+    "controllers": 4,
+    "bilingual_flows": 6,
+    "compaction": 2,
+    "business": 13,
+    "faults": 10,
+    "domain_evidence_tools": 3
+  },
+  "search": {
+    "method": "bm25",
+    "citations": 3
+  },
+  "runtime_source_sha256": "0584fb2dfa872433a9fd7fdc6e88cee684d5a9147b36d748581e5879b793568e",
+  "model_and_config_identity": {
+    "version": "lqd-relevance-retrieval-3.0.1",
+    "variant": "R1",
+    "config": "b5aa9dc1d3b99e8598d47ba9906a6d31245f4027cc0a7a6508e8b6610968d5da",
+    "generation": "e21fd1005002a1e15a41b6833dd1ce02c69920fe2161e22ef1ca3379167ded31",
+    "encoder": "0036456a2d734ca2792c05dba2c98ace56c7dc9e59c74df69d99b746347d857b",
+    "pair": "df1026556bb1f4aeb9e50bf9638a0922e7b39a095ef782ef03ffa11fa6109171",
+    "query": "lqd-lossless-request-plan-1.0.0",
+    "score_transport": "positive_monotonic_v1"
+  },
+  "package_sha256": {
+    "agent_harness_lab-0.9.0-py3-none-any.whl": "2db0b136c699b0b425a7cca136a2774787072afc1a41c89e721b219124d02cc4",
+    "knowledge_ticket_agent_demo-0.1.0-py3-none-any.whl": "bba8f98cdf37de5bb6401e67c19ab9195ab0672807c8ddba63e90d7fb9afb141"
+  },
+  "controller_a1": {
+    "approve": {
+      "workflow_acceptance": "PASS",
+      "commits": 1,
+      "handler_entries": 1,
+      "before": {
+        "ticket_id": "KT-D01",
+        "tenant_id": "SYN-TENANT-03",
+        "status": "open",
+        "revision": 0,
+        "last_action_id": null
+      },
+      "after": {
+        "ticket_id": "KT-D01",
+        "tenant_id": "SYN-TENANT-03",
+        "status": "resolved",
+        "revision": 1,
+        "last_action_id": "a7bf1a7729eb8fa5c6aed46ac30cf89a074a116ef511099afcb9a58ce8b000ac"
+      },
+      "checks": {
+        "MODEL_ACTION_VALID": true,
+        "EVIDENCE_COMPLETE": true,
+        "BUSINESS_DECISION_VALID": true,
+        "APPROVAL_VALID": true,
+        "STATE_TRANSITION_VERIFIED": true,
+        "FINAL_RECEIPT_VALID": true,
+        "MODEL_EXPLANATION_VALID": null,
+        "STATE_UNCHANGED_VERIFIED": false
+      }
+    },
+    "refuse": {
+      "workflow_acceptance": "PASS",
+      "commits": 0,
+      "handler_entries": 0,
+      "before": {
+        "ticket_id": "KT-D01",
+        "tenant_id": "SYN-TENANT-03",
+        "status": "open",
+        "revision": 0,
+        "last_action_id": null
+      },
+      "after": {
+        "ticket_id": "KT-D01",
+        "tenant_id": "SYN-TENANT-03",
+        "status": "open",
+        "revision": 0,
+        "last_action_id": null
+      },
+      "checks": {
+        "MODEL_ACTION_VALID": true,
+        "EVIDENCE_COMPLETE": true,
+        "BUSINESS_DECISION_VALID": true,
+        "APPROVAL_VALID": true,
+        "STATE_TRANSITION_VERIFIED": false,
+        "FINAL_RECEIPT_VALID": true,
+        "MODEL_EXPLANATION_VALID": null,
+        "STATE_UNCHANGED_VERIFIED": true
+      }
+    }
+  },
+  "budget": {
+    "outcome": "budget_exhaustion",
+    "verification": "FAILED",
+    "commits": 0,
+    "unchanged_state_verified": true
+  },
+  "faults": {
+    "corrupt_evidence": {
+      "outcome": "tool_error",
+      "issues": [],
+      "commits": 0,
+      "unchanged_state_verified": true,
+      "readback_verified": false
+    },
+    "atomic_abort": {
+      "outcome": "agent_failure",
+      "issues": [],
+      "commits": 0,
+      "unchanged_state_verified": true,
+      "readback_verified": false
+    },
+    "readback": {
+      "outcome": "postcommit_verification_error",
+      "issues": [],
+      "commits": 1,
+      "unchanged_state_verified": false,
+      "readback_verified": false
+    }
+  },
+  "incompatible_retrieval_options": {
+    "exit_code": 2,
+    "error": "semantic_options_require_vnext_profile"
+  },
+  "formal": {
+    "M2": "FAIL_CONSUMED",
+    "M5": "NOT_RUN",
+    "final_release": "BLOCKED"
+  },
+  "installed_regression": {
+    "3.11": {
+      "core_passed": 848,
+      "docker_environment_skip": 1,
+      "demo_passed": 1015,
+      "lint_type_build_clean_install": "PASS"
+    },
+    "3.12": {
+      "core_passed": 848,
+      "docker_environment_skip": 1,
+      "demo_passed": 1015,
+      "lint_type_build_clean_install": "PASS"
+    }
+  }
+}

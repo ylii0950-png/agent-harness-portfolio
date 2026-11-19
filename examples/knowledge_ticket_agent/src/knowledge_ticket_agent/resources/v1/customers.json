@@ -1,0 +1,73 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "version": "lqd-data-1.0.0",
+  "customers": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-01",
+      "display_name": "Fictional Customer 01",
+      "tenant_id": "SYN-TENANT-01",
+      "plan": "Solo",
+      "role": "owner",
+      "identity_verified": true,
+      "security_hold": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-02",
+      "display_name": "Fictional Customer 02",
+      "tenant_id": "SYN-TENANT-02",
+      "plan": "Team",
+      "role": "owner",
+      "identity_verified": true,
+      "security_hold": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-03",
+      "display_name": "Fictional Customer 03",
+      "tenant_id": "SYN-TENANT-02",
+      "plan": "Team",
+      "role": "member",
+      "identity_verified": true,
+      "security_hold": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-04",
+      "display_name": "Fictional Customer 04",
+      "tenant_id": "SYN-TENANT-03",
+      "plan": "Solo",
+      "role": "owner",
+      "identity_verified": false,
+      "security_hold": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-05",
+      "display_name": "Fictional Customer 05",
+      "tenant_id": "SYN-TENANT-02",
+      "plan": "Team",
+      "role": "owner",
+      "identity_verified": true,
+      "security_hold": true
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-06",
+      "display_name": "Fictional Customer 06",
+      "tenant_id": "SYN-TENANT-03",
+      "plan": "Solo",
+      "role": "owner",
+      "identity_verified": true,
+      "security_hold": false
+    }
+  ]
+}

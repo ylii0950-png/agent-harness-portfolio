@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools==84.2.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-harness-lab"
+version = "0.9.0"
+description = "An independently implemented Python agent harness learning lab."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+authors = [{name = "Leno"}]
+dependencies = []
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: POSIX",
+]
+
+[project.optional-dependencies]
+oauth = [
+    "pyjwt[crypto]>=2.10,<3",
+]
+mcp = [
+    "mcp==1.30.0",
+]
+
+[dependency-groups]
+dev = [
+  "fastapi==0.162.0",
+  "httpx2==2.16.0",
+  "pytest==9.1.1",
+  "ruff==0.17.1",
+  "mypy==2.4.0",
+  "setuptools==84.2.1",
+  "pyjwt[crypto]>=2.10,<3",
+  "mcp==1.30.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agent_harness_lab = ["py.typed", "eval_tasks.json", "integration_tasks.json", "remediation_tasks.json", "stabilization_tasks.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-config --strict-markers -ra --import-mode=importlib"
+filterwarnings = ["error"]
+markers = ["docker: actual container checks requiring explicit preloaded local image"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+files = ["src", "tests"]
+python_version = "3.11"
+strict = true
+
+[tool.uv]
+required-version = "==0.13.5"

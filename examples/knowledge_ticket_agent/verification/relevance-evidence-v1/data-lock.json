@@ -1,0 +1,15 @@
+{
+  "version": "public-relevance-evidence-1.0.0",
+  "scope": "PUBLIC_ENGINEERING_NOT_FORMAL",
+  "files": {
+    "dev/author-provenance.json": "d3e89e33269769167e820e7e182733a01cf78ecf46447b0e57b1b752c1d91a3d",
+    "dev/corpus.json": "41562bec30b7fb3ebe876196700bb0fbb0117cafe4394db04674c167b2555806",
+    "dev/oracle.json": "965eb30f072c9bc74f379a477b6d5d1146eea4abda2c76d6e21aa912a9aaf935",
+    "dev/requests.json": "b48e1ad2f75f98dcd51d20c2eaca30bfac9f6f89a7f52f711b8114a890b64349",
+    "challenge/author-provenance.json": "2f0068f63191d91c6027814b7425d6258046e3729a0f17b5e226413276fbfb45",
+    "challenge/corpus.json": "b14075e4ba129dedd86af12d6decc17183ac5e72fc0bd5fac25bff030af18dfb",
+    "challenge/oracle.json": "5ad8f3d22012743aa2f296d667c6c228d9b71359d2a93e4f142258809be072bb",
+    "challenge/requests.json": "72afcd2206a8da48d8920ee11a956dbf94205dfb77f90877bbe835921546b374",
+    "challenge/selfcheck.py": "a5f6ff30030c4d0c0ff8f64067fdd9b165a271195796a5a39a0d3e196a372950"
+  }
+}

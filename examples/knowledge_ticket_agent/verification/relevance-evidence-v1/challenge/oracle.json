@@ -1,0 +1,1354 @@
+{
+  "version": "public-relevance-challenge-1.0.0",
+  "cases": [
+    {
+      "id": "RCE-C-P01-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P01-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P01-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_fault"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P01-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P01-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P01-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 0,
+                "section": "bisque_fault"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P02-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P02-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P02-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_crackle"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P02-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_closeout"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_crackle"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P02-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P02-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 1,
+                "section": "glaze_crackle"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_1"
+    },
+    {
+      "id": "RCE-C-P03-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P03-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P03-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_amber"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P03-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P03-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P03-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 2,
+                "section": "fresh_amber"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P04-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P04-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P04-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_cloud"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P04-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_closeout"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_cloud"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P04-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P04-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 3,
+                "section": "marine_cloud"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_2"
+    },
+    {
+      "id": "RCE-C-P05-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P05-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P05-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_flecks"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P05-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_closeout"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_flecks"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P05-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P05-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 4,
+                "section": "dome_flecks"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P06-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P06-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P06-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_smear"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P06-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_closeout"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_smear"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P06-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P06-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 5,
+                "section": "lens_smear"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_3"
+    },
+    {
+      "id": "RCE-C-P07-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P07-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P07-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_humidity"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P07-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_closeout"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_humidity"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P07-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P07-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 6,
+                "section": "mush_humidity"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P08-01",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_operation"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P08-02",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P08-03",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_foam"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P08-04",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_closeout"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_foam"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P08-05",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_closeout"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-P08-06",
+      "units": [
+        {
+          "id": "u1",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_operation"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "u2",
+          "alternatives": [
+            [
+              {
+                "topic": 7,
+                "section": "yeast_foam"
+              }
+            ]
+          ]
+        }
+      ],
+      "expected": "answerable",
+      "group": "pair_4"
+    },
+    {
+      "id": "RCE-C-N-EN-01",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_unrelated"
+    },
+    {
+      "id": "RCE-C-N-EN-02",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_unrelated"
+    },
+    {
+      "id": "RCE-C-N-EN-03",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_missing_detail"
+    },
+    {
+      "id": "RCE-C-N-EN-04",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_missing_detail"
+    },
+    {
+      "id": "RCE-C-N-EN-05",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_ambiguous"
+    },
+    {
+      "id": "RCE-C-N-EN-06",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_ambiguous"
+    },
+    {
+      "id": "RCE-C-N-EN-07",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_false_premise"
+    },
+    {
+      "id": "RCE-C-N-EN-08",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_false_premise"
+    },
+    {
+      "id": "RCE-C-N-ZH-01",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_unrelated"
+    },
+    {
+      "id": "RCE-C-N-ZH-02",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_unrelated"
+    },
+    {
+      "id": "RCE-C-N-ZH-03",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_missing_detail"
+    },
+    {
+      "id": "RCE-C-N-ZH-04",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_missing_detail"
+    },
+    {
+      "id": "RCE-C-N-ZH-05",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_ambiguous"
+    },
+    {
+      "id": "RCE-C-N-ZH-06",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_ambiguous"
+    },
+    {
+      "id": "RCE-C-N-ZH-07",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_false_premise"
+    },
+    {
+      "id": "RCE-C-N-ZH-08",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_false_premise"
+    },
+    {
+      "id": "RCE-C-N-MIXED-01",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_unrelated"
+    },
+    {
+      "id": "RCE-C-N-MIXED-02",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_unrelated"
+    },
+    {
+      "id": "RCE-C-N-MIXED-03",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_missing_detail"
+    },
+    {
+      "id": "RCE-C-N-MIXED-04",
+      "units": [],
+      "expected": "insufficient",
+      "group": "negative_missing_detail"
+    },
+    {
+      "id": "RCE-C-N-MIXED-05",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_ambiguous"
+    },
+    {
+      "id": "RCE-C-N-MIXED-06",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_ambiguous"
+    },
+    {
+      "id": "RCE-C-N-MIXED-07",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_false_premise"
+    },
+    {
+      "id": "RCE-C-N-MIXED-08",
+      "units": [],
+      "expected": "not_assessable",
+      "group": "negative_false_premise"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "RCE-E-C01",
+      "expected": "supported",
+      "reason": "The supplied operating and closeout sections jointly cover the entry checks, post-cooling fields, and signing role. The unrelated marker dispute is outside the question."
+    },
+    {
+      "id": "RCE-E-C02",
+      "expected": "supported",
+      "reason": "The provided pair covers clear-water intake limits, observation, and the requested transfer record. No audit-marker assertion is requested."
+    },
+    {
+      "id": "RCE-E-C03",
+      "expected": "supported",
+      "reason": "The supplied two sections provide the requested operating requirements and complementary completion evidence; audit-marker policy is not requested."
+    },
+    {
+      "id": "RCE-E-P01",
+      "expected": "insufficient",
+      "reason": "Start requirements are provided, but no provided source states the required closeout fields, cooling threshold, or countersigning role."
+    },
+    {
+      "id": "RCE-E-P02",
+      "expected": "insufficient",
+      "reason": "Intake requirements are available, but the supplied sources omit the complementary transfer closeout record and reviewer signature requirement."
+    },
+    {
+      "id": "RCE-E-P03",
+      "expected": "insufficient",
+      "reason": "The operating section alone does not state final humidity recording, nozzle inspection recording, or the completion signing role."
+    },
+    {
+      "id": "RCE-E-M01",
+      "expected": "insufficient",
+      "reason": "A descriptive bisque overview and a different glaze policy do not supply the bisque completion requirements."
+    },
+    {
+      "id": "RCE-E-M02",
+      "expected": "insufficient",
+      "reason": "The freshwater overview does not answer; marine transfer evidence belongs to a different policy and cannot establish freshwater closeout."
+    },
+    {
+      "id": "RCE-E-M03",
+      "expected": "insufficient",
+      "reason": "A dome overview plus the separate lens closeout cannot establish fabric-dome completion evidence."
+    },
+    {
+      "id": "RCE-E-X01",
+      "expected": "not_assessable",
+      "reason": "Two current provided sources issue must display and must not display for the same audit clerk, object, desk, and weekly photograph. No precedence or supersession rule is supplied. This explicit pattern does not claim detection of arbitrary paraphrased contradictions."
+    },
+    {
+      "id": "RCE-E-X02",
+      "expected": "not_assessable",
+      "reason": "The provided current sources require and prohibit the same audit clerk hanging the same marker at the same desk during the same weekly freshwater photograph. No priority rule resolves it. The authored conflict is explicit, not a claim of general semantic contradiction detection."
+    },
+    {
+      "id": "RCE-E-X03",
+      "expected": "not_assessable",
+      "reason": "The two provided current instructions directly oppose placing the same audit marker at the same desk during the same monthly dome photograph. No precedence is available. Free-form implication or arbitrary paraphrase remains outside this explicit conflict assertion."
+    },
+    {
+      "id": "RCE-E-K01",
+      "expected": "supported",
+      "reason": "The standard open-vent instruction is conditioned on a healthy fan; the closed-vent and no-start instruction is conditioned on a documented fan fault. These conditions differ, so opposite vent actions are not a same-condition contradiction."
+    },
+    {
+      "id": "RCE-E-K02",
+      "expected": "supported",
+      "reason": "Clear-water intake requires the lamp on; amber-water hold requires it off and suspends entry. Explicitly different water conditions explain the different actions without contradiction."
+    },
+    {
+      "id": "RCE-E-K03",
+      "expected": "supported",
+      "reason": "The lamp-on cycle is restricted to a clear surface, while reflective flecks require lamp off and suspension. Different explicit surface conditions make the rules compatible."
+    }
+  ]
+}

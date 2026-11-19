@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    name: ${{ matrix.os }} / Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.11", "3.12"]
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install locked development environment
+        run: |
+          python -m pip install uv==0.13.5
+          uv sync --locked --no-editable --python "${{ matrix.python }}"
+      - name: Unit tests (offline)
+        run: uv run --no-sync --python "${{ matrix.python }}" pytest
+      - name: Lint and format
+        run: |
+          uv run --no-sync --python "${{ matrix.python }}" ruff check .
+          uv run --no-sync --python "${{ matrix.python }}" ruff format --check .
+      - name: Type checking
+        run: uv run --no-sync --python "${{ matrix.python }}" mypy
+      - name: Build source and wheel distributions
+        run: uv build --no-build-isolation --python "${{ matrix.python }}"
+
+  demo_checks:
+    name: M1 Demo / ${{ matrix.os }} / Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.11", "3.12"]
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install locked development tools
+        run: |
+          python -m pip install uv==0.13.5
+          uv sync --locked --no-editable --python "${{ matrix.python }}"
+      - name: Build independent core and Demo artifacts
+        run: |
+          uv build --no-build-isolation --python "${{ matrix.python }}"
+          uv build --project examples/knowledge_ticket_agent --no-build-isolation --python "${{ github.workspace }}/.venv/bin/python"
+      - name: Install only the locally built Demo wheel
+        run: uv pip install --no-cache --python .venv/bin/python --no-index --no-deps examples/knowledge_ticket_agent/dist/knowledge_ticket_agent_demo-0.1.0-py3-none-any.whl
+      - name: Offline Demo tests, lint, format and strict typing
+        run: |
+          uv run --no-sync pytest -c examples/knowledge_ticket_agent/pyproject.toml examples/knowledge_ticket_agent/tests
+          uv run --no-sync ruff check examples/knowledge_ticket_agent/src examples/knowledge_ticket_agent/tests
+          uv run --no-sync ruff format --check examples/knowledge_ticket_agent/src examples/knowledge_ticket_agent/tests
+          uv run --no-sync mypy --strict examples/knowledge_ticket_agent/src examples/knowledge_ticket_agent/tests
+      - name: Clean installation of both local wheels and offline data CLI
+        run: |
+          uv venv .venv-m1-clean --python "${{ matrix.python }}"
+          uv pip install --no-cache --python .venv-m1-clean/bin/python --no-index --no-deps dist/agent_harness_lab-0.9.0-py3-none-any.whl examples/knowledge_ticket_agent/dist/knowledge_ticket_agent_demo-0.1.0-py3-none-any.whl
+          .venv-m1-clean/bin/lqd-validate
+          .venv-m1-clean/bin/lqd-validate --gold-root examples/knowledge_ticket_agent/tests/gold/v1
+      - name: M2 offline retrieval and citation CLI
+        run: |
+          .venv-m1-clean/bin/lqd-search "first purchase credit" --category billing_refund
+          .venv-m1-clean/bin/lqd-search "retention" --category data_export --snapshot conflict

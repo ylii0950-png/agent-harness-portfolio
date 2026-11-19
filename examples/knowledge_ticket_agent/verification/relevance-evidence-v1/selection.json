@@ -1,0 +1,90 @@
+{
+  "scope": "FROZEN_PUBLIC_RELEVANCE_DEV",
+  "frozen_utc": "2026-11-02T05:44:46.651447+00:00",
+  "freeze_commit_parent": "a9f35cb1e6a5f56e5eaa901d7ec7d079b34586be",
+  "qualified_profile": null,
+  "decision": "PUBLIC_QUALITY_FAIL_NO_PROMOTION",
+  "source_sha256": "def4a33dd28805c8a8510cfe90b47ebf49035d48d3ecaa644ad4d9bf7d3bc764",
+  "source_count": 114,
+  "helper_sha256": "1d7c3337b85ec6fed04d5155e4635ba7a702ea439f6ecd5dd472aa76462cacfe",
+  "corpus_builder_sha256": "9bd24d20c8d40f6f449fc6652e3880d4c7c686b35b8e5b5b0385288388b06e4b",
+  "data_lock_sha256": "66399edc5715b7652a4888a1f6f2e96e92611c4eafea7a1e0ff976567acc135d",
+  "inference_module_hashes": {
+    "retrieval_relevance.py": "52b62e8f22ae5506b1121fdd64aae3ef84b36e6e915622c1506c5353c559c260",
+    "relevance_evidence.py": "90eb03cb0ce701d6f30c68648dc7c33c8f08c60d87d1a0b4f89d79bc6d67758d",
+    "pair_model.py": "d5ef7479b605b6d351a4ddc1599a2395bb18d1c4240e27f1f029ebdad3cea3ff",
+    "retrieval_structural.py": "f4a05d3e8834e4ab641d98cdf9e64ce8af7de135abc67d976ff16f7cb6bfa374",
+    "retrieval_vnext.py": "c490ece53f5e19e13046cf7b76603c013ba34dd77fd438e10e3a59a96c640e92",
+    "semantic_model.py": "6cb1fbf946458f9494a9ec1755ecfef85eb5216d0dc880b8ef93f04196ecf89a",
+    "retrieval.py": "1a1140af7fb5abb6a6c072306f314c4402262bf46f2246f0925db1a01ca5a5fd",
+    "citations.py": "e2391c73d465b6d975bdf154204d9d07338519ceb0bd27e618f84ad13c34b361"
+  },
+  "DEV_source_compatibility": "DEV inference/scoring modules byte-identical; subsequent changes only Agent/Controller source veto, bounded read navigation and public checker style. No retrieval selection adjustment.",
+  "profile_order": [
+    "A1",
+    "D",
+    "H",
+    "S",
+    "R0",
+    "R1"
+  ],
+  "gates": {
+    "R1": {
+      "Recall>=.90": true,
+      "MRR>=.80": true,
+      "languages": false,
+      "single>=.95": true,
+      "multi>=.90": false,
+      "English_no_regression": false,
+      "gain>=.10": true,
+      "candidate>=.98": true,
+      "negative_FA=0": false,
+      "positive_FR<=1": true,
+      "evidence_15/15": false,
+      "resource": true
+    },
+    "R0": {
+      "Recall>=.90": false,
+      "MRR>=.80": true,
+      "languages": false,
+      "single>=.95": true,
+      "multi>=.90": false,
+      "English_no_regression": false,
+      "gain>=.10": true,
+      "candidate>=.98": true,
+      "negative_FA=0": false,
+      "positive_FR<=1": true,
+      "evidence_15/15": false,
+      "resource": true
+    }
+  },
+  "DEV_reports": {
+    "R1": {
+      "sha256": "745baede4e3e3870ba73be6dfaf77fefd2aeeb54cab8b7bc1d708132051dcaf4",
+      "source_sha256": "f9487f5004aa79eb98d160e3b916f6d1f0b7a6d457a1676134e72c9377407513"
+    },
+    "R0": {
+      "sha256": "e6d7f50235fab47fdb2aec6db3f1825f55291224619451563a7217f08bc5a437",
+      "source_sha256": "f9487f5004aa79eb98d160e3b916f6d1f0b7a6d457a1676134e72c9377407513"
+    },
+    "S": {
+      "sha256": "e02d08d12596651658ea2fe3b421961f8f3c9969142803529da1d95f0735d2f1",
+      "source_sha256": "f9487f5004aa79eb98d160e3b916f6d1f0b7a6d457a1676134e72c9377407513"
+    },
+    "D": {
+      "sha256": "61c63d09f94eabf85f00d6d86cddc39be6f51622d4b9ddf151b3c4b8adc3405e",
+      "source_sha256": "f9487f5004aa79eb98d160e3b916f6d1f0b7a6d457a1676134e72c9377407513"
+    },
+    "H": {
+      "sha256": "909422dea1c0f078a4790ad95937037d4abbdc3e996bcdf72a978b894f833d97",
+      "source_sha256": "f9487f5004aa79eb98d160e3b916f6d1f0b7a6d457a1676134e72c9377407513"
+    },
+    "A1": {
+      "sha256": "5b284c22b227416e949a00e826f5173a2f6f143326e52f0c3690cfcede1074fc",
+      "source_sha256": "f9487f5004aa79eb98d160e3b916f6d1f0b7a6d457a1676134e72c9377407513"
+    }
+  },
+  "challenge_usage": "one final comparison per fixed profile; no adaptive correction afterward",
+  "formal_runs": 0,
+  "paid_API_calls": 0
+}

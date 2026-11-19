@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knowledge &amp; Ticket Lab</title>
+  <link rel="stylesheet" href="/assets/app.css">
+  <script defer src="/assets/app.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">AGENT HARNESS LAB / LOCAL DEMO</p>
+      <h1>Knowledge &amp; Ticket Lab</h1>
+      <p>Run a fictional support request and review the policy evidence before approving a transition.</p>
+    </div>
+    <nav aria-label="Reference"><span class="badge">Offline Mock · A1</span><a href="/docs">API reference</a></nav>
+  </header>
+  <main>
+    <p class="notice">All tickets, policies and identities are fictional. Your browser session has its own
+      simulated tickets. Session expiry or a server restart clears them.</p>
+    <div id="error" class="notice error" role="alert" hidden></div>
+    <div class="workspace">
+      <aside>
+        <section class="card">
+          <h2>Ticket dashboard</h2>
+          <label for="ticket">Fictional ticket</label>
+          <select id="ticket" disabled></select>
+          <p id="ticket-summary"></p>
+        </section>
+        <section class="card">
+          <h2>New run</h2>
+          <form id="start">
+            <label for="request">Request (English or Chinese)</label>
+            <textarea id="request" required maxlength="4000" rows="4"></textarea>
+            <label for="snapshot">Policy snapshot</label>
+            <select id="snapshot">
+              <option value="normal">Current policy</option>
+              <option value="conflict">Fictional conflict fixture (data export)</option>
+            </select>
+            <button id="submit" type="submit" disabled>Run Agent</button>
+          </form>
+        </section>
+        <section class="card">
+          <h2>Run history</h2>
+          <label for="history">Session runs</label>
+          <select id="history" disabled><option value="">No runs yet</option></select>
+        </section>
+      </aside>
+      <div id="run">
+        <section class="card">
+          <p class="eyebrow">WORKFLOW</p>
+          <h2>Ready for a request</h2>
+          <p>Select an open ticket and run its example request, or edit the request first.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

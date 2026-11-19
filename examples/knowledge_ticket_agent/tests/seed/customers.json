@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "version": "lqd-data-1.0.0",
+  "customers": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "customer_id": "SYN-CUST-01",
+      "display_name": "Fictional Customer 01",
+      "tenant_id": "SYN-TENANT-01",
+      "plan": "Solo",
+      "role": "owner",
+      "identity_verified": true,
+      "security_hold": false
+    }
+  ]
+}

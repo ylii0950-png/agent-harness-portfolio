@@ -1,0 +1,31 @@
+{
+  "approved_ci_merge": "ce5df29943b01cffd2cdc14ee0e58baebd697c00",
+  "baseline_commit": "bf89220b91b6248ac88993d30496723e2f7f2089",
+  "dataset_freeze": "UNCHANGED",
+  "formal_scoring": "NOT_AUTHORIZED_NOT_RUN",
+  "frozen_input_count": 192,
+  "historical_evidence_sha256": {
+    "docs/phase3-m2e-contract.md": "121fbc660037d61452e604f4c380f4655397e65a680a7258e646d550ff16b099",
+    "docs/phase3-m2e-independent-review.md": "fdbe4869420a65edf89ccfa034dcabad7307ada2bb01466bd3650b84566fb955",
+    "docs/phase3-m2e-verification.md": "ad5da20d285343b20640f80c1e5c538017bcd1c06914694158b6d8ba96d8c8e8",
+    "examples/knowledge_ticket_agent/verification/m2e/dataset-qa.json": "60ad977a5dd57804e90dde3b7b265f2d6afc6297a57f726b40be510b24faece7",
+    "examples/knowledge_ticket_agent/verification/m2e/final-staged-leakage.json": "7bb2e7ca772f955aea94eaffb95f886a56e04174870022948a48e9bc9e1e0c08",
+    "examples/knowledge_ticket_agent/verification/m2e/freeze-manifest.json": "f5b0192aecfd0c46a46b8a4e7cce4a5fe2442a6e768432e0b575d71c6bcc9082",
+    "examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-diagnostic.log": "86de85ad23a69178d02ee341f6eeb5c5ba2a32fd8087e9310e531f2290abc731",
+    "examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-lockfix.log": "42724d066fdf512a556c389e24afaf6a8910dd5606a6bb9a9809522ec6c64881",
+    "examples/knowledge_ticket_agent/verification/m2e/local-logs/python311-core.txt": "a820d200fc6138d15996e79422192fe2f636607c59ed5b46b1de050210091107",
+    "examples/knowledge_ticket_agent/verification/m2e/local-logs/python311-demo.txt": "bd679c84341f5edd06e2dcab907045cdbac54cc335d82e2da64dec8b1bed8200",
+    "examples/knowledge_ticket_agent/verification/m2e/local-logs/python312-core.txt": "4e7c29f6c0c9f7f3cb062513864efefa641244c420491062ff18ee2241e5f477",
+    "examples/knowledge_ticket_agent/verification/m2e/local-logs/python312-demo.txt": "6417c3664eb957712b27c728ffb83ec45ec98ae2e53b85068217d71d2db0bb61",
+    "examples/knowledge_ticket_agent/verification/m2e/local-verification.json": "6e8bcd0dd683c127f45e3214fdb51a5f3a7e75070fda9136460c0131da5e4bc7",
+    "examples/knowledge_ticket_agent/verification/m2e/retriever-lock.json": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd"
+  },
+  "integrated_ci_sha256": "4086f67ad0519f060ba71ab99282fdebd58c9e7cd95f7be337d14ea4918638b5",
+  "old_ci_sha256": "5dfe85a6be1606c611dbd397e95548eeefce2f7f2cbac7e948cbbfd46f18d9d0",
+  "original_lock_sha256": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd",
+  "same_uid_isolation": "PROCESS_SEPARATED_NON_BLIND",
+  "transition": "PR16 scheduling-only changes applied to frozen M2 CI; retains M2 offline CLI step. Integrated CI is not byte-identical to main CI.",
+  "unchanged_non_ci_count": 191,
+  "upstream_main_ci_sha256": "5484c51693e4714a9dee7fe73554071a7183d8fac802a0ab9976af36042166d9",
+  "version": "lqd-m2e-ci-compatibility-1.0.0"
+}

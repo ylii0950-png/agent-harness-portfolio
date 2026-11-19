@@ -1,0 +1,41 @@
+name: Docker Sandbox
+
+on:
+  push:
+    branches: [main]
+    paths: ['src/agent_harness_lab/**', 'tests/test_sandbox.py', 'pyproject.toml', 'uv.lock', '.github/workflows/docker-sandbox.yml']
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths: ['src/agent_harness_lab/**', 'tests/test_sandbox.py', 'pyproject.toml', 'uv.lock', '.github/workflows/docker-sandbox.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docker_limits:
+    name: Docker sandbox / offline limits
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install locked dependencies and immutable local fixture image
+        env:
+          IMAGE_REF: docker.io/library/python@sha256:57d96f71de145a98e7ceca18ee4ade77bba4103a33a72dfaea026b23625c6bf0
+        run: |
+          python -m pip install uv==0.13.5
+          uv sync --locked --no-editable --python 3.12
+          docker pull --platform linux/amd64 "$IMAGE_REF"
+          printf 'HARNESS_DOCKER_TEST_IMAGE=%s\n' "$(docker image inspect --format '{{.Id}}' "$IMAGE_REF")" >> "$GITHUB_ENV"
+      - name: Actual container restrictions, no further network or image pulls
+        run: uv run --no-sync pytest -q -m docker tests/test_sandbox.py

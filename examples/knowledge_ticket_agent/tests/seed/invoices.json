@@ -1,0 +1,55 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "version": "lqd-data-1.0.0",
+  "invoices": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "invoice_id": "SYN-INV-D01",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "purchased_at": "2031-04-01T09:00:00Z",
+      "amount_minor": 5000,
+      "unit": "DEMO_CREDIT",
+      "first_purchase": true,
+      "already_credited": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "invoice_id": "SYN-INV-D02",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "purchased_at": "2031-03-31T09:00:00Z",
+      "amount_minor": 4000,
+      "unit": "DEMO_CREDIT",
+      "first_purchase": true,
+      "already_credited": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "invoice_id": "SYN-INV-D03",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "purchased_at": "2031-04-12T09:00:00Z",
+      "amount_minor": 5001,
+      "unit": "DEMO_CREDIT",
+      "first_purchase": true,
+      "already_credited": false
+    },
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "invoice_id": "SYN-INV-D04",
+      "customer_id": "SYN-CUST-01",
+      "tenant_id": "SYN-TENANT-01",
+      "purchased_at": "2031-04-12T09:00:00Z",
+      "amount_minor": 4000,
+      "unit": "DEMO_CREDIT",
+      "first_purchase": true,
+      "already_credited": true
+    }
+  ]
+}

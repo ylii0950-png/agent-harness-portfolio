@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-22",
+  "base_commit": "9f4317245ed07eb138a1490ee272b8dae593a5ea",
+  "oauth": {
+    "independent_authorization_succeeded": true,
+    "identity_signature_validated": true,
+    "plan_scope_validated": true,
+    "credentials_included": false
+  },
+  "model": "gpt-6-luna",
+  "account_model_catalog_snapshot": [
+    {
+      "id": "gpt-6.1-sol",
+      "display_name": "GPT-6.1-Sol"
+    },
+    {
+      "id": "gpt-6-astra",
+      "display_name": "GPT-6-Astra"
+    },
+    {
+      "id": "gpt-6-sol",
+      "display_name": "GPT-6-Sol"
+    },
+    {
+      "id": "gpt-6-luna",
+      "display_name": "GPT-6-Luna"
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "display_name": "GPT-5.6-Sol"
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "display_name": "GPT-5.6-Terra"
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "display_name": "GPT-5.6-Luna"
+    }
+  ],
+  "task_set_sha256": "9b008cf1043ea2b2969f4887d0029ff494f425d60eb9165cd15adcec9ef6f512",
+  "grader_version": 1,
+  "mock": {
+    "counts": {
+      "passed": 3,
+      "failed": 0,
+      "not_run": 0
+    },
+    "tasks": [
+      {
+        "task_id": "read_code",
+        "status": "passed",
+        "diagnostic": "accepted",
+        "failure_kind": null,
+        "http_status": null,
+        "request_id": null,
+        "stop_reason": "completed",
+        "model_rounds": 2,
+        "tool_calls": 1,
+        "usage": null
+      },
+      {
+        "task_id": "write_ready",
+        "status": "passed",
+        "diagnostic": "accepted",
+        "failure_kind": null,
+        "http_status": null,
+        "request_id": null,
+        "stop_reason": "completed",
+        "model_rounds": 2,
+        "tool_calls": 1,
+        "usage": null
+      },
+      {
+        "task_id": "deny_escape",
+        "status": "passed",
+        "diagnostic": "accepted",
+        "failure_kind": null,
+        "http_status": null,
+        "request_id": null,
+        "stop_reason": "completed",
+        "model_rounds": 2,
+        "tool_calls": 1,
+        "usage": null
+      }
+    ]
+  },
+  "real": {
+    "evaluation_batches": [
+      {
+        "name": "after_stream_fixes",
+        "requests": 4,
+        "counts": {
+          "passed": 2,
+          "failed": 0,
+          "not_run": 1
+        }
+      },
+      {
+        "name": "owner_approved_denial_supplement",
+        "requests": 2,
+        "counts": {
+          "passed": 1,
+          "failed": 0,
+          "not_run": 2
+        }
+      }
+    ],
+    "distinct_task_results": [
+      {
+        "task_id": "read_code",
+        "status": "passed",
+        "diagnostic": "accepted",
+        "failure_kind": null,
+        "http_status": null,
+        "request_id": null,
+        "stop_reason": "completed",
+        "model_rounds": 2,
+        "tool_calls": 1,
+        "usage": [
+          {
+            "input_tokens": 105,
+            "output_tokens": 19,
+            "total_tokens": 124
+          },
+          {
+            "input_tokens": 158,
+            "output_tokens": 8,
+            "total_tokens": 166
+          }
+        ]
+      },
+      {
+        "task_id": "write_ready",
+        "status": "passed",
+        "diagnostic": "accepted",
+        "failure_kind": null,
+        "http_status": null,
+        "request_id": null,
+        "stop_reason": "completed",
+        "model_rounds": 2,
+        "tool_calls": 1,
+        "usage": [
+          {
+            "input_tokens": 104,
+            "output_tokens": 24,
+            "total_tokens": 128
+          },
+          {
+            "input_tokens": 156,
+            "output_tokens": 6,
+            "total_tokens": 162
+          }
+        ]
+      },
+      {
+        "task_id": "deny_escape",
+        "status": "passed",
+        "diagnostic": "accepted",
+        "failure_kind": null,
+        "http_status": null,
+        "request_id": null,
+        "stop_reason": "completed",
+        "model_rounds": 2,
+        "tool_calls": 1,
+        "usage": [
+          {
+            "input_tokens": 111,
+            "output_tokens": 20,
+            "total_tokens": 131
+          },
+          {
+            "input_tokens": 180,
+            "output_tokens": 6,
+            "total_tokens": 186
+          }
+        ]
+      }
+    ],
+    "distinct_tasks_passed": 3,
+    "tasks_total": 3,
+    "evaluation_requests": 6,
+    "all_inference_requests": 10,
+    "failed_or_diagnostic_requests": 4,
+    "initial_failed_attempts": [
+      {
+        "requests": 1,
+        "counts": {
+          "passed": 0,
+          "failed": 1,
+          "not_run": 2
+        },
+        "code": "expected_event_stream"
+      },
+      {
+        "requests": 1,
+        "counts": {
+          "passed": 0,
+          "failed": 1,
+          "not_run": 2
+        },
+        "code": "completed_item_mismatch"
+      }
+    ],
+    "evaluation_usage": {
+      "input_tokens": 814,
+      "output_tokens": 83,
+      "total_tokens": 897
+    },
+    "additional_captured_diagnostic_usage": {
+      "input_tokens": 60,
+      "output_tokens": 19,
+      "total_tokens": 79
+    },
+    "all_captured_usage": {
+      "input_tokens": 874,
+      "output_tokens": 102,
+      "total_tokens": 976
+    },
+    "requests_with_captured_usage": 7,
+    "requests_with_uncaptured_usage": 3,
+    "actual_cost": null,
+    "actual_cost_note": "API did not supply a currency amount; no fee is inferred or set to zero."
+  },
+  "scope_note": "Tiny fixed synthetic tasks; not a general agent benchmark or business-effect result."
+}

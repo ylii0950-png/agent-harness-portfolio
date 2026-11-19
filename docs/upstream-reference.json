@@ -1,0 +1,384 @@
+{
+  "repository": "https://github.com/shareAI-lab/learn-claude-code",
+  "default_branch": "main",
+  "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+  "commit_timestamp": "2026-09-28T13:49:16Z",
+  "inspected_date": "2026-10-22",
+  "timezone": "Asia/Kuala_Lumpur",
+  "license": {
+    "spdx_id": "MIT",
+    "copyright": "Copyright (c) 2024 shareAI Lab",
+    "source_url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/LICENSE",
+    "retained_path": "licenses/learn-claude-code-MIT.txt",
+    "sha256": "204ff5ee216c8f895268a23b66d959f82aa4d868e871e0690fbf2844eff8a26b"
+  },
+  "inspected_directory_listings": {
+    ".": [
+      {
+        "name": ".env.example",
+        "type": "file"
+      },
+      {
+        "name": ".github",
+        "type": "dir"
+      },
+      {
+        "name": ".gitignore",
+        "type": "file"
+      },
+      {
+        "name": "CONTRIBUTING.md",
+        "type": "file"
+      },
+      {
+        "name": "LICENSE",
+        "type": "file"
+      },
+      {
+        "name": "README-ja.md",
+        "type": "file"
+      },
+      {
+        "name": "README-zh.md",
+        "type": "file"
+      },
+      {
+        "name": "README.md",
+        "type": "file"
+      },
+      {
+        "name": "agents",
+        "type": "dir"
+      },
+      {
+        "name": "docs",
+        "type": "dir"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "file"
+      },
+      {
+        "name": "s01_agent_loop",
+        "type": "dir"
+      },
+      {
+        "name": "s02_tool_use",
+        "type": "dir"
+      },
+      {
+        "name": "s03_permission",
+        "type": "dir"
+      },
+      {
+        "name": "s04_hooks",
+        "type": "dir"
+      },
+      {
+        "name": "s05_todo_write",
+        "type": "dir"
+      },
+      {
+        "name": "s06_subagent",
+        "type": "dir"
+      },
+      {
+        "name": "s07_skill_loading",
+        "type": "dir"
+      },
+      {
+        "name": "s08_context_compact",
+        "type": "dir"
+      },
+      {
+        "name": "s09_memory",
+        "type": "dir"
+      },
+      {
+        "name": "s10_task_system",
+        "type": "dir"
+      },
+      {
+        "name": "s11_background_tasks",
+        "type": "dir"
+      },
+      {
+        "name": "s12_cron_scheduler",
+        "type": "dir"
+      },
+      {
+        "name": "s13_agent_teams",
+        "type": "dir"
+      },
+      {
+        "name": "s14_mcp_plugin",
+        "type": "dir"
+      },
+      {
+        "name": "s15_integrated_harness",
+        "type": "dir"
+      },
+      {
+        "name": "s16_workflow_runtime",
+        "type": "dir"
+      },
+      {
+        "name": "s17_goal_loop",
+        "type": "dir"
+      },
+      {
+        "name": "skills",
+        "type": "dir"
+      },
+      {
+        "name": "tests",
+        "type": "dir"
+      },
+      {
+        "name": "web",
+        "type": "dir"
+      }
+    ],
+    "agents": [
+      {
+        "name": "__init__.py",
+        "type": "file"
+      },
+      {
+        "name": "s01_agent_loop.py",
+        "type": "file"
+      },
+      {
+        "name": "s02_tool_use.py",
+        "type": "file"
+      },
+      {
+        "name": "s03_todo_write.py",
+        "type": "file"
+      },
+      {
+        "name": "s04_subagent.py",
+        "type": "file"
+      },
+      {
+        "name": "s05_skill_loading.py",
+        "type": "file"
+      },
+      {
+        "name": "s06_context_compact.py",
+        "type": "file"
+      },
+      {
+        "name": "s07_task_system.py",
+        "type": "file"
+      },
+      {
+        "name": "s08_background_tasks.py",
+        "type": "file"
+      },
+      {
+        "name": "s09_agent_teams.py",
+        "type": "file"
+      },
+      {
+        "name": "s10_team_protocols.py",
+        "type": "file"
+      },
+      {
+        "name": "s11_autonomous_agents.py",
+        "type": "file"
+      },
+      {
+        "name": "s12_worktree_task_isolation.py",
+        "type": "file"
+      },
+      {
+        "name": "s_full.py",
+        "type": "file"
+      }
+    ],
+    "s01_agent_loop": [
+      {
+        "name": "README.ja.md",
+        "type": "file"
+      },
+      {
+        "name": "README.md",
+        "type": "file"
+      },
+      {
+        "name": "README.zh.md",
+        "type": "file"
+      },
+      {
+        "name": "code.py",
+        "type": "file"
+      },
+      {
+        "name": "images",
+        "type": "dir"
+      }
+    ],
+    "s02_tool_use": [
+      {
+        "name": "README.ja.md",
+        "type": "file"
+      },
+      {
+        "name": "README.md",
+        "type": "file"
+      },
+      {
+        "name": "README.zh.md",
+        "type": "file"
+      },
+      {
+        "name": "code.py",
+        "type": "file"
+      },
+      {
+        "name": "images",
+        "type": "dir"
+      }
+    ],
+    "s03_permission": [
+      {
+        "name": "README.ja.md",
+        "type": "file"
+      },
+      {
+        "name": "README.md",
+        "type": "file"
+      },
+      {
+        "name": "README.zh.md",
+        "type": "file"
+      },
+      {
+        "name": "code.py",
+        "type": "file"
+      },
+      {
+        "name": "images",
+        "type": "dir"
+      }
+    ]
+  },
+  "upstream_code_executed": false,
+  "upstream_python_copied": false,
+  "phase1_code_inspection": {
+    "date": "2026-10-22",
+    "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+    "files": [
+      {
+        "path": "s01_agent_loop/code.py",
+        "sha256": "abe71cd04d1b63aaf6f4e7c6220aa831779d25fd00f6eec1abd3f12c742b0d16",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s01_agent_loop/code.py"
+      },
+      {
+        "path": "s02_tool_use/code.py",
+        "sha256": "fa6fdaa4e75ae4304507a96cb22adf98854f115509bec2ecc400f31c202ff19e",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s02_tool_use/code.py"
+      }
+    ],
+    "upstream_code_executed": false,
+    "upstream_python_copied": false,
+    "purpose": "Read s01 feedback loop and s02 dispatch concepts; independently implement bounded mock runtime."
+  },
+  "phase21_code_inspection": {
+    "date": "2026-10-23",
+    "timezone": "Asia/Kuala_Lumpur",
+    "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+    "files": [
+      {
+        "path": "s03_permission/code.py",
+        "sha256": "6854e6b2ad0b5343a8abc0213e80c010cd7c39dd501c396797e1aecb6c6c1a80",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s03_permission/code.py"
+      },
+      {
+        "path": "s03_permission/README.md",
+        "sha256": "484285c232481cfb8e26be5da9976f8f36b792c0870b919b507b183f2e63c194",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s03_permission/README.md"
+      }
+    ],
+    "upstream_code_executed": false,
+    "upstream_python_copied": false,
+    "purpose": "Inspect s03 pre-execution permission gates; independently implement deny-by-default capabilities, exact tool rules and injected approval. Do not adopt shell or approvable workspace escape."
+  },
+  "phase22_code_inspection": {
+    "date": "2026-10-23",
+    "timezone": "Asia/Kuala_Lumpur",
+    "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+    "files": [
+      {
+        "path": "s05_todo_write/code.py",
+        "sha256": "cee9aa4cbc5682658c9708f784e32abc06cf1b778c43da26d0355342e38a0593",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s05_todo_write/code.py"
+      },
+      {
+        "path": "s05_todo_write/README.md",
+        "sha256": "c17cc19a0f95e47fd56da0e9912d6057800faedaab4017bab26d4a445e354f26",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s05_todo_write/README.md"
+      }
+    ],
+    "upstream_code_executed": false,
+    "upstream_python_copied": false,
+    "purpose": "Inspect bounded plans and one active task; independently implement explicit IDs, atomic transitions and run-local state behind existing permissions. No global state, shell, hooks or reminders."
+  },
+  "phase23_code_inspection": {
+    "date": "2026-10-23",
+    "timezone": "Asia/Kuala_Lumpur",
+    "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+    "files": [
+      {
+        "path": "s06_subagent/code.py",
+        "sha256": "a3624441fa658ea61881e2181accb43950972f459f36739b28857cf86fe43cfe",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s06_subagent/code.py"
+      },
+      {
+        "path": "s06_subagent/README.md",
+        "sha256": "faa50d0945a5ec3630c15bfac432d27616320282e09aaa126ac808ca8cbe8211",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s06_subagent/README.md"
+      }
+    ],
+    "upstream_code_executed": false,
+    "upstream_python_copied": false,
+    "purpose": "Inspect s06 isolated task messages and final-summary return. Independently reuse bounded Agent/Registry, inherited permissions, run-local state and shared attempt budgets; no shell, hooks, duplicated loop or model calls."
+  },
+  "phase24_code_inspection": {
+    "date": "2026-10-23",
+    "timezone": "Asia/Kuala_Lumpur",
+    "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+    "files": [
+      {
+        "path": "s07_skill_loading/code.py",
+        "sha256": "5f1b74246274b277ee47d239400c6ce70d92d5f8234193433f293a4dd004546a",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s07_skill_loading/code.py"
+      },
+      {
+        "path": "s07_skill_loading/README.md",
+        "sha256": "441eccdc0b62b04346e2abe11057b8d658c656d21803a908c034b1a8bddf9e8f",
+        "url": "https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/ce8f9f186058939da54c9d6fead78dfb5d0fd6c3/s07_skill_loading/README.md"
+      }
+    ],
+    "upstream_code_executed": false,
+    "upstream_python_copied": false,
+    "purpose": "Inspect s07 catalog-first SKILL.md and tool-result loading. Independently implement header-only discovery, restricted metadata, lazy bounded reads, low-trust run-local tools and existing permissions. No full YAML, eager body cache, shell, hooks or model client."
+  },
+  "phase25_code_inspection": {
+    "date": "2026-10-23",
+    "commit_sha": "ce8f9f186058939da54c9d6fead78dfb5d0fd6c3",
+    "files": [
+      {
+        "path": "s08_context_compact/code.py",
+        "sha256": "4eeedf2e3edeb526b88830d5ffc4c6cf928fe5a8178885a389f91a2eb88b1e15"
+      },
+      {
+        "path": "s08_context_compact/README.md",
+        "sha256": "bbe45fd0c1c1353188e10273ff122ab979f77d4591f498a27817fe66e84f25ee"
+      }
+    ],
+    "execution": "Read as untrusted data only; no upstream commands executed.",
+    "implementation": "Independent deterministic in-memory tool previews, no upstream persistence/model summaries."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "public-domain-evidence-dev-2.0.0",
+  "scope": "PUBLIC_ENGINEERING_ONLY",
+  "author": "Main Development Codex",
+  "origin": "independently authored fictional instrument workflows; no private Gold or old exposed Challenge used",
+  "files": {
+    "dev-requests.json": "0044e0d24c862f00045703c9be91dff56f3a092260e9af1e946eda544ee86a89",
+    "dev-corpus.json": "1283bc9f3db9951e814d83a41345e3905f82a835db92890f9135912fffba218e",
+    "dev-oracle.json": "dc02b899257afcafbfc94c8c11320eadd1838c19b9ed72c839e026803c49d20a"
+  },
+  "positive": 24,
+  "negative": 12,
+  "evidence_controls": 10,
+  "languages_positive": {
+    "en": 8,
+    "zh": 8,
+    "mixed": 8
+  },
+  "single": 12,
+  "multi": 12,
+  "plan_sha256": "89c3fc93312feb7640e198d7f92b118308b3815f779d4698ea6abe12fda76a94"
+}

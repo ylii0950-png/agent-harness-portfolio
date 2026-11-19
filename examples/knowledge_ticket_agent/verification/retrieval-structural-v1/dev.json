@@ -1,0 +1,656 @@
+{
+  "scope": "PUBLIC_ENGINEERING_AUTHORED_FICTION_NOT_INDEPENDENT_ACCEPTANCE",
+  "version": "lqd-structural-dev-1.0.0",
+  "topics": [
+    {
+      "title": "Sample freezer short storage",
+      "rule": "Sample freezer short storage concerns sealed research samples. This ordinary service requires approval from a laboratory coordinator. The permitted duration is 7 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Sample freezer short storage, the applicant must attach a specimen barcode and custody signature. Keep that record in the FreezeBox register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Storage Expiry Extension",
+      "rule": "Storage Expiry Extension concerns sealed research samples. This restricted service requires approval from a biosafety officer. The permitted duration is 45 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Storage Expiry Extension, the applicant must attach a specimen barcode and custody signature. Keep that record in the FreezeBox register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Garden irrigation standard booking",
+      "rule": "Garden irrigation standard booking concerns community garden watering slots. This ordinary service requires approval from a plot steward. The permitted duration is 2 hours. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Garden irrigation standard booking, the applicant must attach a plot number and water meter reading. Keep that record in the GardenFlow register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Drought Emergency Watering",
+      "rule": "Drought Emergency Watering concerns community garden watering slots. This restricted service requires approval from the water committee. The permitted duration is 30 minutes. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Drought Emergency Watering, the applicant must attach a plot number and water meter reading. Keep that record in the GardenFlow register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Fleet battery routine charging",
+      "rule": "Fleet battery routine charging concerns shared electric cart charging bays. This ordinary service requires approval from a fleet dispatcher. The permitted duration is 4 hours. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Fleet battery routine charging, the applicant must attach a vehicle tag and battery inspection form. Keep that record in the CartVolt register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Damaged Battery Isolation",
+      "rule": "Damaged Battery Isolation concerns shared electric cart charging bays. This restricted service requires approval from a safety engineer. The permitted duration is 24 hours. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Damaged Battery Isolation, the applicant must attach a vehicle tag and battery inspection form. Keep that record in the CartVolt register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "Museum loan condition review",
+      "rule": "Museum loan condition review concerns fictional exhibit loans. This ordinary service requires approval from a collections registrar. The permitted duration is 10 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For Museum loan condition review, the applicant must attach a condition photograph and insurance reference. Keep that record in the ExhibitPass register before service starts. Missing attachments mean the request cannot proceed."
+    },
+    {
+      "title": "International Loan Review",
+      "rule": "International Loan Review concerns fictional exhibit loans. This restricted service requires approval from an export curator. The permitted duration is 40 days. A request for the other service follows its separate policy and cannot substitute this authorization.",
+      "record": "For International Loan Review, the applicant must attach a condition photograph and insurance reference. Keep that record in the ExhibitPass register before service starts. Missing attachments mean the request cannot proceed."
+    }
+  ],
+  "cases": [
+    {
+      "id": "ST-dev-00-en",
+      "query": "Who must authorize sample freezer short storage, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-00-paraphrase",
+      "query": "For sample freezer short storage, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-00-zh",
+      "query": "关于样本冷冻柜短期存储，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-00-mixed",
+      "query": "Please explain Sample freezer short storage 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-00-multi",
+      "query": "For sample freezer short storage, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-00-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For sample freezer short storage, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 0,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-01-en",
+      "query": "Who must authorize storage expiry extension, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-01-paraphrase",
+      "query": "For storage expiry extension, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-01-zh",
+      "query": "关于存储期限延期，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-01-mixed",
+      "query": "Please explain Storage Expiry Extension 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-01-multi",
+      "query": "For storage expiry extension, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-01-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For storage expiry extension, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 1,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-02-en",
+      "query": "Who must authorize garden irrigation standard booking, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-02-paraphrase",
+      "query": "For garden irrigation standard booking, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-02-zh",
+      "query": "关于社区花园常规灌溉预约，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-02-mixed",
+      "query": "Please explain Garden irrigation standard booking 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-02-multi",
+      "query": "For garden irrigation standard booking, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-02-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For garden irrigation standard booking, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 2,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-03-en",
+      "query": "Who must authorize drought emergency watering, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-03-paraphrase",
+      "query": "For drought emergency watering, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-03-zh",
+      "query": "关于干旱应急浇水，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-03-mixed",
+      "query": "Please explain Drought Emergency Watering 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-03-multi",
+      "query": "For drought emergency watering, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-03-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For drought emergency watering, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 3,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-04-en",
+      "query": "Who must authorize fleet battery routine charging, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-04-paraphrase",
+      "query": "For fleet battery routine charging, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-04-zh",
+      "query": "关于车队电池常规充电，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-04-mixed",
+      "query": "Please explain Fleet battery routine charging 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-04-multi",
+      "query": "For fleet battery routine charging, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-04-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For fleet battery routine charging, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 4,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-05-en",
+      "query": "Who must authorize damaged battery isolation, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-05-paraphrase",
+      "query": "For damaged battery isolation, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-05-zh",
+      "query": "关于损坏电池隔离，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-05-mixed",
+      "query": "Please explain Damaged Battery Isolation 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-05-multi",
+      "query": "For damaged battery isolation, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-05-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For damaged battery isolation, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 5,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-06-en",
+      "query": "Who must authorize museum loan condition review, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-06-paraphrase",
+      "query": "For museum loan condition review, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-06-zh",
+      "query": "关于博物馆借展状况审查，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-06-mixed",
+      "query": "Please explain Museum loan condition review 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-06-multi",
+      "query": "For museum loan condition review, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-06-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For museum loan condition review, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 6,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-07-en",
+      "query": "Who must authorize international loan review, and what is the permitted duration?",
+      "language": "en",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-07-paraphrase",
+      "query": "For international loan review, explain the approving role and how long it may last.",
+      "language": "paraphrase",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-07-zh",
+      "query": "关于国际借展审查，由谁审批，允许多长时间？",
+      "language": "zh",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "ST-dev-07-mixed",
+      "query": "Please explain International Loan Review 的批准条件，并列出应提交的记录。",
+      "language": "mixed",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-07-multi",
+      "query": "For international loan review, give the permission conditions; also describe the required supporting record.",
+      "language": "multi",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-07-long",
+      "query": "I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper. I am reorganizing notes and the printer needs paper.  For international loan review, what approval is needed and which documents must be attached?",
+      "language": "long",
+      "positive": true,
+      "topic": 7,
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "ST-dev-NEG-oov",
+      "query": "qvzptlrrx quzzzzk",
+      "language": "oov",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-unrelated",
+      "query": "How do I repair a punctured bicycle tire?",
+      "language": "unrelated",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-unrelated-zh",
+      "query": "怎样给家里的猫咪准备生日蛋糕？",
+      "language": "unrelated-zh",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-unrelated-mix",
+      "query": "Please calculate 明天足球比赛的比分。",
+      "language": "unrelated-mix",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-missing",
+      "query": "What is the personal bank account password of the service coordinator?",
+      "language": "missing",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-missing-zh",
+      "query": "请提供这位审批人的私人手机号码。",
+      "language": "missing-zh",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-ambiguous",
+      "query": "What are the rules and records?",
+      "language": "ambiguous",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-ambiguous-zh",
+      "query": "这个应该怎样处理？",
+      "language": "ambiguous-zh",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-empty",
+      "query": "",
+      "language": "empty",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-long-unrelated",
+      "query": "My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. My recipe journal contains many notes. How many moons does Neptune have?",
+      "language": "long-unrelated",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-condition-absent",
+      "query": "Which supporting record is required for the undocumented PelagicBus service?",
+      "language": "condition-absent",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    },
+    {
+      "id": "ST-dev-NEG-unanswerable",
+      "query": "What was the exact number of rejected requests last year?",
+      "language": "unanswerable",
+      "positive": false,
+      "topic": null,
+      "sections": []
+    }
+  ],
+  "denominators": {
+    "positive": 48,
+    "negative": 12,
+    "English": 32,
+    "zh": 8,
+    "mixed": 8,
+    "multi_evidence": 24
+  }
+}

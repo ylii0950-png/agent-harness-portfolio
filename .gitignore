@@ -1,0 +1,53 @@
+# Python and tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Isolated environments and generated artifacts
+.venv/
+.venv-*/
+dist/
+build/
+artifacts/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
+
+# Local credentials and machine configuration
+.envrc
+.netrc
+.npmrc
+.pypirc
+credentials.json
+auth.json
+token.json
+session.json
+*.p12
+*.pfx
+*.ppk
+
+# Local assets and runtime output
+/.private/
+/models/
+/logs/
+/reports/
+*.onnx
+*.safetensors
+*.gguf
+*.log
+
+# Checked-in verification evidence bound by the public M2E lock
+!/examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-diagnostic.log
+!/examples/knowledge_ticket_agent/verification/m2e/local-logs/m2e-concurrency-lockfix.log

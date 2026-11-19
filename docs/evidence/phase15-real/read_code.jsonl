@@ -1,0 +1,35 @@
+{"elapsed_ms": 13.637, "event": "run.started", "schema_version": 1, "seq": 1}
+{"elapsed_ms": 13.747, "event": "model.request", "item_count": 1, "round": 1, "schema_version": 1, "seq": 2}
+{"elapsed_ms": 2683.443, "event": "model.event", "event_type": "response.created", "schema_version": 1, "seq": 3}
+{"elapsed_ms": 2684.076, "event": "model.event", "event_type": "response.in_progress", "schema_version": 1, "seq": 4}
+{"elapsed_ms": 4282.024, "event": "model.event", "event_type": "response.output_item.added", "schema_version": 1, "seq": 5}
+{"elapsed_ms": 4282.365, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 6}
+{"elapsed_ms": 4282.482, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 7}
+{"elapsed_ms": 4323.522, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 8}
+{"elapsed_ms": 4340.046, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 9}
+{"elapsed_ms": 4439.098, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 10}
+{"elapsed_ms": 4439.361, "event": "model.event", "event_type": "response.function_call_arguments.delta", "schema_version": 1, "seq": 11}
+{"elapsed_ms": 4599.762, "event": "model.event", "event_type": "other", "schema_version": 1, "seq": 12}
+{"elapsed_ms": 4601.525, "event": "model.event", "event_type": "response.function_call_arguments.done", "schema_version": 1, "seq": 13}
+{"elapsed_ms": 4601.765, "event": "model.event", "event_type": "response.output_item.done", "schema_version": 1, "seq": 14}
+{"elapsed_ms": 4602.247, "event": "model.event", "event_type": "response.completed", "schema_version": 1, "seq": 15}
+{"duration_ms": 4589.272500001243, "elapsed_ms": 4603.14, "event": "model.response", "input_tokens": 105, "item_count": 1, "output_tokens": 19, "round": 1, "schema_version": 1, "seq": 16, "total_tokens": 124}
+{"call_ref": "c659861ea96e0df5", "elapsed_ms": 4603.338, "event": "tool.call", "round": 1, "schema_version": 1, "seq": 17, "tool_attempt": 1, "tool_name": "read_file"}
+{"call_ref": "c659861ea96e0df5", "content_bytes": 23, "duration_ms": 0.8775839960435405, "elapsed_ms": 4604.321, "error_code": null, "event": "tool.result", "round": 1, "schema_version": 1, "seq": 18, "success": true, "tool_attempt": 1, "tool_name": "read_file"}
+{"elapsed_ms": 4604.473, "event": "model.request", "item_count": 3, "round": 2, "schema_version": 1, "seq": 19}
+{"elapsed_ms": 6712.586, "event": "model.event", "event_type": "response.created", "schema_version": 1, "seq": 20}
+{"elapsed_ms": 6713.169, "event": "model.event", "event_type": "response.in_progress", "schema_version": 1, "seq": 21}
+{"elapsed_ms": 7453.659, "event": "model.event", "event_type": "response.output_item.added", "schema_version": 1, "seq": 22}
+{"elapsed_ms": 7453.991, "event": "model.event", "event_type": "response.content_part.added", "schema_version": 1, "seq": 23}
+{"elapsed_ms": 7454.243, "event": "model.event", "event_type": "response.output_text.delta", "schema_version": 1, "seq": 24}
+{"elapsed_ms": 7454.364, "event": "model.event", "event_type": "response.output_text.delta", "schema_version": 1, "seq": 25}
+{"elapsed_ms": 7463.028, "event": "model.event", "event_type": "response.output_text.delta", "schema_version": 1, "seq": 26}
+{"elapsed_ms": 7471.338, "event": "model.event", "event_type": "response.output_text.delta", "schema_version": 1, "seq": 27}
+{"elapsed_ms": 7785.561, "event": "model.event", "event_type": "other", "schema_version": 1, "seq": 28}
+{"elapsed_ms": 7791.984, "event": "model.event", "event_type": "response.output_text.done", "schema_version": 1, "seq": 29}
+{"elapsed_ms": 7795.728, "event": "model.event", "event_type": "response.content_part.done", "schema_version": 1, "seq": 30}
+{"elapsed_ms": 7813.185, "event": "model.event", "event_type": "response.output_item.done", "schema_version": 1, "seq": 31}
+{"elapsed_ms": 7876.404, "event": "model.event", "event_type": "response.completed", "schema_version": 1, "seq": 32}
+{"duration_ms": 3272.9902080027387, "elapsed_ms": 7877.581, "event": "model.response", "input_tokens": 158, "item_count": 0, "output_tokens": 8, "round": 2, "schema_version": 1, "seq": 33, "total_tokens": 166}
+{"duration_ms": 7864.081082996563, "elapsed_ms": 7877.74, "event": "run.stopped", "model_rounds": 2, "schema_version": 1, "seq": 34, "stop_reason": "completed", "tool_calls": 1}
+{"elapsed_ms": 7878.006, "event": "eval.result", "result": "passed", "schema_version": 1, "seq": 35, "task_id": "read_code"}

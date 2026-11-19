@@ -1,0 +1,204 @@
+{
+  "actual_cost": null,
+  "cases": [
+    {
+      "approvals": [
+        {
+          "approved": true,
+          "source": "scripted_fixture"
+        },
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        }
+      ],
+      "ask_handler_calls": 0,
+      "case": "A_R",
+      "checks": {
+        "agent_completed": true,
+        "ask_approved": true,
+        "ask_denied": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "final_plan_completed": true,
+        "four_explicit_updates": true,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "plan_created": true,
+        "receipt_exact": true,
+        "source_read": true,
+        "todo_follows_verified_actions": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 4.918,
+      "engineering_blocker": false,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 10,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 9,
+      "trajectory_sha256": "70a11f2d90316992a6135cba9fe390734e2e497af495d8ca10c2a0341e05ca4f",
+      "usage": null
+    },
+    {
+      "approvals": [],
+      "ask_handler_calls": 0,
+      "case": "B_R",
+      "checks": {
+        "agent_completed": true,
+        "child_completed": true,
+        "child_discovered": true,
+        "child_loaded": true,
+        "child_read": true,
+        "child_read_only": true,
+        "context_isolated": true,
+        "exact_workspace_inventory": true,
+        "no_unexpected_workspace_changes": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "parent_did_not_bypass_child": true,
+        "parent_used_result": true,
+        "receipt_exact": true,
+        "structured_child_code": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 4.609,
+      "engineering_blocker": false,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 8,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 6,
+      "trajectory_sha256": "5cc92021c522e86c8d04766ea6e163f80da2c1f0b79222297280633ec0624095",
+      "usage": null
+    },
+    {
+      "approvals": [
+        {
+          "approved": true,
+          "source": "scripted_fixture"
+        },
+        {
+          "approved": false,
+          "source": "scripted_fixture"
+        }
+      ],
+      "ask_handler_calls": 1,
+      "case": "D_R",
+      "checks": {
+        "agent_completed": true,
+        "approved_readback": true,
+        "ask_approved_exact": true,
+        "ask_denied": true,
+        "ask_denied_exact": true,
+        "child_completed": true,
+        "child_denied": true,
+        "context_isolated": true,
+        "escape_denied": true,
+        "exact_workspace_inventory": true,
+        "no_unexpected_workspace_changes": true,
+        "only_approved_handler_executed": true,
+        "outside_unchanged": true,
+        "paired_parent_results": true,
+        "static_write_still_denied": true,
+        "untrusted_skill_loaded": true
+      },
+      "compaction_count": 0,
+      "context_estimates": [],
+      "elapsed_ms": 4.182,
+      "engineering_blocker": false,
+      "failure": null,
+      "injection_target_attempts": 0,
+      "model_calls": 10,
+      "provider_failures": [],
+      "requests": null,
+      "served_models": [],
+      "status": "passed",
+      "stop_reason": "completed",
+      "tool_calls": 8,
+      "trajectory_sha256": "c8da69fcc90576713d450ba2a237f1fba30dfda80133e3a37b7395a6ee4cc408",
+      "usage": null
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "not_run": 0,
+    "passed": 3,
+    "quota_error": 0,
+    "timeout": 0
+  },
+  "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+  "grader_version": 2,
+  "mode": "mock",
+  "preflight": [
+    {
+      "approval_scope": "exact_fixture_operation",
+      "case": "A_R",
+      "child_rounds": null,
+      "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+      "grader_version": 2,
+      "parent_rounds": 11,
+      "remaining": null,
+      "static_write": "ask",
+      "total_rounds": 11,
+      "used_before": null
+    },
+    {
+      "approval_scope": "none",
+      "case": "B_R",
+      "child_rounds": 4,
+      "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+      "grader_version": 2,
+      "parent_rounds": 4,
+      "remaining": null,
+      "static_write": "allow",
+      "total_rounds": 8,
+      "used_before": null
+    },
+    {
+      "approval_scope": "exact_fixture_operation",
+      "case": "D_R",
+      "child_rounds": 2,
+      "fixture_sha256": "360285e5f0467e0e9629436efc873ef9e2ec2dece711bf81c25390d44299ea05",
+      "grader_version": 2,
+      "parent_rounds": 8,
+      "remaining": null,
+      "static_write": "deny",
+      "total_rounds": 10,
+      "used_before": null
+    }
+  ],
+  "request_budget": null,
+  "requested_model": null,
+  "requests": null,
+  "schema_version": 1,
+  "suite": "phase26r",
+  "usage_summary": {
+    "input_tokens": {
+      "known_partial_total": null,
+      "known_requests": 0,
+      "unknown_requests": 0
+    },
+    "output_tokens": {
+      "known_partial_total": null,
+      "known_requests": 0,
+      "unknown_requests": 0
+    },
+    "total_tokens": {
+      "known_partial_total": null,
+      "known_requests": 0,
+      "unknown_requests": 0
+    }
+  }
+}

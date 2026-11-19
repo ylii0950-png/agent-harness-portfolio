@@ -1,0 +1,505 @@
+{
+  "version": "lqd-public-robustness-challenge-1.0.0",
+  "scope": "PUBLIC_ENGINEERING_AUTHORED_FICTION_NOT_INDEPENDENT_ACCEPTANCE",
+  "origin": "New literal topics, statements and paraphrases authored for this public sprint; no independent formal data, receipts, claims or custody accessed. Public packaged corpus supplies only schema-valid scaffolding.",
+  "cases": [
+    {
+      "case_id": "RG-CHALLENGE-01-concise",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "locker key replacement charge",
+      "variant": "concise",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-natural_one",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "What charge applies if my locker key needs replacing?",
+      "variant": "natural_one",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-natural_two",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "How much does a replacement key for my locker cost?",
+      "variant": "natural_two",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-polite",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "Could you please tell me what I should do about the locker key replacement charge?",
+      "variant": "polite",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-word_order",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "charge replacement key locker",
+      "variant": "word_order",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-long_prefix",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: locker key replacement charge",
+      "variant": "long_prefix",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-long_suffix",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "locker key replacement charge is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-title_only",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "locker key replacement charge",
+      "variant": "title_only",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-heading_only",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "locker key replacement charge",
+      "variant": "heading_only",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-body_only",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "locker key replacement charge",
+      "variant": "body_only",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-01-complementary",
+      "topic": "locker key replacement charge",
+      "statement": "A locker key replacement incurs a fixed charge of seven fictional tokens. Staff record the replacement before issuing a new key.",
+      "query": "locker key replacement charge",
+      "variant": "complementary",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-concise",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "courier pickup reschedule notice",
+      "variant": "concise",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-natural_one",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "When must I give notice to reschedule a courier pickup?",
+      "variant": "natural_one",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-natural_two",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "How early should I ask to change a courier pickup appointment?",
+      "variant": "natural_two",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-polite",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "Could you please tell me what I should do about the courier pickup reschedule notice?",
+      "variant": "polite",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-word_order",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "notice reschedule pickup courier",
+      "variant": "word_order",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-long_prefix",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: courier pickup reschedule notice",
+      "variant": "long_prefix",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-long_suffix",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "courier pickup reschedule notice is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-title_only",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "courier pickup reschedule notice",
+      "variant": "title_only",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-heading_only",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "courier pickup reschedule notice",
+      "variant": "heading_only",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-body_only",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "courier pickup reschedule notice",
+      "variant": "body_only",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-02-complementary",
+      "topic": "courier pickup reschedule notice",
+      "statement": "A courier pickup reschedule requires notice by noon on the preceding working day. Later requests keep the original pickup window.",
+      "query": "courier pickup reschedule notice",
+      "variant": "complementary",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-concise",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "visitor badge renewal sponsor",
+      "variant": "concise",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-natural_one",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "Who must sponsor renewal of a visitor badge?",
+      "variant": "natural_one",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-natural_two",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "Whose confirmation is needed to renew my visitor badge?",
+      "variant": "natural_two",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-polite",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "Could you please tell me what I should do about the visitor badge renewal sponsor?",
+      "variant": "polite",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-word_order",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "sponsor renewal badge visitor",
+      "variant": "word_order",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-long_prefix",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: visitor badge renewal sponsor",
+      "variant": "long_prefix",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-long_suffix",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "visitor badge renewal sponsor is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-title_only",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "visitor badge renewal sponsor",
+      "variant": "title_only",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-heading_only",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "visitor badge renewal sponsor",
+      "variant": "heading_only",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-body_only",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "visitor badge renewal sponsor",
+      "variant": "body_only",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-03-complementary",
+      "topic": "visitor badge renewal sponsor",
+      "statement": "A visitor badge renewal needs confirmation from the current sponsor. A prior sponsor cannot authorize renewal after reassignment.",
+      "query": "visitor badge renewal sponsor",
+      "variant": "complementary",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-concise",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "workshop seat transfer consent",
+      "variant": "concise",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-natural_one",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "What consent is needed to transfer a workshop seat?",
+      "variant": "natural_one",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-natural_two",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "Can I give my workshop seat to someone else without written consent?",
+      "variant": "natural_two",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-polite",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "Could you please tell me what I should do about the workshop seat transfer consent?",
+      "variant": "polite",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-word_order",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "consent transfer seat workshop",
+      "variant": "word_order",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-long_prefix",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: workshop seat transfer consent",
+      "variant": "long_prefix",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-long_suffix",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "workshop seat transfer consent is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-title_only",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "workshop seat transfer consent",
+      "variant": "title_only",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-heading_only",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "workshop seat transfer consent",
+      "variant": "heading_only",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-body_only",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "workshop seat transfer consent",
+      "variant": "body_only",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-CHALLENGE-04-complementary",
+      "topic": "workshop seat transfer consent",
+      "statement": "A workshop seat transfer requires written consent from both participants. Staff record consent before changing the seat holder.",
+      "query": "workshop seat transfer consent",
+      "variant": "complementary",
+      "target_slot": 4,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    }
+  ],
+  "control_ids": [
+    "empty",
+    "out_of_vocabulary",
+    "function_words_only",
+    "wrong_category",
+    "conflict",
+    "faq_authority",
+    "missing_evidence",
+    "source_tamper"
+  ]
+}

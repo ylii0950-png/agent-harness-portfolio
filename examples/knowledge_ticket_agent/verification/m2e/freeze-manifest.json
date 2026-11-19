@@ -1,0 +1,263 @@
+{
+  "audit": {
+    "bootstrap": "Legacy initial submission and manually written semantic-review declarations imported after the fact at actual journal event time; role labels are process declarations, not OS identity or historic access proof.",
+    "journal_snapshot": {
+      "events": 18,
+      "independent_access_isolation": "NOT_ESTABLISHED",
+      "journal_sha256": "a1b90339818f2af97d2a0b0d447d0bcea12b8538ef03b7596ede61041d93abea",
+      "pending_seals": []
+    },
+    "scope": "Prefix immediately after technical freeze seal; subsequent reads append, not a permanent final-tail claim."
+  },
+  "backup_restore": {
+    "off_device": false,
+    "original_files_unchanged": true,
+    "owner_only_recovery_key": true,
+    "recovered_plain_sha256": "f7a25aadfa0e60449bbe03933c8352536a03d30283d6ce5dcdaecfa6e6109651",
+    "same_disk": true,
+    "status": "PASS"
+  },
+  "category_distribution": {
+    "account_access": {
+      "negative": 2,
+      "positive": 6
+    },
+    "billing_refund": {
+      "negative": 2,
+      "positive": 6
+    },
+    "data_export": {
+      "negative": 2,
+      "positive": 6
+    }
+  },
+  "counts": {
+    "negative": 6,
+    "old_comparison_queries": 30,
+    "positive": 18,
+    "total": 24
+  },
+  "custody_location": ".git/m2e-steward-private/",
+  "engineering_tests": "SEPARATE_EVIDENCE_PENDING_PRIMARY_TASK",
+  "formal_scoring": "NOT_RUN",
+  "freeze_type": "LOCAL_NONBLIND_TECHNICAL_FREEZE",
+  "gold_bytes": 49630,
+  "gold_plain_sha256": "f7a25aadfa0e60449bbe03933c8352536a03d30283d6ce5dcdaecfa6e6109651",
+  "increment_leakage_scan": {
+    "files_at_check": 12,
+    "leaks": 0,
+    "scope": "Current committed/uncommitted/untracked increment texts checked; final commit requires fresh scan if changed after this snapshot.",
+    "status": "PASS"
+  },
+  "independent_access_isolation": "NOT_ESTABLISHED",
+  "limitations": [
+    "Shared uid/filesystem prevents genuine access-independent blind testing.",
+    "Fixed M1 corpus has substantial shared-evidence and semantic correlation with old queries.",
+    "Encrypted backup and key recovery are on the same disk; not off-device disaster recovery.",
+    "Generic owner-only filesystem controls do not restrict another process with the same uid.",
+    "Historical initial artifacts used version-only AAD; retained as immutable submissions, not final release.",
+    "No formal ranking/quality scoring or model requests performed."
+  ],
+  "m2_quality_acceptance": "STILL_PENDING",
+  "maintenance_tools_binding": "Installed wheel module bytes equal these three worktree sources at technical-freeze attestation; final commit must preserve or explicitly revalidate them.",
+  "maintenance_tools_sha256": {
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_cli.py": "e1099513f8fc9a259f6c4ad2846353639d667eeff509ec458fcab4cb2c5c6380",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_custody.py": "bb6d34f743ba8b8806a7d221f4e761278986f9fa05edd4a7d72a172fd1defaf8",
+    "examples/knowledge_ticket_agent/src/knowledge_ticket_agent/evaluation_maintenance.py": "7068ebe07b71a85cc2873a374a391727c0c417cdd98807ecd4be794ef896d1c4"
+  },
+  "metrics": {
+    "negative_behavior_denominator": 6,
+    "positive_macro_denominator": 18,
+    "proposed_mrr_at_3_threshold": 0.8,
+    "proposed_recall_at_3_threshold": 0.9,
+    "required_evidence_coverage": "All annotated required semantic units per query; not original Agent runtime REC",
+    "top_k": 3,
+    "version": "lqd-evidence-metrics-1.0.0"
+  },
+  "model_requests": 0,
+  "mq_distribution": {
+    "1": 8,
+    "2": 8,
+    "3": 2
+  },
+  "owner_only_permissions": "PASS: root/recovery directories0700; all files0600, owned by current uid, no symlinks, file link count1; private-freeze file also0600.",
+  "package_leakage_scan": {
+    "artifacts": [
+      {
+        "members_scanned": 54,
+        "path": "dist/agent_harness_lab-0.9.0-py3-none-any.whl",
+        "private_query_gold_key_leaks": 0,
+        "sha256": "10fbecc218352ca6ad5b11d8769fbd055a95f759aebdc9498609aaf2eedd3a7b"
+      },
+      {
+        "members_scanned": 165,
+        "path": "dist/agent_harness_lab-0.9.0.tar.gz",
+        "private_query_gold_key_leaks": 0,
+        "sha256": "63d59d8d2fdd844fcb01f9101ffd84bb3dc4760e19e09fb62e954799c0f50c22"
+      },
+      {
+        "members_scanned": 55,
+        "path": "examples/knowledge_ticket_agent/dist/knowledge_ticket_agent_demo-0.1.0-py3-none-any.whl",
+        "private_query_gold_key_leaks": 0,
+        "sha256": "5ff251ad11acaea2b4131359231a0c5cd75fd64785920cebd75c501432ee73ef"
+      },
+      {
+        "members_scanned": 61,
+        "path": "examples/knowledge_ticket_agent/dist/knowledge_ticket_agent_demo-0.1.0.tar.gz",
+        "private_query_gold_key_leaks": 0,
+        "sha256": "a1f02768244785c6053ae5ec852fa97c8c0823575fa719670f1e809d850c54ff"
+      }
+    ],
+    "canonical_gold_checked": true,
+    "complete_new_query_count_checked": 24,
+    "key_binary_hex_base64_checked": true,
+    "leaks": 0,
+    "member_count": 335,
+    "scope": "Exact complete new query strings, canonical Gold payload and binary/hex/base64 key bytes absent. Public policy quotes are intentionally shared and not leaks. This checks content, not every possible encoding.",
+    "status": "PASS"
+  },
+  "positive_structural_proof": [
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P01"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P02"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P03"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P04"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P05"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P06"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P07"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P08"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P09"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P10"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P11"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P12"
+    },
+    {
+      "minimum_chunks": 1,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P13"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P14"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P15"
+    },
+    {
+      "minimum_chunks": 3,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P16"
+    },
+    {
+      "minimum_chunks": 3,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P17"
+    },
+    {
+      "minimum_chunks": 2,
+      "minimum_witness_count": 1,
+      "query_id": "M2E-P18"
+    }
+  ],
+  "precreation_contract_commit": "8dccc68",
+  "publication": "LOCAL_ONLY_NO_PUSH_NO_PR",
+  "ranking_calls": 0,
+  "remote_ci": "DEFERRED_QUOTA",
+  "retained_cipher_sha256": {
+    "backup-reviewed.aesgcm": "81b4cfbdb1f91cca1f451f3adae45c92f180299378e0c39e43b5c68561974bbd",
+    "initial-analysis.aesgcm": "7dba1d73a454a4f052de306ae7a088715a3e626edaf336ed90d388cb3fda60bb",
+    "initial.aesgcm": "f1644ff06c834f8273a8aa930c120033044dcf3f66130392d87bb6c740ac59f9",
+    "private-freeze.aesgcm": "ae54b89d94f36dd045e288adb48668aee413fb28078090e81f7492a635299692",
+    "reviewed.aesgcm": "3d4b00a01ff4b122c8800b5f02fed0916af28a0d20f1222d0ac32da27e055606",
+    "revision-analysis.aesgcm": "f04e32d0f96c636e59fb66968d2adeec16537638ce7d44846efab24bf5ac2d61",
+    "semantic-review-final.aesgcm": "8e5ac125f9be72aaf091e7c65a071defca7c556e0a80ca956ccc346f9cf5dc2e",
+    "semantic-review-initial.aesgcm": "0b0b7d3669b903284c15b4ebef80371d9b22b692e3f795fe26df556a9eced179"
+  },
+  "retriever_lock_sha256": "fef2103c881461ec5178a35b0439b7a450726a448fe569c8c17f4bb56db3b8bd",
+  "semantic_review": "PASS_WITH_LIMITATIONS",
+  "source_binding": {
+    "chunker_version": "lqd-section-1.0.0",
+    "config_sha256": "5dad0b47b42f6a1bb42fefcf3f6f592f8732970543edbfdd7a7c6949b13e2354",
+    "corpus_version": "lqd-data-1.0.0",
+    "index_sha256": "e54a66cf15711628885acf289e6425c769e6b0f2af8f2463ac32c6b8ddfbf004",
+    "manifest_sha256": "52a13a1b0b0eae835fde7f27612b14dea57d8ecbf457aa21dd49d26127d856c9",
+    "metrics_version": "lqd-evidence-metrics-1.0.0"
+  },
+  "strata_counts": {
+    "amount_representation": 1,
+    "conflicting_identity": 1,
+    "exception_and_review": 1,
+    "exception_scope": 1,
+    "explicit_conflict": 1,
+    "hold_and_recording": 1,
+    "identity_provenance": 1,
+    "invalid_facts": 1,
+    "low_trust_instruction": 1,
+    "missing_information_routing": 1,
+    "negative_execution_not_authorized": 1,
+    "negative_expired_only": 1,
+    "negative_faq_not_authority": 1,
+    "negative_no_policy_evidence": 2,
+    "negative_unverifiable_fact": 1,
+    "no_permission_grant": 1,
+    "review_recording": 1,
+    "revision_and_verification": 1,
+    "safety_override": 1,
+    "simulated_only": 1,
+    "ticket_state_contract": 1,
+    "unknown_scope_recording": 1,
+    "unsupported_detail_abstention": 1
+  },
+  "tamper_rejection": "PASS: modified encrypted payload and incorrect filename AAD rejected in memory.",
+  "true_independent_blind_test": false,
+  "version": "lqd-heldout-retrieval-2.0.0"
+}

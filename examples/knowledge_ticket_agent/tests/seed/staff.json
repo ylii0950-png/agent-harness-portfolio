@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "data_origin": "authored_fiction",
+  "version": "lqd-data-1.0.0",
+  "staff": [
+    {
+      "synthetic": true,
+      "data_origin": "authored_fiction",
+      "actor_id": "SYN-STAFF-01",
+      "role": "support",
+      "allowed_ticket_ids": [
+        "KT-D01",
+        "KT-D02",
+        "KT-D03",
+        "KT-D04"
+      ],
+      "allowed_actions": [
+        "read"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{"event": "budget", "limit": 30}
+{"attempt": 1, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 1, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 346, "output_tokens": 54, "total_tokens": 400}}
+{"attempt": 2, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 2, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 502, "output_tokens": 28, "total_tokens": 530}}
+{"attempt": 3, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 3, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 575, "output_tokens": 61, "total_tokens": 636}}
+{"attempt": 4, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 4, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 739, "output_tokens": 19, "total_tokens": 758}}
+{"attempt": 5, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 5, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 792, "output_tokens": 27, "total_tokens": 819}}
+{"attempt": 6, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 6, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 921, "output_tokens": 28, "total_tokens": 949}}
+{"attempt": 7, "case": "A", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 7, "case": "A", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 1052, "output_tokens": 30, "total_tokens": 1082}}
+{"attempt": 8, "case": "B", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 8, "case": "B", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 319, "output_tokens": 66, "total_tokens": 385}}
+{"attempt": 9, "case": "B", "completed": false, "event": "attempt", "role": "child", "usage": null}
+{"attempt": 9, "case": "B", "completed": true, "event": "outcome", "role": "child", "usage": {"input_tokens": 142, "output_tokens": 15, "total_tokens": 157}}
+{"attempt": 10, "case": "B", "completed": false, "event": "attempt", "role": "child", "usage": null}
+{"attempt": 10, "case": "B", "completed": true, "event": "outcome", "role": "child", "usage": {"input_tokens": 231, "output_tokens": 18, "total_tokens": 249}}
+{"attempt": 11, "case": "B", "completed": false, "event": "attempt", "role": "child", "usage": null}
+{"attempt": 11, "case": "B", "completed": true, "event": "outcome", "role": "child", "usage": {"input_tokens": 341, "output_tokens": 19, "total_tokens": 360}}
+{"attempt": 12, "case": "B", "completed": false, "event": "attempt", "role": "child", "usage": null}
+{"attempt": 12, "case": "B", "completed": true, "event": "outcome", "role": "child", "usage": {"input_tokens": 393, "output_tokens": 8, "total_tokens": 401}}
+{"attempt": 13, "case": "B", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 13, "case": "B", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 457, "output_tokens": 27, "total_tokens": 484}}
+{"attempt": 14, "case": "B", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 14, "case": "B", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 512, "output_tokens": 19, "total_tokens": 531}}
+{"attempt": 15, "case": "C_off", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 15, "case": "C_off", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 219, "output_tokens": 19, "total_tokens": 238}}
+{"attempt": 16, "case": "C_off", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 16, "case": "C_off", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 1151, "output_tokens": 19, "total_tokens": 1170}}
+{"attempt": 17, "case": "C_off", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 17, "case": "C_off", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 1404, "output_tokens": 33, "total_tokens": 1437}}
+{"attempt": 18, "case": "C_off", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 18, "case": "C_off", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 1465, "output_tokens": 15, "total_tokens": 1480}}
+{"attempt": 19, "case": "C_on", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 19, "case": "C_on", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 219, "output_tokens": 19, "total_tokens": 238}}
+{"attempt": 20, "case": "C_on", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 20, "case": "C_on", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 1151, "output_tokens": 19, "total_tokens": 1170}}
+{"attempt": 21, "case": "C_on", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 21, "case": "C_on", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 602, "output_tokens": 33, "total_tokens": 635}}
+{"attempt": 22, "case": "C_on", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 22, "case": "C_on", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 663, "output_tokens": 20, "total_tokens": 683}}
+{"attempt": 23, "case": "D", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 23, "case": "D", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 392, "output_tokens": 49, "total_tokens": 441}}
+{"attempt": 24, "case": "D", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 24, "case": "D", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 565, "output_tokens": 20, "total_tokens": 585}}
+{"attempt": 25, "case": "D", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 25, "case": "D", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 703, "output_tokens": 71, "total_tokens": 774}}
+{"attempt": 26, "case": "D", "completed": false, "event": "attempt", "role": "child", "usage": null}
+{"attempt": 26, "case": "D", "completed": true, "event": "outcome", "role": "child", "usage": {"input_tokens": 114, "output_tokens": 27, "total_tokens": 141}}
+{"attempt": 27, "case": "D", "completed": false, "event": "attempt", "role": "child", "usage": null}
+{"attempt": 27, "case": "D", "completed": true, "event": "outcome", "role": "child", "usage": {"input_tokens": 190, "output_tokens": 6, "total_tokens": 196}}
+{"attempt": 28, "case": "D", "completed": false, "event": "attempt", "role": "parent", "usage": null}
+{"attempt": 28, "case": "D", "completed": true, "event": "outcome", "role": "parent", "usage": {"input_tokens": 844, "output_tokens": 27, "total_tokens": 871}}

@@ -1,0 +1,505 @@
+{
+  "version": "lqd-public-robustness-dev-1.0.0",
+  "scope": "PUBLIC_ENGINEERING_AUTHORED_FICTION_NOT_INDEPENDENT_ACCEPTANCE",
+  "origin": "New literal topics, statements and paraphrases authored for this public sprint; no independent formal data, receipts, claims or custody accessed. Public packaged corpus supplies only schema-valid scaffolding.",
+  "cases": [
+    {
+      "case_id": "RG-DEV-01-concise",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "studio booking cancellation deadline",
+      "variant": "concise",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-natural_one",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "How early must I cancel a studio booking?",
+      "variant": "natural_one",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-natural_two",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "What is the deadline for cancelling my reserved studio session?",
+      "variant": "natural_two",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-polite",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "Could you please tell me what I should do about the studio booking cancellation deadline?",
+      "variant": "polite",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-word_order",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "deadline cancellation booking studio",
+      "variant": "word_order",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-long_prefix",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: studio booking cancellation deadline",
+      "variant": "long_prefix",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-long_suffix",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "studio booking cancellation deadline is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-title_only",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "studio booking cancellation deadline",
+      "variant": "title_only",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-heading_only",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "studio booking cancellation deadline",
+      "variant": "heading_only",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-body_only",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "studio booking cancellation deadline",
+      "variant": "body_only",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-01-complementary",
+      "topic": "studio booking cancellation deadline",
+      "statement": "Studio bookings may be cancelled until forty hours before the session. A cancellation after that deadline does not release the reservation fee.",
+      "query": "studio booking cancellation deadline",
+      "variant": "complementary",
+      "target_slot": 0,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-concise",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "device loan extension limit",
+      "variant": "concise",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-natural_one",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "How long may I extend a borrowed device?",
+      "variant": "natural_one",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-natural_two",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "What limit applies when a device loan needs more time?",
+      "variant": "natural_two",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-polite",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "Could you please tell me what I should do about the device loan extension limit?",
+      "variant": "polite",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-word_order",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "limit extension loan device",
+      "variant": "word_order",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-long_prefix",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: device loan extension limit",
+      "variant": "long_prefix",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-long_suffix",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "device loan extension limit is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-title_only",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "device loan extension limit",
+      "variant": "title_only",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-heading_only",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "device loan extension limit",
+      "variant": "heading_only",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-body_only",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "device loan extension limit",
+      "variant": "body_only",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-02-complementary",
+      "topic": "device loan extension limit",
+      "statement": "A device loan extension lasts at most nine days. Members request an extension before the original return date.",
+      "query": "device loan extension limit",
+      "variant": "complementary",
+      "target_slot": 1,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-concise",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "travel advance reconciliation receipt",
+      "variant": "concise",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-natural_one",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "Which receipt is required to reconcile a travel advance?",
+      "variant": "natural_one",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-natural_two",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "How do I document spending from a travel advance?",
+      "variant": "natural_two",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-polite",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "Could you please tell me what I should do about the travel advance reconciliation receipt?",
+      "variant": "polite",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-word_order",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "receipt reconciliation advance travel",
+      "variant": "word_order",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-long_prefix",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: travel advance reconciliation receipt",
+      "variant": "long_prefix",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-long_suffix",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "travel advance reconciliation receipt is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-title_only",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "travel advance reconciliation receipt",
+      "variant": "title_only",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-heading_only",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "travel advance reconciliation receipt",
+      "variant": "heading_only",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-body_only",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "travel advance reconciliation receipt",
+      "variant": "body_only",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-03-complementary",
+      "topic": "travel advance reconciliation receipt",
+      "statement": "Travel advance reconciliation requires an itemized receipt within eleven days of arrival. A missing receipt sends the advance to manual review.",
+      "query": "travel advance reconciliation receipt",
+      "variant": "complementary",
+      "target_slot": 2,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-concise",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "archive parcel collection delegate",
+      "variant": "concise",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-natural_one",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "Can a delegate collect my archive parcel?",
+      "variant": "natural_one",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-natural_two",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "What does another person need to collect an archive parcel for me?",
+      "variant": "natural_two",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-polite",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "Could you please tell me what I should do about the archive parcel collection delegate?",
+      "variant": "polite",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-word_order",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "delegate collection parcel archive",
+      "variant": "word_order",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-long_prefix",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question.  My actual policy question is: archive parcel collection delegate",
+      "variant": "long_prefix",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-long_suffix",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "archive parcel collection delegate is my policy question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. I had a long morning and was reading an unrelated story about a distant garden, a quiet river, and the weather before writing this question. ",
+      "variant": "long_suffix",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-title_only",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "archive parcel collection delegate",
+      "variant": "title_only",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-heading_only",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "archive parcel collection delegate",
+      "variant": "heading_only",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-body_only",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "archive parcel collection delegate",
+      "variant": "body_only",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule"
+      ]
+    },
+    {
+      "case_id": "RG-DEV-04-complementary",
+      "topic": "archive parcel collection delegate",
+      "statement": "An archive parcel may be collected by a named delegate carrying a collection slip. The original requester must register the delegate in advance.",
+      "query": "archive parcel collection delegate",
+      "variant": "complementary",
+      "target_slot": 3,
+      "required_sections": [
+        "rg_rule",
+        "rg_record"
+      ]
+    }
+  ],
+  "control_ids": [
+    "empty",
+    "out_of_vocabulary",
+    "function_words_only",
+    "wrong_category",
+    "conflict",
+    "faq_authority",
+    "missing_evidence",
+    "source_tamper"
+  ]
+}

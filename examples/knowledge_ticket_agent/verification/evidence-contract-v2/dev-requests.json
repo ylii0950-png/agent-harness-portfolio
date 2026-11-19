@@ -1,0 +1,481 @@
+{
+  "version": "public-domain-evidence-dev-2.0.0",
+  "cases": [
+    {
+      "id": "DE2-0-en",
+      "query": "What are the startup conditions for dry optical bench alignment?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-0-zh",
+      "query": "请说明干燥光学台对准启动条件以及完成记录。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-0-mixed",
+      "query": "Who reviews 干燥光学台对准?",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-1-en",
+      "query": "Please explain startup conditions and completion records for humid optical bench alignment.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-1-zh",
+      "query": "潮湿光学台对准由谁复核？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-1-mixed",
+      "query": "请说明 humid optical bench alignment 的 startup conditions 与 completion records.",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-2-en",
+      "query": "What are the startup conditions for portable pressure gauge check?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-2-zh",
+      "query": "请说明便携压力计检查启动条件以及完成记录。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-2-mixed",
+      "query": "Who reviews 便携压力计检查?",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-3-en",
+      "query": "Please explain startup conditions and completion records for fixed pressure gauge check.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-3-zh",
+      "query": "固定压力计检查由谁复核？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-3-mixed",
+      "query": "请说明 fixed pressure gauge check 的 startup conditions 与 completion records.",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-4-en",
+      "query": "What are the startup conditions for ceramic probe calibration?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-4-zh",
+      "query": "请说明陶瓷探头校准启动条件以及完成记录。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-4-mixed",
+      "query": "Who reviews 陶瓷探头校准?",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-5-en",
+      "query": "Please explain startup conditions and completion records for steel probe calibration.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-5-zh",
+      "query": "钢制探头校准由谁复核？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-5-mixed",
+      "query": "请说明 steel probe calibration 的 startup conditions 与 completion records.",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-6-en",
+      "query": "What are the startup conditions for indoor motion sensor test?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-6-zh",
+      "query": "请说明室内运动传感器测试启动条件以及完成记录。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-6-mixed",
+      "query": "Who reviews 室内运动传感器测试?",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-7-en",
+      "query": "Please explain startup conditions and completion records for outdoor motion sensor test.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-7-zh",
+      "query": "室外运动传感器测试由谁复核？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-7-mixed",
+      "query": "请说明 outdoor motion sensor test 的 startup conditions 与 completion records.",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N0-en",
+      "query": "What is the bank password for dry optical bench alignment?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N0-zh",
+      "query": "干燥光学台对准的个人银行密码是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N0-mixed",
+      "query": "dry optical bench alignment startup conditions if the temperature > 999 c",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N1-en",
+      "query": "What is the bank password for humid optical bench alignment?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N1-zh",
+      "query": "潮湿光学台对准的个人银行密码是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N1-mixed",
+      "query": "humid optical bench alignment startup conditions if the temperature > 999 c",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N2-en",
+      "query": "What is the bank password for portable pressure gauge check?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N2-zh",
+      "query": "便携压力计检查的个人银行密码是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N2-mixed",
+      "query": "portable pressure gauge check startup conditions if the temperature > 999 c",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N3-en",
+      "query": "What is the bank password for fixed pressure gauge check?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N3-zh",
+      "query": "固定压力计检查的个人银行密码是什么？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "DE2-N3-mixed",
+      "query": "fixed pressure gauge check startup conditions if the temperature > 999 c",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "DE2-E-complete-0",
+      "query": "Please explain startup conditions and completion records for dry optical bench alignment.",
+      "available": [
+        {
+          "topic": 0,
+          "section": "fact_0"
+        },
+        {
+          "topic": 0,
+          "section": "fact_1"
+        },
+        {
+          "topic": 0,
+          "section": "fact_2"
+        }
+      ],
+      "kind": "complete"
+    },
+    {
+      "id": "DE2-E-partial-0",
+      "query": "Please explain startup conditions and completion records for dry optical bench alignment.",
+      "available": [
+        {
+          "topic": 0,
+          "section": "fact_0"
+        }
+      ],
+      "kind": "partial"
+    },
+    {
+      "id": "DE2-E-missing-0",
+      "query": "Please explain startup conditions and completion records for dry optical bench alignment.",
+      "available": [
+        {
+          "topic": 0,
+          "section": "background"
+        }
+      ],
+      "kind": "missing"
+    },
+    {
+      "id": "DE2-E-conflict-0",
+      "query": "Please explain startup conditions and completion records for dry optical bench alignment.",
+      "available": [
+        {
+          "topic": 0,
+          "section": "fact_0"
+        },
+        {
+          "topic": 0,
+          "section": "fact_1"
+        },
+        {
+          "topic": 0,
+          "section": "fact_2"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 0,
+          "section": "fact_2",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"optics steward\",\"unit\":\"\"},\"modality\":\"required\"}\n@context {\"name\":\"audit\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"dry optical bench alignment\",\"scenario\":\"dry\",\"time\":\"daytime\",\"conditions\":[]}}\n@claim {\"context\":\"during the same audit\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"35\",\"unit\":\"c\"},\"modality\":\"forbidden\"}\n"
+        }
+      ],
+      "kind": "conflict"
+    },
+    {
+      "id": "DE2-E-disjoint-0",
+      "query": "Please explain startup conditions and completion records for dry optical bench alignment.",
+      "available": [
+        {
+          "topic": 0,
+          "section": "fact_0"
+        },
+        {
+          "topic": 0,
+          "section": "fact_1"
+        },
+        {
+          "topic": 0,
+          "section": "fact_2"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 0,
+          "section": "fact_2",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"optics steward\",\"unit\":\"\"},\"modality\":\"required\"}\n@context {\"name\":\"audit\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"dry optical bench alignment\",\"scenario\":\"dry\",\"time\":\"nighttime\",\"conditions\":[]}}\n@claim {\"context\":\"during the same audit\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"35\",\"unit\":\"c\"},\"modality\":\"forbidden\"}\n"
+        }
+      ],
+      "kind": "disjoint"
+    },
+    {
+      "id": "DE2-E-complete-1",
+      "query": "Please explain startup conditions and completion records for humid optical bench alignment.",
+      "available": [
+        {
+          "topic": 1,
+          "section": "fact_0"
+        },
+        {
+          "topic": 1,
+          "section": "fact_1"
+        },
+        {
+          "topic": 1,
+          "section": "fact_2"
+        }
+      ],
+      "kind": "complete"
+    },
+    {
+      "id": "DE2-E-partial-1",
+      "query": "Please explain startup conditions and completion records for humid optical bench alignment.",
+      "available": [
+        {
+          "topic": 1,
+          "section": "fact_0"
+        }
+      ],
+      "kind": "partial"
+    },
+    {
+      "id": "DE2-E-missing-1",
+      "query": "Please explain startup conditions and completion records for humid optical bench alignment.",
+      "available": [
+        {
+          "topic": 1,
+          "section": "background"
+        }
+      ],
+      "kind": "missing"
+    },
+    {
+      "id": "DE2-E-conflict-1",
+      "query": "Please explain startup conditions and completion records for humid optical bench alignment.",
+      "available": [
+        {
+          "topic": 1,
+          "section": "fact_0"
+        },
+        {
+          "topic": 1,
+          "section": "fact_1"
+        },
+        {
+          "topic": 1,
+          "section": "fact_2"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 1,
+          "section": "fact_2",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"moisture reviewer\",\"unit\":\"\"},\"modality\":\"required\"}\n@context {\"name\":\"audit\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"humid optical bench alignment\",\"scenario\":\"humid\",\"time\":\"daytime\",\"conditions\":[]}}\n@claim {\"context\":\"during the same audit\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"40\",\"unit\":\"c\"},\"modality\":\"forbidden\"}\n"
+        }
+      ],
+      "kind": "conflict"
+    },
+    {
+      "id": "DE2-E-disjoint-1",
+      "query": "Please explain startup conditions and completion records for humid optical bench alignment.",
+      "available": [
+        {
+          "topic": 1,
+          "section": "fact_0"
+        },
+        {
+          "topic": 1,
+          "section": "fact_1"
+        },
+        {
+          "topic": 1,
+          "section": "fact_2"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 1,
+          "section": "fact_2",
+          "body": "@claim {\"context\":\"inspection\",\"key\":\"review.role\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"moisture reviewer\",\"unit\":\"\"},\"modality\":\"required\"}\n@context {\"name\":\"audit\",\"scope\":{\"subject\":\"technician\",\"action\":\"calibrate\",\"object\":\"humid optical bench alignment\",\"scenario\":\"humid\",\"time\":\"nighttime\",\"conditions\":[]}}\n@claim {\"context\":\"during the same audit\",\"key\":\"start.limit\",\"operator\":\"eq\",\"value\":{\"kind\":\"number\",\"text\":\"40\",\"unit\":\"c\"},\"modality\":\"forbidden\"}\n"
+        }
+      ],
+      "kind": "disjoint"
+    }
+  ]
+}

@@ -1,0 +1,1130 @@
+{
+  "bm25": {
+    "actual_cost": null,
+    "aggregate": {
+      "auxiliary_raw_chunk_recall_at_3": 0.7916666666666666,
+      "hit_at_3": 0.8333333333333334,
+      "macro_recall_at_3": 0.7916666666666666,
+      "mrr_at_3": 0.7083333333333334
+    },
+    "api_token_usage": null,
+    "business_evaluation": "not_run_M2",
+    "chunker_version": "lqd-section-1.0.0",
+    "config": {
+      "b": "0.75",
+      "baseline": "unique-term-overlap;positive-only;id-tie-break",
+      "category_source": "fixed-M1-expected-category;not-predicted",
+      "fields": "title+section_heading+body;once-each",
+      "k1": "1.2",
+      "normalization": "NFKC+casefold;[a-z0-9]+;unique-query",
+      "query_limit": 256,
+      "top_k": 3,
+      "version": "lqd-lexical-1.0.0"
+    },
+    "corpus_version": "lqd-data-1.0.0",
+    "denominator": 12,
+    "excluded_from_positive_metrics": [],
+    "gold_version": "lqd-retrieval-gold-1.0.0",
+    "index_sha256": "e54a66cf15711628885acf289e6425c769e6b0f2af8f2463ac32c6b8ddfbf004",
+    "manifest_sha256": "52a13a1b0b0eae835fde7f27612b14dea57d8ecbf457aa21dd49d26127d856c9",
+    "method": "bm25",
+    "metrics_version": "lqd-evidence-metrics-1.0.0",
+    "model_requests": 0,
+    "outcomes": [
+      {
+        "case_id": "KT-D01",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Is this first purchase at the ordinary time and amount boundary eligible for simulated credit guidance?",
+        "query_id": "Q-D01",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D02",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-03"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+            "lqd-section-1.0.0:POL-ESCALATE-01@1.0:routing:part01:1648e4c61f22bb3838e4c370c7fff25da618ce6cea458516343a56e2a9fcd7c8"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What policy explains a Solo credit request arriving one calendar day after the ordinary window?",
+        "query_id": "Q-D02",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+              ]
+            ],
+            "unit_id": "BILL-03"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D03",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-02"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:FAQ-BILL-01@1.0:answer:part01:fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150",
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Which review route applies to a first purchase just above the lower amount band?",
+        "query_id": "Q-D03",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-02"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D04",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-03"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+            "lqd-section-1.0.0:FAQ-BILL-01@1.0:answer:part01:fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What restriction applies when a first purchase invoice has already been credited?",
+        "query_id": "Q-D04",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+              ]
+            ],
+            "unit_id": "BILL-03"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D05",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": "lexical_top3_missing_evidence",
+        "metrics": {
+          "covered_units": [
+            "BILL-EX1"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [
+            "BILL-01"
+          ],
+          "raw_chunk_recall": 0.5,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:FAQ-BILL-02@1.0:answer:part01:8486c5b3db0533a00d0b10305dff208bc1024c024f134046bd13b613f54de050",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+          ]
+        },
+        "minimum_chunks": 2,
+        "query": "How does the authorized Team exception affect a request at the extended time boundary?",
+        "query_id": "Q-D05",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-01"
+          },
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+              ]
+            ],
+            "unit_id": "BILL-EX1"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D06",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-02"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What route applies at the upper edge of the high-amount review band?",
+        "query_id": "Q-D06",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-02"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D07",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": "lexical_top3_missing_evidence",
+        "metrics": {
+          "covered_units": [],
+          "first_relevant_rank": null,
+          "hit": 0.0,
+          "missing_units": [
+            "BILL-03"
+          ],
+          "raw_chunk_recall": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:FAQ-BILL-01@1.0:answer:part01:fc6a069eb5d201e1747ab1255f07cb77b7d09ce8d7a352f2b0b31efdc6135150"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Can an amount above the upper credit review limit qualify for guidance?",
+        "query_id": "Q-D07",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+              ]
+            ],
+            "unit_id": "BILL-03"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D08",
+        "category": "account_access",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "ACCESS-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+            "lqd-section-1.0.0:FAQ-ACCESS-01@1.0:answer:part01:505ab4091636861c253ad6b9a5bedda70a4fa5b3aa2d8d3bf283254be1b39683",
+            "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What trusted identity and ownership facts are required for account access guidance?",
+        "query_id": "Q-D08",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+              ]
+            ],
+            "unit_id": "ACCESS-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D09",
+        "category": "account_access",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "ACCESS-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+            "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+            "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "How should support respond to an account access request from a tenant member?",
+        "query_id": "Q-D09",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+              ]
+            ],
+            "unit_id": "ACCESS-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D10",
+        "category": "data_export",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "EXPORT-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+            "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+            "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Which policy governs export guidance for a verified owner of their own workspace?",
+        "query_id": "Q-D10",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+              ]
+            ],
+            "unit_id": "EXPORT-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D11",
+        "category": "data_export",
+        "error_code": null,
+        "failure_reason": "lexical_top3_missing_evidence",
+        "metrics": {
+          "covered_units": [],
+          "first_relevant_rank": null,
+          "hit": 0.0,
+          "missing_units": [
+            "EXPORT-01"
+          ],
+          "raw_chunk_recall": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+            "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+            "lqd-section-1.0.0:FAQ-EXPORT-02@1.0:answer:part01:c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What missing identity evidence blocks an otherwise scoped workspace export request?",
+        "query_id": "Q-D11",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+              ]
+            ],
+            "unit_id": "EXPORT-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D12",
+        "category": "data_export",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "CONFLICT-A",
+            "CONFLICT-B"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:FAQ-EXPORT-02@1.0:answer:part01:c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449",
+            "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+            "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+          ]
+        },
+        "minimum_chunks": 2,
+        "query": "How should contradictory equal-priority retention statements be handled before giving export advice?",
+        "query_id": "Q-D12",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+          "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+        ],
+        "snapshot": "conflict",
+        "status": "policy_conflict",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+              ]
+            ],
+            "unit_id": "CONFLICT-A"
+          },
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+              ]
+            ],
+            "unit_id": "CONFLICT-B"
+          }
+        ]
+      }
+    ],
+    "quality_gate_met": false,
+    "required_evidence": {
+      "fixed_eval_denominator": 20,
+      "mapping_ready": true,
+      "runtime_coverage": null,
+      "status": "not_run_M4_M5"
+    },
+    "scope": "retrieval_only_no_agent_or_business_execution",
+    "split": "dev",
+    "structure": {
+      "KT-E01": 1,
+      "KT-E02": 1,
+      "KT-E03": 1,
+      "KT-E04": 1,
+      "KT-E05": 2,
+      "KT-E07": 1,
+      "KT-E08": 1,
+      "KT-E09": 1,
+      "KT-E10": 1,
+      "KT-E11": 2,
+      "KT-E12": 2,
+      "KT-E13": 2,
+      "KT-E14": 2,
+      "KT-E18": 1,
+      "KT-E19": 2,
+      "KT-E21": 1,
+      "KT-E23": 1,
+      "KT-E24": 2
+    }
+  },
+  "keyword": {
+    "actual_cost": null,
+    "aggregate": {
+      "auxiliary_raw_chunk_recall_at_3": 0.7916666666666666,
+      "hit_at_3": 0.8333333333333334,
+      "macro_recall_at_3": 0.7916666666666666,
+      "mrr_at_3": 0.6666666666666666
+    },
+    "api_token_usage": null,
+    "business_evaluation": "not_run_M2",
+    "chunker_version": "lqd-section-1.0.0",
+    "config": {
+      "b": "0.75",
+      "baseline": "unique-term-overlap;positive-only;id-tie-break",
+      "category_source": "fixed-M1-expected-category;not-predicted",
+      "fields": "title+section_heading+body;once-each",
+      "k1": "1.2",
+      "normalization": "NFKC+casefold;[a-z0-9]+;unique-query",
+      "query_limit": 256,
+      "top_k": 3,
+      "version": "lqd-lexical-1.0.0"
+    },
+    "corpus_version": "lqd-data-1.0.0",
+    "denominator": 12,
+    "excluded_from_positive_metrics": [],
+    "gold_version": "lqd-retrieval-gold-1.0.0",
+    "index_sha256": "e54a66cf15711628885acf289e6425c769e6b0f2af8f2463ac32c6b8ddfbf004",
+    "manifest_sha256": "52a13a1b0b0eae835fde7f27612b14dea57d8ecbf457aa21dd49d26127d856c9",
+    "method": "keyword",
+    "metrics_version": "lqd-evidence-metrics-1.0.0",
+    "model_requests": 0,
+    "outcomes": [
+      {
+        "case_id": "KT-D01",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Is this first purchase at the ordinary time and amount boundary eligible for simulated credit guidance?",
+        "query_id": "Q-D01",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D02",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-03"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What policy explains a Solo credit request arriving one calendar day after the ordinary window?",
+        "query_id": "Q-D02",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+              ]
+            ],
+            "unit_id": "BILL-03"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D03",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-02"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Which review route applies to a first purchase just above the lower amount band?",
+        "query_id": "Q-D03",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-02"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D04",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-03"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What restriction applies when a first purchase invoice has already been credited?",
+        "query_id": "Q-D04",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+              ]
+            ],
+            "unit_id": "BILL-03"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D05",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": "lexical_top3_missing_evidence",
+        "metrics": {
+          "covered_units": [
+            "BILL-EX1"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [
+            "BILL-01"
+          ],
+          "raw_chunk_recall": 0.5,
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96",
+            "lqd-section-1.0.0:FAQ-BILL-02@1.0:answer:part01:8486c5b3db0533a00d0b10305dff208bc1024c024f134046bd13b613f54de050"
+          ]
+        },
+        "minimum_chunks": 2,
+        "query": "How does the authorized Team exception affect a request at the extended time boundary?",
+        "query_id": "Q-D05",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+          "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-01"
+          },
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69"
+              ]
+            ],
+            "unit_id": "BILL-EX1"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D06",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "BILL-02"
+          ],
+          "first_relevant_rank": 2,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "top3": [
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What route applies at the upper edge of the high-amount review band?",
+        "query_id": "Q-D06",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+              ]
+            ],
+            "unit_id": "BILL-02"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D07",
+        "category": "billing_refund",
+        "error_code": null,
+        "failure_reason": "lexical_top3_missing_evidence",
+        "metrics": {
+          "covered_units": [],
+          "first_relevant_rank": null,
+          "hit": 0.0,
+          "missing_units": [
+            "BILL-03"
+          ],
+          "raw_chunk_recall": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-BILL-01@1.0:eligibility:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411",
+            "lqd-section-1.0.0:EX-BILL-TEAM@1.0:team_window:part01:46fda1591a52f2b1e24f9fc01249a209f2a3c5aab4ba92f4663d9bfd0eb0cf69",
+            "lqd-section-1.0.0:POL-BILL-01@1.0:manual:part01:65f35920bfbd6f963af348c2ad857e0dd4d6ede7bd7d8e782bfc500f8f929411"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Can an amount above the upper credit review limit qualify for guidance?",
+        "query_id": "Q-D07",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-BILL-02@1.0:restrictions:part01:3b67088d9936541ee92446b83c170ff7eaa4f91deecbe76f53050ad398555d96"
+              ]
+            ],
+            "unit_id": "BILL-03"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D08",
+        "category": "account_access",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "ACCESS-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+            "lqd-section-1.0.0:FAQ-ACCESS-01@1.0:answer:part01:505ab4091636861c253ad6b9a5bedda70a4fa5b3aa2d8d3bf283254be1b39683",
+            "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What trusted identity and ownership facts are required for account access guidance?",
+        "query_id": "Q-D08",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+              ]
+            ],
+            "unit_id": "ACCESS-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D09",
+        "category": "account_access",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "ACCESS-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75",
+            "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+            "lqd-section-1.0.0:POL-ACCESS-02@1.0:security:part01:e00d384f34ede862fe15cd1dde9782a4f7bba73d00a61dcb6f2cdbd9c09649fa"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "How should support respond to an account access request from a tenant member?",
+        "query_id": "Q-D09",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-ACCESS-01@1.0:verification:part01:7604a28533fe298c7bb62b6444f218c9053da98e07f3ce2738fde292c4403e75"
+              ]
+            ],
+            "unit_id": "ACCESS-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D10",
+        "category": "data_export",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "EXPORT-01"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10",
+            "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1",
+            "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "Which policy governs export guidance for a verified owner of their own workspace?",
+        "query_id": "Q-D10",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+              ]
+            ],
+            "unit_id": "EXPORT-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D11",
+        "category": "data_export",
+        "error_code": null,
+        "failure_reason": "lexical_top3_missing_evidence",
+        "metrics": {
+          "covered_units": [],
+          "first_relevant_rank": null,
+          "hit": 0.0,
+          "missing_units": [
+            "EXPORT-01"
+          ],
+          "raw_chunk_recall": 0.0,
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "top3": [
+            "lqd-section-1.0.0:POL-EXPORT-02@1.0:missing:part01:67f41d670f5c71c6df1a809ace6b486cc6f2c9bf064d703956b5006c51f563cb",
+            "lqd-section-1.0.0:EX-SECURITY-HOLD@1.0:hold:part01:94546fa95a9602e83859d37b7c0c7cbd8967d64caafa009866d41cfa73bfc215",
+            "lqd-section-1.0.0:FAQ-EXPORT-01@1.0:answer:part01:7434fd028832adf3d8d599ba34e64881722456b94db4fcd52df7d3585b368cb1"
+          ]
+        },
+        "minimum_chunks": 1,
+        "query": "What missing identity evidence blocks an otherwise scoped workspace export request?",
+        "query_id": "Q-D11",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+        ],
+        "snapshot": "normal",
+        "status": "ok",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:POL-EXPORT-01@1.0:scope:part01:697e48ed9adae4a03a7ec8c09b1c22a9b6db5bf6da4cf1963fca5f228845fb10"
+              ]
+            ],
+            "unit_id": "EXPORT-01"
+          }
+        ]
+      },
+      {
+        "case_id": "KT-D12",
+        "category": "data_export",
+        "error_code": null,
+        "failure_reason": null,
+        "metrics": {
+          "covered_units": [
+            "CONFLICT-A",
+            "CONFLICT-B"
+          ],
+          "first_relevant_rank": 1,
+          "hit": 1.0,
+          "missing_units": [],
+          "raw_chunk_recall": 1.0,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "top3": [
+            "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+            "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f",
+            "lqd-section-1.0.0:FAQ-EXPORT-02@1.0:answer:part01:c80bfeac263335c1d8fe2b988b6d5ac0791e6aba8318ced474fd1b1497a49449"
+          ]
+        },
+        "minimum_chunks": 2,
+        "query": "How should contradictory equal-priority retention statements be handled before giving export advice?",
+        "query_id": "Q-D12",
+        "relevant_chunks": [
+          "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a",
+          "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+        ],
+        "snapshot": "conflict",
+        "status": "policy_conflict",
+        "units": [
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:CONFLICT-RET-A@1.0:retention:part01:a331016452322fa76581d88b43450269aeaac72375969830d67a52a23f56537a"
+              ]
+            ],
+            "unit_id": "CONFLICT-A"
+          },
+          {
+            "alternatives": [
+              [
+                "lqd-section-1.0.0:CONFLICT-RET-B@1.0:retention:part01:2c80fdda37e2b5eeb6ea041bf758336d04db649bc703c66d1c2024c2428e579f"
+              ]
+            ],
+            "unit_id": "CONFLICT-B"
+          }
+        ]
+      }
+    ],
+    "quality_gate_met": false,
+    "required_evidence": {
+      "fixed_eval_denominator": 20,
+      "mapping_ready": true,
+      "runtime_coverage": null,
+      "status": "not_run_M4_M5"
+    },
+    "scope": "retrieval_only_no_agent_or_business_execution",
+    "split": "dev",
+    "structure": {
+      "KT-E01": 1,
+      "KT-E02": 1,
+      "KT-E03": 1,
+      "KT-E04": 1,
+      "KT-E05": 2,
+      "KT-E07": 1,
+      "KT-E08": 1,
+      "KT-E09": 1,
+      "KT-E10": 1,
+      "KT-E11": 2,
+      "KT-E12": 2,
+      "KT-E13": 2,
+      "KT-E14": 2,
+      "KT-E18": 1,
+      "KT-E19": 2,
+      "KT-E21": 1,
+      "KT-E23": 1,
+      "KT-E24": 2
+    }
+  }
+}

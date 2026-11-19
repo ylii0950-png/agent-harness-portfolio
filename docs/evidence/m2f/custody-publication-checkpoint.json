@@ -1,0 +1,17 @@
+{
+  "artifacts": 20,
+  "formal_scoring": "COMPLETED_NO_RERANK",
+  "gold_sha256": "f7a25aadfa0e60449bbe03933c8352536a03d30283d6ce5dcdaecfa6e6109651",
+  "leakage": "PASS",
+  "new_formal_key_and_full_report_leakage": "PASS",
+  "new_key_report_blobs_files_members": 2362,
+  "original_journal_sha256": "9859e461b0ad90802472c12852d49db79b8f8a669f28f855983696b8788b636d",
+  "original_m2e_journal_formal_events": 0,
+  "private_plaintext_output": false,
+  "rank_calls": 0,
+  "recovery": "PASS",
+  "retained_ciphertexts": 8,
+  "scanned_blobs_files_members": 2362,
+  "scope": "All reachable Git blobs, index/worktree files, current and historical build archives, all new M2F logs; exact patterns only, not all transformations.",
+  "status": "PASS"
+}

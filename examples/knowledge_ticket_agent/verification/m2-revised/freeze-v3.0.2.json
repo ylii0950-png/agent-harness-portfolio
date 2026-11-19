@@ -1,0 +1,11 @@
+{
+  "dataset_sha256": "f16e1ab3db2dd9327f48b720eaa5effacd14a4e1dde49c3426a4310fb46b4a0a",
+  "ranking_denominator": 12,
+  "documentary_denominator": 8,
+  "negative_denominator": 8,
+  "metrics": "lqd-evidence-metrics-1.0.0",
+  "selection": "pre-measurement; no original M2F queries/Gold; A1 unchanged",
+  "formal_quality": "NOT_RUN",
+  "blindness": "NOT_ESTABLISHED_SAME_DEVELOPER_PUBLIC",
+  "erratum": "v3.0.1 public context IDs D05/D09 had wrong trusted categories; first measured result FAIL retained. Correct only public ticket-context metadata, not query/section targets, thresholds or expected outcomes. New version frozen before measurement."
+}

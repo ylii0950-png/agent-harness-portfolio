@@ -1,0 +1,557 @@
+{
+  "version": "public-domain-evidence-challenge-2.0.0",
+  "cases": [
+    {
+      "id": "public-2-01-en",
+      "query": "reference folio loan startup",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-01-zh",
+      "query": "密封卷册借阅的完成记录和复核签字主体",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-01-mixed",
+      "query": "reference folio loan 的完成记录",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-02-en",
+      "query": "portable recorder rental startup and completion",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-02-zh",
+      "query": "录音棚话筒租借的复核签字主体",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-02-mixed",
+      "query": "studio microphone rental 的启动条件 and 复核签字主体",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-03-en",
+      "query": "dry parcel dispatch startup",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-03-zh",
+      "query": "冷藏包裹发运的完成记录和复核签字主体",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-03-mixed",
+      "query": "dry parcel dispatch 的完成记录",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-04-en",
+      "query": "public specimen scan startup and completion",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-04-zh",
+      "query": "脆弱标本扫描的复核签字主体",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-04-mixed",
+      "query": "fragile specimen scan 的启动条件 and 复核签字主体",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-05-en",
+      "query": "daylight powerpack hire startup",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-05-zh",
+      "query": "过夜电源箱租借的完成记录和复核签字主体",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-05-mixed",
+      "query": "daylight powerpack hire 的完成记录",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-06-en",
+      "query": "padded crate carriage startup and completion",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-06-zh",
+      "query": "悬吊箱运输的复核签字主体",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-06-mixed",
+      "query": "suspended crate carriage 的启动条件 and 复核签字主体",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-07-en",
+      "query": "table map consultation startup",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-07-zh",
+      "query": "灯箱地图查阅的完成记录和复核签字主体",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-07-mixed",
+      "query": "table map consultation 的完成记录",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-08-en",
+      "query": "Cloudmoth Cooperative North Quay Container Recovery Directorate Clean Tote Redistribution Service for Municipal Reusable Delivery Containers startup and completion",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-08-zh",
+      "query": "隔离周转箱调拨的复核签字主体",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-08-mixed",
+      "query": "quarantine tote redistribution 的启动条件 and 复核签字主体",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-en-1",
+      "query": "reference folio loan startup when the moon is silver",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-en-2",
+      "query": "portable recorder rental startup unless its case predicts rain",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-en-3",
+      "query": "What is the exchange rate in the river town?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-en-4",
+      "query": "clean tote redistribution startup for 73 lunar visitors",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-zh-1",
+      "query": "干件包裹发运在月亮呈银色时的启动条件",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-zh-2",
+      "query": "脆弱标本扫描如果标本会唱歌由谁复核",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-zh-3",
+      "query": "地图室附近哪家茶馆最好喝？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-zh-4",
+      "query": "隔离周转箱调拨为七十三名月球访客提供的完成记录",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-mixed-1",
+      "query": "daylight powerpack hire 的启动条件 if clouds remember yesterday",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-mixed-2",
+      "query": "suspended crate carriage 的完成记录 unless the crate becomes invisible",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-mixed-3",
+      "query": "Which planet 管理 map consultation 的梦境？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "public-2-negative-mixed-4",
+      "query": "sealed folio loan review for 73 lunar visitors",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "public-2-evidence-complete-1",
+      "query": "reference folio loan startup",
+      "available": [
+        {
+          "topic": 0,
+          "section": "contract"
+        },
+        {
+          "topic": 0,
+          "section": "entry-records"
+        },
+        {
+          "topic": 0,
+          "section": "limits-authorities"
+        },
+        {
+          "topic": 0,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 0,
+          "section": "background"
+        }
+      ],
+      "source_overrides": []
+    },
+    {
+      "id": "public-2-evidence-complete-2",
+      "query": "干件包裹发运的启动条件",
+      "available": [
+        {
+          "topic": 2,
+          "section": "contract"
+        },
+        {
+          "topic": 2,
+          "section": "entry-records"
+        },
+        {
+          "topic": 2,
+          "section": "limits-authorities"
+        },
+        {
+          "topic": 2,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 2,
+          "section": "background"
+        }
+      ],
+      "source_overrides": []
+    },
+    {
+      "id": "public-2-evidence-partial-1",
+      "query": "reference folio loan startup",
+      "available": [
+        {
+          "topic": 0,
+          "section": "contract"
+        },
+        {
+          "topic": 0,
+          "section": "entry-records"
+        },
+        {
+          "topic": 0,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 0,
+          "section": "background"
+        }
+      ],
+      "source_overrides": []
+    },
+    {
+      "id": "public-2-evidence-partial-2",
+      "query": "干件包裹发运的启动条件",
+      "available": [
+        {
+          "topic": 2,
+          "section": "contract"
+        },
+        {
+          "topic": 2,
+          "section": "entry-records"
+        },
+        {
+          "topic": 2,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 2,
+          "section": "background"
+        }
+      ],
+      "source_overrides": []
+    },
+    {
+      "id": "public-2-evidence-missing-1",
+      "query": "reference folio loan startup",
+      "available": [
+        {
+          "topic": 0,
+          "section": "contract"
+        },
+        {
+          "topic": 0,
+          "section": "background"
+        }
+      ],
+      "source_overrides": []
+    },
+    {
+      "id": "public-2-evidence-missing-2",
+      "query": "干件包裹发运的启动条件",
+      "available": [
+        {
+          "topic": 2,
+          "section": "contract"
+        },
+        {
+          "topic": 2,
+          "section": "background"
+        }
+      ],
+      "source_overrides": []
+    },
+    {
+      "id": "public-2-evidence-conflict-1",
+      "query": "reference folio loan startup",
+      "available": [
+        {
+          "topic": 0,
+          "section": "contract"
+        },
+        {
+          "topic": 0,
+          "section": "entry-records"
+        },
+        {
+          "topic": 0,
+          "section": "limits-authorities"
+        },
+        {
+          "topic": 0,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 0,
+          "section": "background"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 0,
+          "section": "closure-controls",
+          "body": "@claim {\"context\":\"audit\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@claim {\"context\":\"service cycle\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"3\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@claim {\"context\":\"during the same audit\",\"key\":\"entry credential\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"folio access card\",\"unit\":\"\"},\"modality\":\"forbidden\"}"
+        }
+      ]
+    },
+    {
+      "id": "public-2-evidence-conflict-2",
+      "query": "干件包裹发运的启动条件",
+      "available": [
+        {
+          "topic": 2,
+          "section": "contract"
+        },
+        {
+          "topic": 2,
+          "section": "entry-records"
+        },
+        {
+          "topic": 2,
+          "section": "limits-authorities"
+        },
+        {
+          "topic": 2,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 2,
+          "section": "background"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 2,
+          "section": "closure-controls",
+          "body": "@claim {\"context\":\"audit\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"4\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@claim {\"context\":\"service cycle\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"4\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"3\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@claim {\"context\":\"during the same audit\",\"key\":\"entry credential\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"route token\",\"unit\":\"\"},\"modality\":\"forbidden\"}"
+        }
+      ]
+    },
+    {
+      "id": "public-2-evidence-disjoint-1",
+      "query": "reference folio loan startup",
+      "available": [
+        {
+          "topic": 0,
+          "section": "contract"
+        },
+        {
+          "topic": 0,
+          "section": "entry-records"
+        },
+        {
+          "topic": 0,
+          "section": "limits-authorities"
+        },
+        {
+          "topic": 0,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 0,
+          "section": "background"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 0,
+          "section": "closure-controls",
+          "body": "@claim {\"context\":\"audit\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@claim {\"context\":\"service cycle\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"3\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@context {\"name\":\"exhibition demonstration\",\"scope\":{\"subject\":\"registered participant\",\"action\":\"conduct\",\"object\":\"reference folio loan\",\"scenario\":\"demonstration service\",\"time\":\"special exhibition\",\"conditions\":[{\"field\":\"folio_class\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"exhibition-only\",\"unit\":\"\"}}]}}\n@claim {\"context\":\"exhibition demonstration\",\"key\":\"entry credential\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"folio access card\",\"unit\":\"\"},\"modality\":\"forbidden\"}"
+        }
+      ]
+    },
+    {
+      "id": "public-2-evidence-disjoint-2",
+      "query": "干件包裹发运的启动条件",
+      "available": [
+        {
+          "topic": 2,
+          "section": "contract"
+        },
+        {
+          "topic": 2,
+          "section": "entry-records"
+        },
+        {
+          "topic": 2,
+          "section": "limits-authorities"
+        },
+        {
+          "topic": 2,
+          "section": "closure-controls"
+        },
+        {
+          "topic": 2,
+          "section": "background"
+        }
+      ],
+      "source_overrides": [
+        {
+          "topic": 2,
+          "section": "closure-controls",
+          "body": "@claim {\"context\":\"audit\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"4\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"2\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"audit\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@claim {\"context\":\"service cycle\",\"key\":\"completion count\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"4\",\"unit\":\"records\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"review signatures\",\"operator\":\"ge\",\"value\":{\"kind\":\"number\",\"text\":\"3\",\"unit\":\"signatures\"},\"modality\":\"required\"}\n@claim {\"context\":\"service cycle\",\"key\":\"self review\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"requesting participant\",\"unit\":\"\"},\"modality\":\"forbidden\"}\n@context {\"name\":\"exhibition demonstration\",\"scope\":{\"subject\":\"registered participant\",\"action\":\"conduct\",\"object\":\"dry parcel dispatch\",\"scenario\":\"demonstration service\",\"time\":\"special exhibition\",\"conditions\":[{\"field\":\"cargo_class\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"exhibition-only\",\"unit\":\"\"}}]}}\n@claim {\"context\":\"exhibition demonstration\",\"key\":\"entry credential\",\"operator\":\"eq\",\"value\":{\"kind\":\"text\",\"text\":\"route token\",\"unit\":\"\"},\"modality\":\"forbidden\"}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "version": "lqd-m2-public-revised-3.0.2",
+  "scope": "PUBLIC_PROSPECTIVE_NON_BLIND_NOT_FORMAL",
+  "contract": "lqd-policy-quality-3.0.0",
+  "historical_M2": "FAIL_UNCHANGED",
+  "top_k": 3,
+  "thresholds": {
+    "recall": 0.9,
+    "mrr": 0.8,
+    "documentary": 1.0,
+    "negative": 1.0,
+    "unauthorized_side_effects": 0
+  },
+  "ranking": [
+    {
+      "query": "first purchase eligibility window",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ]
+    },
+    {
+      "query": "high amount review threshold",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "manual"
+        ]
+      ]
+    },
+    {
+      "query": "hard restrictions chargebacks account",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-02@1.0",
+          "restrictions"
+        ]
+      ]
+    },
+    {
+      "query": "permitted simulated states transition",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-CASE-01@1.0",
+          "states"
+        ]
+      ]
+    },
+    {
+      "query": "identity and ownership verification procedure",
+      "category": "account_access",
+      "ticket": "KT-D08",
+      "sections": [
+        [
+          "POL-ACCESS-01@1.0",
+          "verification"
+        ]
+      ]
+    },
+    {
+      "query": "security hold protection policy",
+      "category": "account_access",
+      "ticket": "KT-D08",
+      "sections": [
+        [
+          "POL-ACCESS-02@1.0",
+          "security"
+        ]
+      ]
+    },
+    {
+      "query": "required export facts fields",
+      "category": "data_export",
+      "ticket": "KT-D10",
+      "sections": [
+        [
+          "POL-EXPORT-01@1.0",
+          "scope"
+        ]
+      ]
+    },
+    {
+      "query": "missing evidence incomplete exports",
+      "category": "data_export",
+      "ticket": "KT-D10",
+      "sections": [
+        [
+          "POL-EXPORT-02@1.0",
+          "missing"
+        ]
+      ]
+    },
+    {
+      "query": "purchase window credit eligibility",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ]
+    },
+    {
+      "query": "amount manual review credit",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "manual"
+        ]
+      ]
+    },
+    {
+      "query": "restricted chargeback credit prohibition",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-02@1.0",
+          "restrictions"
+        ]
+      ]
+    },
+    {
+      "query": "case state resolved awaiting information",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-CASE-01@1.0",
+          "states"
+        ]
+      ]
+    }
+  ],
+  "documentary": [
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ],
+        [
+          "POL-BILL-01@1.0",
+          "manual"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "manual"
+        ],
+        [
+          "POL-BILL-02@1.0",
+          "restrictions"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-02@1.0",
+          "restrictions"
+        ],
+        [
+          "POL-CASE-01@1.0",
+          "states"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-CASE-01@1.0",
+          "states"
+        ],
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "account_access",
+      "ticket": "KT-D08",
+      "sections": [
+        [
+          "POL-ACCESS-01@1.0",
+          "verification"
+        ],
+        [
+          "POL-ACCESS-02@1.0",
+          "security"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "account_access",
+      "ticket": "KT-D08",
+      "sections": [
+        [
+          "POL-ACCESS-02@1.0",
+          "security"
+        ],
+        [
+          "POL-ACCESS-01@1.0",
+          "verification"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "data_export",
+      "ticket": "KT-D10",
+      "sections": [
+        [
+          "POL-EXPORT-01@1.0",
+          "scope"
+        ],
+        [
+          "POL-EXPORT-02@1.0",
+          "missing"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    },
+    {
+      "query": "Explain both applicable provisions for this fictional documentation request.",
+      "category": "data_export",
+      "ticket": "KT-D10",
+      "sections": [
+        [
+          "POL-EXPORT-02@1.0",
+          "missing"
+        ],
+        [
+          "POL-EXPORT-01@1.0",
+          "scope"
+        ]
+      ],
+      "intent": "policy_explanation",
+      "snapshot": "normal",
+      "expected": "answerable"
+    }
+  ],
+  "negative": [
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "personal_fact",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "execution_permission",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "business_action",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@1.0",
+          "eligibility"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "unknown",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "FAQ-BILL-01@1.0",
+          "answer"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "policy_explanation",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-BILL-01@0.9",
+          "eligibility"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "policy_explanation",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [
+        [
+          "POL-ACCESS-01@1.0",
+          "verification"
+        ]
+      ],
+      "snapshot": "normal",
+      "intent": "policy_explanation",
+      "expected": "not_assessable"
+    },
+    {
+      "query": "invoice credit verification authority policy",
+      "category": "billing_refund",
+      "ticket": "KT-D01",
+      "sections": [],
+      "snapshot": "normal",
+      "intent": "policy_explanation",
+      "expected": "not_assessable"
+    }
+  ]
+}

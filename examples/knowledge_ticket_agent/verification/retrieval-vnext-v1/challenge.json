@@ -1,0 +1,499 @@
+{
+  "version": "lqd-vnext-public-challenge-1.0.0",
+  "scope": "PUBLIC_ENGINEERING_AUTHORED_FICTION_NOT_INDEPENDENT_ACCEPTANCE",
+  "topics": [
+    {
+      "title": "workshop seat transfer",
+      "rule": "A participant can give a workshop place to another named person only after both people give written consent.",
+      "record": "Staff record the request, requester and decision in the service log for workshop seat transfer."
+    },
+    {
+      "title": "workshop fee reimbursement",
+      "rule": "A workshop attendance fee is returned only when the organizer cancels the event. Giving the place to another participant does not return the fee.",
+      "record": "Staff record the request, requester and decision in the service log for workshop fee reimbursement."
+    },
+    {
+      "title": "digital key renewal",
+      "rule": "A temporary electronic entry key can be renewed when its current sponsor confirms that access is still needed. A former sponsor cannot renew it.",
+      "record": "Staff record the request, requester and decision in the service log for digital key renewal."
+    },
+    {
+      "title": "digital key revocation",
+      "rule": "When a temporary visitor leaves permanently, the current sponsor asks staff to revoke the electronic entry key immediately. Renewal is not the correct action.",
+      "record": "Staff record the request, requester and decision in the service log for digital key revocation."
+    },
+    {
+      "title": "courier pickup rescheduling",
+      "rule": "Changing a booked courier collection time requires notice by noon on the preceding working day. Later requests keep the original time window.",
+      "record": "Staff record the request, requester and decision in the service log for courier pickup rescheduling."
+    },
+    {
+      "title": "courier handover signature",
+      "rule": "The delivery driver signs a handover record when collecting a parcel. A rescheduling request is not proof that collection occurred.",
+      "record": "Staff record the request, requester and decision in the service log for courier handover signature."
+    },
+    {
+      "title": "staff meal subsidy limit",
+      "rule": "A staff lunch subsidy covers at most nine fictional tokens per working day. Amounts above that limit are paid by the employee.",
+      "record": "Staff record the request, requester and decision in the service log for staff meal subsidy limit."
+    },
+    {
+      "title": "visitor meal sponsorship",
+      "rule": "A visitor lunch is paid by the inviting sponsor after a guest meal request is approved. The staff daily lunch subsidy does not apply to visitors.",
+      "record": "Staff record the request, requester and decision in the service log for visitor meal sponsorship."
+    }
+  ],
+  "cases": [
+    {
+      "id": "VN-CHALLENGE-01-canonical",
+      "topic": 0,
+      "variant": "canonical",
+      "query": "workshop seat transfer",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-01-paraphrase",
+      "topic": 0,
+      "variant": "paraphrase",
+      "query": "Can somebody else attend the practical class in my place, and whose agreement is needed?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-01-zh",
+      "topic": 0,
+      "variant": "zh",
+      "query": "能不能让其他人代替我参加实操课，需要谁书面同意？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-01-mixed",
+      "topic": 0,
+      "variant": "mixed",
+      "query": "workshop名额转给别人，需要哪些人同意？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-01-long",
+      "topic": 0,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: Can somebody else attend the practical class in my place, and whose agreement is needed?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-01-complement",
+      "topic": 0,
+      "variant": "complement",
+      "query": "Can somebody else attend the practical class in my place, and whose agreement is needed? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-02-canonical",
+      "topic": 1,
+      "variant": "canonical",
+      "query": "workshop fee reimbursement",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-02-paraphrase",
+      "topic": 1,
+      "variant": "paraphrase",
+      "query": "If I give my class place to a colleague, do I get the attendance money back?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-02-zh",
+      "topic": 1,
+      "variant": "zh",
+      "query": "把课程名额让给同事之后，可以退回参加课程的费用吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-02-mixed",
+      "topic": 1,
+      "variant": "mixed",
+      "query": "workshop seat转给别人，会退attendance fee吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-02-long",
+      "topic": 1,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: If I give my class place to a colleague, do I get the attendance money back?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-02-complement",
+      "topic": 1,
+      "variant": "complement",
+      "query": "If I give my class place to a colleague, do I get the attendance money back? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-03-canonical",
+      "topic": 2,
+      "variant": "canonical",
+      "query": "digital key renewal",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-03-paraphrase",
+      "topic": 2,
+      "variant": "paraphrase",
+      "query": "Whose confirmation keeps a temporary electronic door credential working for longer?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-03-zh",
+      "topic": 2,
+      "variant": "zh",
+      "query": "临时电子门禁快到期了，应该由谁确认才能续期？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-03-mixed",
+      "topic": 2,
+      "variant": "mixed",
+      "query": "temporary door credential续期需要谁确认？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-03-long",
+      "topic": 2,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: Whose confirmation keeps a temporary electronic door credential working for longer?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-03-complement",
+      "topic": 2,
+      "variant": "complement",
+      "query": "Whose confirmation keeps a temporary electronic door credential working for longer? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-04-canonical",
+      "topic": 3,
+      "variant": "canonical",
+      "query": "digital key revocation",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-04-paraphrase",
+      "topic": 3,
+      "variant": "paraphrase",
+      "query": "What should the sponsor do with an electronic entry credential when a visitor leaves for good?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-04-zh",
+      "topic": 3,
+      "variant": "zh",
+      "query": "临时访客永久离开后，担保人应怎样处理电子门禁？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-04-mixed",
+      "topic": 3,
+      "variant": "mixed",
+      "query": "visitor permanently leaves之后应该怎样处理electronic key？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-04-long",
+      "topic": 3,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: What should the sponsor do with an electronic entry credential when a visitor leaves for good?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-04-complement",
+      "topic": 3,
+      "variant": "complement",
+      "query": "What should the sponsor do with an electronic entry credential when a visitor leaves for good? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-05-canonical",
+      "topic": 4,
+      "variant": "canonical",
+      "query": "courier pickup rescheduling",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-05-paraphrase",
+      "topic": 4,
+      "variant": "paraphrase",
+      "query": "By when must I ask to move the time when the delivery driver collects my package?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-05-zh",
+      "topic": 4,
+      "variant": "zh",
+      "query": "想改快递员上门取件的时间，最迟应该什么时候提出？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-05-mixed",
+      "topic": 4,
+      "variant": "mixed",
+      "query": "courier collection time需要改期，什么时候通知？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-05-long",
+      "topic": 4,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: By when must I ask to move the time when the delivery driver collects my package?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-05-complement",
+      "topic": 4,
+      "variant": "complement",
+      "query": "By when must I ask to move the time when the delivery driver collects my package? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-06-canonical",
+      "topic": 5,
+      "variant": "canonical",
+      "query": "courier handover signature",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-06-paraphrase",
+      "topic": 5,
+      "variant": "paraphrase",
+      "query": "Does changing a pickup appointment prove that the driver has already taken the package?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-06-zh",
+      "topic": 5,
+      "variant": "zh",
+      "query": "修改取件预约能证明快递员已经收走包裹吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-06-mixed",
+      "topic": 5,
+      "variant": "mixed",
+      "query": "pickup appointment改期之后，是否等于已经完成parcel handover？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-06-long",
+      "topic": 5,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: Does changing a pickup appointment prove that the driver has already taken the package?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-06-complement",
+      "topic": 5,
+      "variant": "complement",
+      "query": "Does changing a pickup appointment prove that the driver has already taken the package? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-07-canonical",
+      "topic": 6,
+      "variant": "canonical",
+      "query": "staff meal subsidy limit",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-07-paraphrase",
+      "topic": 6,
+      "variant": "paraphrase",
+      "query": "How much of a worker lunch is covered each day, and who pays the remainder?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-07-zh",
+      "topic": 6,
+      "variant": "zh",
+      "query": "员工午餐每天最多补贴多少，超出的部分由谁承担？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-07-mixed",
+      "topic": 6,
+      "variant": "mixed",
+      "query": "staff lunch每天补贴上限多少，剩余费用谁支付？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-07-long",
+      "topic": 6,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: How much of a worker lunch is covered each day, and who pays the remainder?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-07-complement",
+      "topic": 6,
+      "variant": "complement",
+      "query": "How much of a worker lunch is covered each day, and who pays the remainder? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-08-canonical",
+      "topic": 7,
+      "variant": "canonical",
+      "query": "visitor meal sponsorship",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-08-paraphrase",
+      "topic": 7,
+      "variant": "paraphrase",
+      "query": "Can a guest use the daily worker lunch allowance, or must the host arrange payment?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-08-zh",
+      "topic": 7,
+      "variant": "zh",
+      "query": "来访客人能用员工每日午餐补贴吗，还是需要邀请人支付？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-08-mixed",
+      "topic": 7,
+      "variant": "mixed",
+      "query": "visitor lunch可以用staff daily subsidy吗？",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-08-long",
+      "topic": 7,
+      "variant": "long",
+      "query": "Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather. Yesterday I read an unrelated story about gardens, rivers and cloudy weather.  My actual question is: Can a guest use the daily worker lunch allowance, or must the host arrange payment?",
+      "sections": [
+        "rule"
+      ]
+    },
+    {
+      "id": "VN-CHALLENGE-08-complement",
+      "topic": 7,
+      "variant": "complement",
+      "query": "Can a guest use the daily worker lunch allowance, or must the host arrange payment? What entry must staff record in the service log?",
+      "sections": [
+        "rule",
+        "record"
+      ]
+    }
+  ],
+  "controls": [
+    "empty",
+    "oov",
+    "partial_evidence",
+    "conflict",
+    "faq_authority",
+    "source_tamper",
+    "category_scope",
+    "bad_query"
+  ],
+  "business_scope": "Actual public DEV ticket tools, trusted facts, approval/refusal and fault fixtures; no real execution."
+}

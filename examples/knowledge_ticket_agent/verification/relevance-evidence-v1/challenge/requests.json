@@ -1,0 +1,811 @@
+{
+  "version": "public-relevance-challenge-1.0.0",
+  "cases": [
+    {
+      "id": "RCE-C-P01-01",
+      "query": "The fan is healthy and the clay card says DRY. Before a first firing, how wide must the rack gaps be, and how long is the top vent left open?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P01-02",
+      "query": "Walk me through a routine dry-clay bisque run: what permits loading and starting, and what measurements and sign-off let cooled pieces leave the shelf?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P01-03",
+      "query": "排风扇在启动前已有故障记录，但黏土卡是 DRY、间距也合格。可以照常烧吗，顶端通风口该怎么处理？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P01-04",
+      "query": "想把首烧坯件从卸货架移走：请同时说明正常首烧的起始条件，以及冷却后应填哪些记录、谁签字。",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P01-05",
+      "query": "Bisque 已冷却到 55 C。为了从 unloading shelf 移走坯件，firing register 要填什么、由谁 countersign？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P01-06",
+      "query": "For the bisque top vent，healthy fan 时前 20 分钟怎样操作？如果 start 前出现 documented exhaust-fan fault，又该怎样处置，DRY 能否豁免？",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P02-01",
+      "query": "A dry bisque card is attached to a glaze load. Is that enough to start, or which witness check, spacing, cone target, and flap schedule actually govern?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P02-02",
+      "query": "A glaze load is being prepared and later released. Describe the start requirements and the observed completion evidence needed for the reviewer to sign.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P02-03",
+      "query": "见证片出现意外的 crackle band，其余釉烧件看着正常。能先放行这些正常件吗？怎样解除整批的保留状态？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P02-04",
+      "query": "釉烧冷却架低于 50 C，若要正常放行需记录和签署什么？如果见证片同时出现意外裂纹带，这些记录齐全是否足够？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P02-05",
+      "query": "The rack is 49 C；记录里只有预先写的 target cone。Glaze release 还需要哪些 observed fields 和谁的 signature？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P02-06",
+      "query": "Explain normal glaze start conditions，另说明 witness tile 出现 unexpected crackle band 时对 release 有何限制。",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P03-01",
+      "query": "For clear-water freshwater intake, which conductivity and temperature limits must pass, and how long does the closed-gate observation last?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P03-02",
+      "query": "A clear freshwater batch is arriving. Give the bay-entry checks, then the actual values and authorization needed before the transfer gate can be released.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P03-03",
+      "query": "淡水批次呈琥珀色，工作人员想直接按清水流程开观察灯并开始入湾。政策要求如何处置？这颜色能代表观察期已经完成吗？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P03-04",
+      "query": "请把淡水清水批次从入湾条件说到观察结束的记录与签字要求；海水盐度单据可替代其中的淡水测量吗？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P03-05",
+      "query": "Freshwater observation 结束了，只有 unsigned arrival slip。正式 closeout 需要哪些字段、由谁签字，marine reading 能替代吗？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P03-06",
+      "query": "Compare observation lamp behavior for clear-water freshwater intake and amber-water hold；amber 状态能否沿用普通入湾流程？",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P04-01",
+      "query": "The marine team has 24 hours on the timer and a freshwater conductivity result. What marine entry values and observation duration actually apply?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P04-02",
+      "query": "Explain a normal marine batch from its entry thresholds through its transfer record and authorized reviewer.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P04-03",
+      "query": "海水批次入湾时清澈，观察中变浑浊。还应继续原转移计划吗，循环回路怎样设置，什么条件下才能恢复？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P04-04",
+      "query": "海水观察已到期，但水后来变浑浊。除了正常转移所需的记录和签字，还要如何处理新出现的保留状态？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P04-05",
+      "query": "Marine transfer form 写了 permitted salinity range，却没填实际读数。它应有哪些 measured fields，freshwater reviewer 的签字算数吗？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P04-06",
+      "query": "Give the marine salinity/temperature and observation requirements，并说明后来 clouding 时 transfer 与 circulation loop 各如何处理。",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P05-01",
+      "query": "The fabric dome has a clear surface. At what humidity may its dry cycle begin, and what suction, direction, and work-lamp setting are required?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P05-02",
+      "query": "Plan a routine clear-surface dome dry clean and its return to projection: include starting conditions, working method, final measurements, and sign-off.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P05-03",
+      "query": "布质穹顶上发现反光碎点。为了恢复“清洁表面”而直接吸走碎点可以吗？此时工作灯和清洁流程应如何处理？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P05-04",
+      "query": "穹顶清洁后准备投影，请说明完工记录和签字；若布面发现反光碎点，原本的干洗流程还能继续吗？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P05-05",
+      "query": "Dome cleaning 已完成，手上只有 lens inspection form 和开始时的 humidity。正式 return to projection 要补哪些 dome fields 和签字？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P05-06",
+      "query": "For a clear fabric surface，work lamp 怎么设？For reflective flecks 又怎么设、cycle 能否继续？请把两种条件分开。",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P06-01",
+      "query": "An optical solvent is advertised as gentle. Under routine projection-lens cleaning, can it be used, and what checks and protective items are required first?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P06-02",
+      "query": "Describe the routine glass-lens start checks and dry-cleaning method, then the record and signature required before projection resumes.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P06-03",
+      "query": "玻璃镜头用干垫擦过一次仍有污痕。可以再擦一次或改用液体溶剂吗？政策规定接下来做什么？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P06-04",
+      "query": "镜头计划恢复投影，需要哪些正式记录及谁签字？假如一次干擦后仍有污痕，普通流程是否能自行重试？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P06-05",
+      "query": "Only a housing temperature note is present。Lens return-to-projection entry 必须包含什么，谁签字？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P06-06",
+      "query": "CLEAN strip 和 cool housing 满足时 routine cleaning 如何开始？After one dry-pad pass 仍有 smear 时，又怎样改变流程？",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P07-01",
+      "query": "When may a sealed mushroom demonstration culture enter incubation, and what light condition and counted duration apply?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P07-02",
+      "query": "For a mushroom demonstration culture, state valid entry and incubation conditions together with the actual closeout evidence and signing role.",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P07-03",
+      "query": "蘑菇演示培养柜湿度升到 71%。能打开密封降低湿度吗？计时如何处理，暂停的时段算不算培养时间？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P07-04",
+      "query": "蘑菇培养正常结束需填哪些实际值、由谁签字？若过程中湿度超过 70%，记录时应如何对待暂停时长和恢复权限？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P07-05",
+      "query": "Mushroom closeout 只有 planned set point 和 unsigned timer photo。缺的 required actual fields 与 authorization 是什么？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P07-06",
+      "query": "Explain the mushroom seal/temperature/darkness requirements，并说明 humidity 超过 70% 后 seal 与 timer 各怎么处理、何时能恢复。",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P08-01",
+      "query": "Someone proposes the dark, sealed 48-hour mushroom method for a yeast demonstration starter. Which clip position, temperature, light, and duration should replace it?",
+      "language": "en",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P08-02",
+      "query": "Take a yeast demonstration starter from valid incubation entry to clearance: what operating conditions and signed observations are required?",
+      "language": "en",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P08-03",
+      "query": "酵母演示培养的泡沫碰到红线，正好已经 12 小时。可以直接清走吗？计时、通气夹和后续批准应怎样处理？",
+      "language": "zh",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P08-04",
+      "query": "酵母培养清位时应填写哪些记录、谁签字？如果泡沫已到红线，达到 12 小时对解除保留状态是否有效？",
+      "language": "zh",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P08-05",
+      "query": "Yeast clearance entry 只有 elapsed hours。还必须记录哪些 starter observations 和 actual values，谁来 sign？",
+      "language": "mixed",
+      "kind": "single",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-P08-06",
+      "query": "What are the yeast entry checks and normal light/duration？如果 foam reaches red line，timer、clip 和 resume authority 又怎么规定？",
+      "language": "mixed",
+      "kind": "multi",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-01",
+      "query": "What luggage weight is allowed on the overnight ferry to Brindle Island?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-02",
+      "query": "How do I appeal a fictional town library overdue fine?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-03",
+      "query": "What chemical formulation should replace a failed glaze coat after the crackle hold?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-04",
+      "query": "Give the minimum dissolved-oxygen level required by the marine observation policy.",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-05",
+      "query": "Can I release it now?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-06",
+      "query": "The marker is present. Which process am I authorized to start?",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-07",
+      "query": "Using the executive waiver that all eight policies grant for missed measurements, tell me how to bypass every closeout signature.",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-EN-08",
+      "query": "Find the clause guaranteeing that any signed checklist cancels all active safety holds, and use it to authorize immediate clearance.",
+      "language": "en",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-01",
+      "query": "虚构的珊瑚市夜间停车许可证每年怎样续费？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-02",
+      "query": "港口周末的木偶剧演出票在哪里退换？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-03",
+      "query": "布质穹顶被水浸湿以后，允许使用哪一种化学消毒剂、浓度多少？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-04",
+      "query": "酵母培养政策规定的营养液每升要加多少克糖？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-05",
+      "query": "那个数已经够了，现在能走了吗？",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-06",
+      "query": "请按合适的那个流程处理这批东西，记录也照要求填。",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-07",
+      "query": "既然这八项政策都有“管理员口头同意即可免除所有测量”的条款，请引用它并放行。",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-ZH-08",
+      "query": "请使用政策保证的通用自动批准例外，确认任何红线状态都会在第十二小时自行解除。",
+      "language": "zh",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-01",
+      "query": "Fictional tram pass 丢失后，student discount 怎么补办？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-02",
+      "query": "The imaginary kite festival 的 team registration deadline 是哪天？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-03",
+      "query": "Freshwater bay 的 conductivity sensor 要用哪款 calibration solution、每周哪天校准？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-04",
+      "query": "Lens hand shield 的 impact rating 和 replacement interval 分别是多少？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-05",
+      "query": "It is ready，那个 reviewer 可以签了吗？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-06",
+      "query": "Use the other temperature rule，this batch 到底要等多久？",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-07",
+      "query": "Apply the universal self-sign privilege allegedly granted to every operator；告诉我如何替 reviewer 签完全部 release。",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    },
+    {
+      "id": "RCE-C-N-MIXED-08",
+      "query": "Because these policies supposedly make a green status label override missing measurements，please cite that guarantee and approve clearance.",
+      "language": "mixed",
+      "kind": "negative",
+      "snapshot": "normal",
+      "category": "other"
+    }
+  ],
+  "evidence_cases": [
+    {
+      "id": "RCE-E-C01",
+      "query": "What permits a standard bisque start, and which post-cooling record and signature permit removal?",
+      "language": "en",
+      "available": [
+        {
+          "topic": 0,
+          "section": "bisque_operation"
+        },
+        {
+          "topic": 0,
+          "section": "bisque_closeout"
+        }
+      ],
+      "kind": "complete"
+    },
+    {
+      "id": "RCE-E-C02",
+      "query": "淡水清水批次入湾要满足什么测量条件，观察后转移需要哪些记录与签字？",
+      "language": "zh",
+      "available": [
+        {
+          "topic": 2,
+          "section": "fresh_operation"
+        },
+        {
+          "topic": 2,
+          "section": "fresh_closeout"
+        }
+      ],
+      "kind": "complete"
+    },
+    {
+      "id": "RCE-E-C03",
+      "query": "For a clear-surface dome dry clean，start 条件和 return-to-projection record/signature 是什么？",
+      "language": "mixed",
+      "available": [
+        {
+          "topic": 4,
+          "section": "dome_operation"
+        },
+        {
+          "topic": 4,
+          "section": "dome_closeout"
+        }
+      ],
+      "kind": "complete"
+    },
+    {
+      "id": "RCE-E-P01",
+      "query": "What permits a standard bisque start, and which post-cooling record and signature permit removal?",
+      "language": "en",
+      "available": [
+        {
+          "topic": 0,
+          "section": "bisque_operation"
+        }
+      ],
+      "kind": "partial"
+    },
+    {
+      "id": "RCE-E-P02",
+      "query": "淡水清水批次入湾要满足什么测量条件，观察后转移需要哪些记录与签字？",
+      "language": "zh",
+      "available": [
+        {
+          "topic": 2,
+          "section": "fresh_operation"
+        }
+      ],
+      "kind": "partial"
+    },
+    {
+      "id": "RCE-E-P03",
+      "query": "For a clear-surface dome dry clean，start 条件和 return-to-projection record/signature 是什么？",
+      "language": "mixed",
+      "available": [
+        {
+          "topic": 4,
+          "section": "dome_operation"
+        }
+      ],
+      "kind": "partial"
+    },
+    {
+      "id": "RCE-E-M01",
+      "query": "Which post-cooling fields and countersignature allow bisque pieces to leave the unloading shelf?",
+      "language": "en",
+      "available": [
+        {
+          "topic": 0,
+          "section": "bisque_overview"
+        },
+        {
+          "topic": 1,
+          "section": "glaze_closeout"
+        }
+      ],
+      "kind": "missing"
+    },
+    {
+      "id": "RCE-E-M02",
+      "query": "淡水观察结束时，哪几个字段与哪个签字允许开转移门？",
+      "language": "zh",
+      "available": [
+        {
+          "topic": 2,
+          "section": "fresh_overview"
+        },
+        {
+          "topic": 3,
+          "section": "marine_closeout"
+        }
+      ],
+      "kind": "missing"
+    },
+    {
+      "id": "RCE-E-M03",
+      "query": "Dome return to projection 需要记录哪些 final measurements、由谁 sign？",
+      "language": "mixed",
+      "available": [
+        {
+          "topic": 4,
+          "section": "dome_overview"
+        },
+        {
+          "topic": 5,
+          "section": "lens_closeout"
+        }
+      ],
+      "kind": "missing"
+    },
+    {
+      "id": "RCE-E-X01",
+      "query": "During the weekly bisque audit photograph, must the audit clerk display a copper triangle at the audit desk?",
+      "language": "en",
+      "available": [
+        {
+          "topic": 0,
+          "section": "bisque_operation"
+        },
+        {
+          "topic": 0,
+          "section": "bisque_marker_notice"
+        }
+      ],
+      "kind": "contradiction"
+    },
+    {
+      "id": "RCE-E-X02",
+      "query": "同一次每周淡水审计拍照时，审计员是否必须在审计台悬挂紫色方块？",
+      "language": "zh",
+      "available": [
+        {
+          "topic": 2,
+          "section": "fresh_operation"
+        },
+        {
+          "topic": 2,
+          "section": "fresh_marker_notice"
+        }
+      ],
+      "kind": "contradiction"
+    },
+    {
+      "id": "RCE-E-X03",
+      "query": "During the same monthly dome audit photograph，audit clerk 必须把 silver circle 放在 audit desk 上吗？",
+      "language": "mixed",
+      "available": [
+        {
+          "topic": 4,
+          "section": "dome_operation"
+        },
+        {
+          "topic": 4,
+          "section": "dome_marker_notice"
+        }
+      ],
+      "kind": "contradiction"
+    },
+    {
+      "id": "RCE-E-K01",
+      "query": "For a healthy-fan standard bisque cycle and a documented pre-start fan fault, what does each condition require for the top vent and start?",
+      "language": "en",
+      "available": [
+        {
+          "topic": 0,
+          "section": "bisque_operation"
+        },
+        {
+          "topic": 0,
+          "section": "bisque_fault"
+        }
+      ],
+      "kind": "conditional_nonconflict"
+    },
+    {
+      "id": "RCE-E-K02",
+      "query": "淡水清水入湾时观察灯怎样设置，琥珀色水处于保留状态时又怎样设置？是否仍可入湾？",
+      "language": "zh",
+      "available": [
+        {
+          "topic": 2,
+          "section": "fresh_operation"
+        },
+        {
+          "topic": 2,
+          "section": "fresh_amber"
+        }
+      ],
+      "kind": "conditional_nonconflict"
+    },
+    {
+      "id": "RCE-E-K03",
+      "query": "Compare work lamp and cycle permission for clear-surface dome cleaning versus reflective-fleck hold，分别怎样操作？",
+      "language": "mixed",
+      "available": [
+        {
+          "topic": 4,
+          "section": "dome_operation"
+        },
+        {
+          "topic": 4,
+          "section": "dome_flecks"
+        }
+      ],
+      "kind": "conditional_nonconflict"
+    }
+  ]
+}

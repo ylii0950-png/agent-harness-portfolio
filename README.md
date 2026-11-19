@@ -1,60 +1,67 @@
-# agent-harness-lab
+# Knowledge & Ticket AI Agent
 
-A Python agent runtime with a local FastAPI dashboard and a fictional Knowledge & Ticket application. Run the demo to see how an agent finds policy evidence, asks for approval, and verifies the result of a simulated ticket update.
+A local demo of an AI agent that finds policy evidence, asks for approval, and verifies the result of a simulated support-ticket update.
+
+[![FastAPI dashboard showing a resolved fictional ticket after approval](docs/media/dashboard.png)](https://github.com/ylii0950-png/agent-harness-portfolio/releases/download/v1.0.0/demo.mp4)
+
+[**Watch the full demo (MP4)**](https://github.com/ylii0950-png/agent-harness-portfolio/releases/download/v1.0.0/demo.mp4) · [Animated preview (GIF)](https://github.com/ylii0950-png/agent-harness-portfolio/releases/download/v1.0.0/demo.gif)
+
+The recording uses the real FastAPI dashboard and fictional tickets. The **deterministic Offline Mock** provider drives the workflow, including the tool calls, approval gate, and ticket updates.
+
+## What the demo shows
+
+| Scenario | Result |
+| --- | --- |
+| **KT-D01 · Approve** | The agent retrieves policy evidence. The controller verifies source citations and requests approval for the exact WRITE. The ticket resolves at revision 1, with one journal commit and verified readback. |
+| **KT-D08 · Reject** | A Chinese request reaches the same approval gate. Rejection returns `permission_denied`. The ticket stays open at revision 0 with zero commits. |
+
+The Python Harness also provides planning, scoped subagents, lazy Skills, context compaction, tool budgets, and tracing. MCP stdio, SQLite memory, and constrained Docker execution are optional.
+
+## Architecture
+
+```mermaid
+flowchart LR
+  Agent["Agent Loop"] --> Tools["Tool Registry"]
+  Tools --> RAG["A1 policy retrieval"]
+  RAG --> Evidence["Full source + verified citations"]
+  Evidence --> Rules["Trusted business rules"]
+  Rules --> ASK["Human approval · exact ASK"]
+  ASK -->|Approve| Store["Atomic update + journal"]
+  Store --> Readback["Verified readback"]
+  ASK -->|Reject| State["Ticket unchanged"]
+```
+
+See the [architecture and trust boundaries](docs/architecture.md) and [local security model](docs/security.md).
 
 ## Quick start
 
-Install [uv](https://docs.astral.sh/uv/) and run these commands from the repository root. The project supports Python 3.11 and 3.12. The demo uses deterministic Mock responses and A1 retrieval.
+Install [uv](https://docs.astral.sh/uv/), then run these commands from the repository root.
 
 ```sh
 uv sync --project examples/knowledge_ticket_agent --locked --no-editable --extra web --python 3.12
 uv run --project examples/knowledge_ticket_agent --no-sync lqd-web
 ```
 
-Open [the dashboard](http://127.0.0.1:8000/) and try these two flows.
+Open [the dashboard](http://127.0.0.1:8000/). Choose **KT-D01**, then **Run Agent → Approve**. Try **KT-D08** with **Reject**. The [local API reference](http://127.0.0.1:8000/docs) describes request and response schemas. The [Demo guide](examples/knowledge_ticket_agent/README.md#browser-demo-and-http-api) covers other scenarios and API usage.
 
-| Ticket | Action | What to look for |
-| --- | --- | --- |
-| **KT-D01** | Run Agent → Approve | Review source citations and the pending WRITE. The ticket resolves at revision 1 with one commit and verified readback. |
-| **KT-D08** | Run Agent → Reject | The permission engine denies the WRITE. The ticket stays open at revision 0 with zero commits. |
-
-The local [API reference](http://127.0.0.1:8000/docs) shows request and response schemas. The [Demo guide](examples/knowledge_ticket_agent/README.md#browser-demo-and-http-api) covers additional scenarios and HTTP examples.
-
-## Architecture
-
-```mermaid
-flowchart LR
-  UI["FastAPI dashboard or CLI"] --> Agent["Agent Loop + Tool Registry"]
-  Agent --> Evidence["A1 search → full source → citation checks"]
-  Evidence --> Rules["Trusted policy and ticket rules"]
-  Rules --> ASK["Permission engine · exact ASK"]
-  ASK -->|Approve| Store["Simulated store + journal"]
-  Store --> Readback["Verified readback"]
-  ASK -->|Reject| State["Ticket unchanged"]
-```
-
-- **Core** provides tool calling, planning, scoped subagents, lazy Skills, context compaction, execution budgets and tracing. Optional extensions cover MCP stdio, SQLite memory and constrained Docker execution.
-- **Knowledge & Ticket** adds deterministic policy retrieval, citation verification, bounded English/Chinese requests, business rules, journaled changes and readback.
-- **Web** uses FastAPI, Uvicorn and browser assets served locally. Sessions isolate the in-memory tickets and bind each approval to the exact pending write.
-
-See the [architecture](docs/architecture.md) and [security boundaries](docs/security.md).
-
-## Command-line demo and tests
-
-Run the fictional workflow from the same locked Demo environment.
+Run the same fictional application from the command line.
 
 ```sh
 uv run --project examples/knowledge_ticket_agent --no-sync lqd-agent-demo --json
 ```
 
-The [reproduction guide](docs/reproduce.md) covers the two-wheel install, the standalone Core demo, the Core/Demo regression suites, lint, type checks and builds. The [CI workflow](.github/workflows/ci.yml) defines the macOS/Linux and Python 3.11/3.12 matrix. See [contributing](AGENTS.md) for the development checks.
+## Tech stack and tests
 
-## Scope and release status
+- **Runtime** uses Python 3.11 or 3.12, a Python tool registry, and deterministic A1 retrieval with canonical source verification.
+- **Web** uses FastAPI, Uvicorn, and locally served JavaScript and CSS. In-memory sessions isolate simulated tickets and bind approval to the exact pending write.
+- **Verification** includes offline Core and Demo regression suites. The [reproduction guide](docs/reproduce.md) covers tests, package builds, lint, and type checks. The [CI workflow](.github/workflows/ci.yml) defines the macOS and Linux matrix.
 
-The dashboard is a loopback-only, single-process demo. Tickets and decisions are fictional, session data is temporary, and the default run uses no model credentials. A1 is the supported demo profile. Optional local R1 and source-assertion verification are experimental within the documented domain. See the [evidence notes](docs/evidence-recovery.md).
+## Scope and limitations
 
-**Portfolio MVP Engineering PASS**, **Independent M2 Formal FAIL (consumed)**, **M5 Formal NOT_RUN**, and **original Final Release BLOCKED**. The [release status](docs/release-status.md) records the scope and historical measurements.
+This is a loopback-only, single-process demo with temporary session data. The default flow uses no real model requests or credentials. A1 is the supported default. Optional local R1 and source-assertion verification are experimental within the documented fixture domain. See the [evidence notes](docs/evidence-recovery.md).
 
-## License
+**Portfolio MVP Engineering PASS** · **Independent M2 Formal FAIL (consumed)** · **M5 Formal NOT_RUN** · **Original Final Release BLOCKED**. See the [historical release status](docs/release-status.md) for scope and measurements.
 
-MIT. This independent implementation was informed by [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code). See the [project license](LICENSE), [upstream MIT license](licenses/learn-claude-code-MIT.txt) and [reference commit](docs/upstream.md).
+## License and attribution
+
+MIT. This independent implementation was informed by [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code). See the [project license](LICENSE), [upstream MIT license](licenses/learn-claude-code-MIT.txt), and [reference commit](docs/upstream.md).

@@ -60,7 +60,12 @@ An unsupported optional model explanation remains visibly invalid.
 A successful model response alone proves neither evidence completeness nor a
 committed transition. Search hits, catalog metadata, Memory and MCP are not verified
 Parent policy full reads or trusted business facts. No second permissive WRITE path.
-FastAPI is deferred. See [boundaries and current acceptance](release-status.md).
+The FastAPI Web UI is implemented as a single-process demo bound to local
+loopback (127.0.0.1). It uses deterministic Offline Mock tool calls and A1
+retrieval by default. Tickets, policies and business identities are fictional,
+and approved updates affect only simulated ticket state. The Web workflow
+demonstrates policy-grounded assistance and human approval in this bounded
+setting. See [boundaries and current acceptance](release-status.md).
 
 ## Runtime and evaluation entry points
 

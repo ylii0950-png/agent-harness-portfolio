@@ -3,58 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Knowledge &amp; Ticket Lab</title>
+  <title>AI Customer Support Copilot · Local Demo</title>
   <link rel="stylesheet" href="/assets/app.css">
   <script defer src="/assets/app.js"></script>
 </head>
 <body>
   <header>
-    <div>
-      <p class="eyebrow">AGENT HARNESS LAB / LOCAL DEMO</p>
-      <h1>Knowledge &amp; Ticket Lab</h1>
-      <p>Run a fictional support request and review the policy evidence before approving a transition.</p>
-    </div>
-    <nav aria-label="Reference"><span class="badge">Offline Mock · A1</span><a href="/docs">API reference</a></nav>
+    <nav aria-label="Demo reference">
+      <span class="mode">Offline Mock · Fictional Business Data · Local Demo</span>
+      <a href="/docs">API reference</a>
+    </nav>
+    <h1>AI Customer Support Copilot <span>— Policy-Grounded Ticket Assistance</span></h1>
+    <p>Check a support request against company policy and verified ticket records, then let a human approve the simulated ticket update.</p>
+    <p lang="zh-CN">根据企业政策与可信工单信息，辅助客服判断申请、核对依据，并在人工批准后更新模拟工单。</p>
   </header>
   <main>
-    <p class="notice">All tickets, policies and identities are fictional. Your browser session has its own
-      simulated tickets. Session expiry or a server restart clears them.</p>
-    <div id="error" class="notice error" role="alert" hidden></div>
+    <section aria-labelledby="cases-title">
+      <h2 id="cases-title">Try a support case</h2>
+      <div id="cases" class="cases" aria-label="Featured cases"></div>
+    </section>
     <div class="workspace">
       <aside>
         <section class="card">
           <h2>Ticket dashboard</h2>
           <label for="ticket">Fictional ticket</label>
           <select id="ticket" disabled></select>
-          <p id="ticket-summary"></p>
-        </section>
-        <section class="card">
-          <h2>New run</h2>
+          <p id="ticket-summary" class="muted"></p>
           <form id="start">
-            <label for="request">Request (English or Chinese)</label>
-            <textarea id="request" required maxlength="4000" rows="4"></textarea>
+            <label for="request">Request <span class="muted">(中文 / English)</span></label>
+            <textarea id="request" required maxlength="4000" rows="3" aria-describedby="scope"></textarea>
+            <div class="examples">
+              <button id="example-zh" type="button" class="secondary" lang="zh-CN" disabled>填入中文示例</button>
+              <button id="example-en" type="button" class="secondary" disabled>Use English example</button>
+            </div>
+            <p id="scope" class="muted small">Use policy terms matching the ticket. Keywords guide search, and trusted ticket records determine eligibility.</p>
             <label for="snapshot">Policy snapshot</label>
-            <select id="snapshot">
+            <select id="snapshot" disabled>
               <option value="normal">Current policy</option>
-              <option value="conflict">Fictional conflict fixture (data export)</option>
+              <option value="conflict">Fictional conflict (workspace export)</option>
             </select>
-            <button id="submit" type="submit" disabled>Run Agent</button>
+            <button id="submit" type="submit" disabled>Check policy</button>
+            <p id="intake-status" class="muted small" role="status"></p>
           </form>
+          <div id="error" class="notice error" role="alert" hidden></div>
         </section>
-        <section class="card">
-          <h2>Run history</h2>
-          <label for="history">Session runs</label>
+        <details class="card history">
+          <summary>Session run history</summary>
+          <label for="history">Review a previous run</label>
           <select id="history" disabled><option value="">No runs yet</option></select>
-        </section>
+          <p class="muted small">Your simulated tickets and runs reset when the local session expires or the server restarts.</p>
+        </details>
       </aside>
-      <div id="run">
-        <section class="card">
-          <p class="eyebrow">WORKFLOW</p>
-          <h2>Ready for a request</h2>
-          <p>Select an open ticket and run its example request, or edit the request first.</p>
-        </section>
-      </div>
+      <div id="run" aria-label="Business outcome"></div>
     </div>
+    <noscript>The local demo requires JavaScript to submit requests and show results.</noscript>
   </main>
 </body>
 </html>

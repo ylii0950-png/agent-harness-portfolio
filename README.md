@@ -1,24 +1,33 @@
-# agent-harness-lab
+# AI Customer Support Copilot
 
-A Python agent runtime with a local FastAPI dashboard and a fictional Knowledge & Ticket application. Run the demo to see how an agent finds policy evidence, asks for approval, and verifies the result of a simulated ticket update.
+**Policy-Grounded Ticket Assistance** · Python AI Agent portfolio
+
+A support specialist needs to decide whether a customer qualifies for first-purchase credit guidance. The copilot finds and verifies the applicable policy, checks trusted ticket records, and presents a proposed ticket update for human approval. After approval it commits the simulated update once and reads back the new state.
+
+**Offline Mock · Fictional Business Data · Local Demo.** The browser accepts bounded Chinese and English policy terms for purchase credit, account access, and workspace export. Scripted Mock tool calls drive the Agent Loop, A1 performs lexical retrieval, and deterministic rules assess the fixture records. The only write is to the local simulated ticket store.
+
+[Watch the 25-second demo (MP4)](docs/media/support-demo.mp4) · [Animated GIF](docs/media/support-demo.gif)
+
+![The first-purchase ticket resolved after approval, with one journal commit and verified readback.](docs/media/support-demo.png)
+
+| Try a support case | What happens |
+| --- | --- |
+| **First-purchase credit** · KT-D01 | The trusted records qualify for guidance. **Approve ticket update** changes the simulated case from **Open, revision 0** to **Resolved, revision 1**. The page shows one commit and verified readback. |
+| **Account access** · KT-D08 | The verified owner qualifies for access guidance. **Reject update** leaves the ticket open with zero commits. |
+| **Conflicting export policies** · KT-D10 | The selected fictional snapshot has contradictory retention rules. The evidence check blocks the update before approval. |
+
+Each case includes clickable Chinese and English examples. **Technical details** shows real tool calls, ranked retrieval, original policy quotes, rule evaluation, approval binding, journal and readback. **Tech stack** uses Python 3.11/3.12, FastAPI, Uvicorn, and vanilla HTML/CSS/JavaScript.
 
 ## Quick start
 
-Install [uv](https://docs.astral.sh/uv/) and run these commands from the repository root. The project supports Python 3.11 and 3.12. The demo uses deterministic Mock responses and A1 retrieval.
+Install [uv](https://docs.astral.sh/uv/) and run from the repository root.
 
 ```sh
 uv sync --project examples/knowledge_ticket_agent --locked --no-editable --extra web --python 3.12
 uv run --project examples/knowledge_ticket_agent --no-sync lqd-web
 ```
 
-Open [the dashboard](http://127.0.0.1:8000/) and try these two flows.
-
-| Ticket | Action | What to look for |
-| --- | --- | --- |
-| **KT-D01** | Run Agent → Approve | Review source citations and the pending WRITE. The ticket resolves at revision 1 with one commit and verified readback. |
-| **KT-D08** | Run Agent → Reject | The permission engine denies the WRITE. The ticket stays open at revision 0 with zero commits. |
-
-The local [API reference](http://127.0.0.1:8000/docs) shows request and response schemas. The [Demo guide](examples/knowledge_ticket_agent/README.md#browser-demo-and-http-api) covers additional scenarios and HTTP examples.
+Open the local dashboard, select a case, fill a language example, and choose **Check policy**. Review the policy judgment before deciding on a proposed update. [Dashboard](http://127.0.0.1:8000/) · [API reference](http://127.0.0.1:8000/docs) · [Demo guide](examples/knowledge_ticket_agent/README.md#browser-demo-and-http-api)
 
 ## Architecture
 

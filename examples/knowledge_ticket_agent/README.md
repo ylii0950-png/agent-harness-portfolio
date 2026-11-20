@@ -32,12 +32,19 @@ Uvicorn. The dashboard and [API reference](http://127.0.0.1:8000/docs) load thei
 assets locally. A1 uses the existing bilingual query bridge. Policy quotes
 retain their original English wording.
 
+Select a featured case, choose **填入中文示例** or **Use English example**, then
+select **Check policy**. Text supplies policy search terms and must match the
+ticket category. Trusted fixture records determine eligibility and the proposed
+action. Expand **Verified policy sources** for the actual quotes or
+**Technical details** for Agent calls, authorization binding and execution checks.
+
 | Walkthrough | Expected observation |
 | --- | --- |
-| **KT-D01**, default request and **Current policy** | `policy_search` and `request_transition` ran through the Agent and Tool Registry. The Controller retrieved and verified the original policy sections. Reload before voting to recover the same pending call. **Approve** resolves the ticket at revision 1 with one commit and verified readback. |
-| **KT-D08**, default request or `请按账号恢复政策处理这张模拟工单。` | **Reject** reaches Core ASK and returns `permission_denied`. The ticket stays at revision 0 with zero handler entries and zero commits. |
-| **KT-D10**, **Fictional conflict fixture** | `evidence_blocked` with no pending approval. Inspect the retrieval results and their conflict catalog. |
-| **KT-D04**, default request and **Current policy** | Complete documentary checks followed by an ineligible business assessment. No transition is proposed. |
+| **First-purchase credit request (KT-D01)** | The case qualifies for guidance. **Approve ticket update** resolves the simulated case at revision 1 with one commit and verified readback. Reload before voting to recover the same pending call. |
+| **Account access request (KT-D08)** | The case qualifies for access guidance. **Reject update** denies the pending WRITE before its handler runs. The ticket remains open at revision 0 with zero commits. |
+| **Conflicting export policies (KT-D10)** | This preset selects the fictional conflict snapshot. The evidence check finds contradictory retention sources and withholds approval. |
+| **Unsupported request or category mismatch** | Submit `你好，你能做什么？` or enter a credit request on the access ticket. The dashboard explains the issue in Chinese and shows a matching example. |
+| **KT-D04 with Current policy** | Evidence checks complete but the trusted rules find the case ineligible. The run produces zero commits. |
 
 The default launcher binds one worker to `127.0.0.1` and disables proxy header
 trust. If port 8000 is occupied, pass `--port 8001` and use that same port in the
@@ -60,9 +67,13 @@ in `X-LQD-CSRF` on each POST. Use the literal loopback address.
 | --- | --- |
 | `GET /api/tickets` | List the session's public DEV tickets and revisions. |
 | `GET /api/tickets/{ticket_id}` | Read one ticket with its journal. |
-| `POST /api/runs` | Send `ticket_id`, `request_text`, `expected_revision`, a UUID `idempotency_key`, and optionally `snapshot`. Returns the resulting run, including a pending WRITE when eligible. |
+| `POST /api/runs` | Send `ticket_id`, `request_text`, `expected_revision`, a UUID `idempotency_key`, and optionally `snapshot`. Returns the resulting run, including a pending WRITE if the trusted assessment permits a proposal. |
 | `GET /api/runs` and `GET /api/runs/{run_id}` | Recover history or read a run's current state, real trace, evidence and result. |
 | `POST /api/runs/{run_id}/decision` | Send `decision` (`approve` or `reject`) with `call_id`, `binding`, `request_sha256` and `expected_revision` copied from `pending_approval`. |
+
+After ASK receives a decision, `approval_observation` shows the observed call ID,
+binding, request digest and decision alongside the audit. Only
+`pending_approval` supplies the fields for a decision request.
 
 For an uncertain creation response, retry the same body and UUID to recover
 the existing run. For an uncertain decision response, fetch the run before

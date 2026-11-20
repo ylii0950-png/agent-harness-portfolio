@@ -58,7 +58,7 @@ def url(run: dict[str, Any]) -> str:
 def test_dashboard_api_refresh_and_exact_ask() -> None:
     with browser(create_app()) as client:
         page = client.get("/", headers={"Sec-Fetch-Site": "cross-site"})
-        assert page.status_code == 200 and "Ticket dashboard" in page.text
+        assert page.status_code == 200 and "AI Customer Support Copilot" in page.text
         assert "frame-ancestors 'none'" in page.headers["content-security-policy"]
         assert client.get("/assets/app.js").status_code == 200
         assert client.get("/docs").status_code == 200
@@ -81,6 +81,7 @@ def test_dashboard_api_refresh_and_exact_ask() -> None:
         assert len(pending["citations"]) == 6
         assert all(cite["quote"] and cite["source_verified"] for cite in pending["citations"])
         assert pending["journal"] == [] and pending["handler_entries"] == 0
+        assert pending["approval_observation"] is None
         assert client.get("/api/tickets/KT-D01").json()["status"] == "open"
 
         assert client.get("/api/session").json()["csrf_token"] == headers["X-LQD-CSRF"]
@@ -92,6 +93,9 @@ def test_dashboard_api_refresh_and_exact_ask() -> None:
         report = result.json()
         assert report["status"] == "completed" and report["readback_verified"]
         assert report["receipt_checks"]["APPROVAL_VALID"]
+        assert report["approval_observation"] == {
+            k: vote(pending)[k] for k in ("call_id", "binding", "request_sha256")
+        } | {"approved": True}
         assert report["before"]["revision"] == 0 and report["after"]["revision"] == 1
         assert report["after"]["status"] == "resolved"
         assert report["journal"][0]["binding"] == vote(restored)["binding"]
@@ -115,6 +119,8 @@ def test_reject_dispatches_ask_and_leaves_state_unchanged() -> None:
         assert report["before"] == report["after"]
         assert report["handler_entries"] == 0 and report["journal"] == []
         assert not report["readback_verified"]
+        assert report["approval_observation"]["binding"] == vote(run)["binding"]
+        assert report["approval_observation"]["approved"] is False
         assert any(event["code"] == "approval_denied" for event in report["audit"])
         assert report["receipt_checks"]["APPROVAL_VALID"]
 
